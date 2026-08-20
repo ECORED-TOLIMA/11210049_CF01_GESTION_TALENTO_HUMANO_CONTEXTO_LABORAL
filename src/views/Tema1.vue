@@ -462,11 +462,14 @@
                 img(src="@/assets/curso/temas/t1/ic-cajon-5.svg" alt="" style="width: 84px")
             .col
               p.mb-0 Ninguna de las dos dimensiones basta por sí sola. Una persona íntegra encuentra límites en un entorno que premia el atajo, y una organización con buenos documentos pierde credibilidad si sus líderes actúan de otro modo. Por eso la ética laboral se sostiene cuando ambas se refuerzan mutuamente.
+
+        p.mt-4(data-aos="fade-right") Una organización puede tener un discurso ético sólido en sus documentos y, sin embargo, tolerar prácticas contrarias a sus valores. Del mismo modo, una persona puede tener convicciones morales claras, pero verse debilitada si trabaja en un entorno donde predominan la arbitrariedad, la inequidad o la desconfianza. Por eso, fortalecer la ética organizacional implica crear condiciones estructurales y culturales que faciliten el comportamiento íntegro, en lugar de dejar toda la carga del actuar correcto a la voluntad aislada de cada trabajador.
+
       .col-lg-4
         figure.mb-0
           img(src="@/assets/curso/temas/t1/foto-9.png" alt="").w-100
 
-    p.mt-4(data-aos="fade-right") Una organización puede tener un discurso ético sólido en sus documentos y, sin embargo, tolerar prácticas contrarias a sus valores. Del mismo modo, una persona puede tener convicciones morales claras, pero verse debilitada si trabaja en un entorno donde predominan la arbitrariedad, la inequidad o la desconfianza. Por eso, fortalecer la ética organizacional implica crear condiciones estructurales y culturales que faciliten el comportamiento íntegro, en lugar de dejar toda la carga del actuar correcto a la voluntad aislada de cada trabajador.
+    
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
@@ -561,18 +564,20 @@
 
     p.mt-4(data-aos="fade-right") Frente a estas prácticas, hay organizaciones que escuchan, argumentan sus decisiones, cuidan el trato y promueven procesos transparentes. Con ello construyen una cultura más coherente con los principios que declaran. La diferencia no radica en la ausencia de normas, sino en el modo de aplicarlas.
 
-    //- Caja #FEDDB4 de 1020x190 (col-10) con la foto de 292x190 pegada a su borde izquierdo.
-    .row.justify-content-center.mt-4
+    .row.justify-content-center
       .col-lg-10
-        .bg-1-p.r-0(data-aos="fade-up")
-          .row.g-0.align-items-center
-            .col-lg-3
-              figure.mb-0
-                img(src="@/assets/curso/temas/t1/foto-11.png" alt="").w-100
-            .col-lg-9
-              .p-4
-                p En el contexto colombiano, la gestión ética del talento humano contribuye a una cultura de paz, equidad y convivencia ciudadana.
-                p.mb-0 Los aprendizajes éticos del trabajo influyen en las relaciones sociales, en la participación ciudadana y en la manera de comprender al otro. Su alcance trasciende la eficiencia institucional y se conecta con la formación de ciudadanía y con la construcción de tejido social.
+        .row.align-items-center.justify-content-center
+          .col-lg-12
+            .row.justify-content-center.mt-4
+              .col-lg-12(data-aos="fade-down")
+                .row.d-flex.align-items-center.bg-1(data-aos="fade-right")
+                  .col-lg-auto.pe-lg-0.mb-4.mb-xl-0.d-flex.d-none.d-lg-block
+                    figure.m-0.p-0.w-100.h-100.d-flex
+                      img(src='@/assets/curso/temas/t1/foto-11.png', alt='', class="w-100 h-100 object-fit-cover", style="margin-left:-10px")
+                  .col-lg
+                    p En el contexto colombiano, la gestión ética del talento humano contribuye a una cultura de paz, equidad y convivencia ciudadana.
+
+                    p Los aprendizajes éticos del trabajo influyen en las relaciones sociales, en la participación ciudadana y en la manera de comprender al otro. Su alcance trasciende la eficiencia institucional y se conecta con la formación de ciudadanía y con la construcción de tejido social.
 
     p.mt-4(data-aos="fade-right") Para resumir de manera estructurada los principales aportes de esta perspectiva, se presentan los siguientes elementos. Su función es mostrar cómo la ética modifica el sentido de varios procesos centrales de gestión del talento humano:
 

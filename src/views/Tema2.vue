@@ -213,11 +213,14 @@
       .col-lg-8.mb-4.mb-lg-0
         .bg-1.r-10.p-4(data-aos="fade-right")
           p.mb-0 La convivencia, por tanto, no surge por inercia: exige reconocimiento mutuo y cuidado permanente de la relación. Para la gestión del talento humano, esto implica diseñar procesos de inducción, formación, liderazgo y manejo de conflictos que fortalezcan la empatía, la escucha y la valoración de la diferencia. De este modo, la organización no solo mejora su clima interno, sino que forma personas con mayor capacidad para interactuar éticamente en escenarios diversos.
+
+        p.mt-4(data-aos="fade-right") Ese reconocimiento mutuo, sin embargo, necesita sostenerse en el tiempo. Los vínculos laborales se construyen y también se desgastan, según la manera como se comunican las personas, se reconocen los aportes y se tramitan los desacuerdos. Comprender qué los fortalece y qué los deteriora permite actuar de forma preventiva y no solo cuando el problema ya resulta visible.
+
       .col-lg-4
         figure.mb-0
           img(src="@/assets/curso/temas/t2/p-5.png" alt="").w-100
 
-    p.mt-4(data-aos="fade-right") Ese reconocimiento mutuo, sin embargo, necesita sostenerse en el tiempo. Los vínculos laborales se construyen y también se desgastan, según la manera como se comunican las personas, se reconocen los aportes y se tramitan los desacuerdos. Comprender qué los fortalece y qué los deteriora permite actuar de forma preventiva y no solo cuando el problema ya resulta visible.
+    
 
     Separador
 
@@ -335,8 +338,8 @@
             .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
                 img(src="@/assets/curso/temas/t2/ic-cajon-3.svg" alt="" style="width: 84px")
-            .col
-              p.mb-0 La convivencia laboral necesita, además, un respaldo institucional. Los procesos que definen la vinculación, la formación, la evaluación y el bienestar determinan buena parte de lo que ocurre entre las personas. Comprender cómo se gestionan esos procesos permite entender por qué unas organizaciones sostienen mejores ambientes de trabajo que otras.
+              p.mt-2 La convivencia laboral necesita, además, un respaldo institucional. Los procesos que definen la vinculación, la formación, la evaluación y el bienestar determinan buena parte de lo que ocurre entre las personas. Comprender cómo se gestionan esos procesos permite entender por qué unas organizaciones sostienen mejores ambientes de trabajo que otras.
+              
       .col-lg-4
         figure.mb-0
           img(src="@/assets/curso/temas/t2/p-9.png" alt="").w-100

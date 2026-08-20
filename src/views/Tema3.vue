@@ -79,8 +79,12 @@
       .col-lg-8
         p(data-aos="fade-left") El tránsito de la administración de personal a la gestión del talento humano representa un cambio de enfoque. Mientras la primera se asociaba con tareas operativas y de control, la segunda introduce una visión integral y estratégica de las personas dentro de la organización.
 
-        .bg-1.r-0.p-4.mt-4(data-aos="fade-left")
-          p.mb-0 Este enfoque las reconoce como el activo más valioso de la institución. Aunque tal expresión resulta frecuente en el lenguaje empresarial, conviene interpretarla con cuidado ético: no se busca convertir a la persona en un recurso instrumental, sino reconocer que el desarrollo organizacional depende en gran medida de sus capacidades, motivaciones y relaciones.
+        .row.justify-content-center.mt-4
+          .col-lg-12
+            .row.align-items-center
+              .col-lg-12
+                .cajon.color-1.p-4
+                  p Este enfoque las reconoce como el activo más valioso de la institución. Aunque tal expresión resulta frecuente en el lenguaje empresarial, conviene interpretarla con cuidado ético: no se busca convertir a la persona en un recurso instrumental, sino reconocer que el desarrollo organizacional depende en gran medida de sus capacidades, motivaciones y relaciones.
 
         p.mt-4(data-aos="fade-left") Gestionar el talento humano implica diseñar procesos de ingreso, desarrollo, evaluación y bienestar que respondan tanto a las necesidades institucionales como a la dignidad y al potencial de quienes integran la organización. La gestión humana, en consecuencia, no puede reducirse al cumplimiento normativo ni a la administración de trámites, pues también le corresponde alinear perfiles, apoyar el aprendizaje, favorecer la permanencia saludable y construir entornos donde las personas aporten de manera significativa.
 
@@ -117,24 +121,24 @@
         ImagenInfografica.color-acento-botones.d-none.d-md-block(data-aos="fade-up")
           template(v-slot:imagen)
             figure
-              img(src="@/assets/curso/temas/t3/infografia-1.png" alt="Los cinco momentos del vínculo laboral representados como un recorrido: ingreso, inducción, desarrollo, permanencia y retiro.").w-100
-          .tarjeta.color-1.p-3(x="24.3%" y="63.5%" numero="+")
+              img(src="@/assets/curso/temas/t3/infografia-1.svg" alt="Los cinco momentos del vínculo laboral representados como un recorrido: ingreso, inducción, desarrollo, permanencia y retiro.").w-100
+          .tarjeta.color-primario.p-3(x="24.3%" y="68.5%" numero="+")
             .h5.mb-2 1. Ingreso
             p.mb-0 Vinculación de la persona idónea mediante criterios transparentes y verificables.
-          .tarjeta.color-1.p-3(x="37.4%" y="35.4%" numero="+")
+          .tarjeta.color-primario.p-3(x="37.4%" y="30.4%" numero="+")
             .h5.mb-2 2. Inducción
             p.mb-0 Acompañamiento inicial para comprender el rol, la cultura y los canales de trabajo.
-          .tarjeta.color-1.p-3(x="50.5%" y="63.5%" numero="+")
+          .tarjeta.color-primario.p-3(x="50.5%" y="68.5%" numero="+")
             .h5.mb-2 3. Desarrollo
             p.mb-0 Formación y experiencias que amplían las capacidades y abren nuevas posibilidades.
-          .tarjeta.color-1.p-3(x="63.6%" y="35.4%" numero="+")
+          .tarjeta.color-primario.p-3(x="63.6%" y="30.4%" numero="+")
             .h5.mb-2 4. Permanencia
             p.mb-0 Condiciones de bienestar, reconocimiento y convivencia que sostienen el vínculo.
-          .tarjeta.color-1.p-3(x="76.6%" y="63.5%" numero="+")
+          .tarjeta.color-primario.p-3(x="76.6%" y="68.5%" numero="+")
             .h5.mb-2 5. Retiro
             p.mb-0 Cierre respetuoso del ciclo, con retroalimentación y trato digno hasta el último día.
         figure.d-md-none.mb-0
-          img(src="@/assets/curso/temas/t3/infografia-1.png" alt="Los cinco momentos del vínculo laboral representados como un recorrido: ingreso, inducción, desarrollo, permanencia y retiro.").w-100
+          img(src="@/assets/curso/temas/t3/infografia-1-m.svg" alt="Los cinco momentos del vínculo laboral representados como un recorrido: ingreso, inducción, desarrollo, permanencia y retiro.").w-100
 
     p.mt-4(data-aos="fade-right") Cada momento deja una huella en la trayectoria de quien lo vive y en la reputación de la organización. Una despedida cuidadosa, por ejemplo, comunica tanto sobre los valores institucionales como el más riguroso proceso de selección.
 
@@ -172,8 +176,13 @@
       .col-lg-8
         p(data-aos="fade-right") Los cuatro aspectos revelan que la diferencia entre ambos enfoques no radica en la cantidad de tareas, sino en el modo de comprender a quienes las realizan. Un área puede ejecutar los mismos procesos y obtener resultados opuestos según la mirada que los oriente. Por eso, la gestión del talento humano requiere una perspectiva amplia, estratégica y profundamente ética: no basta con que los procesos funcionen, pues también deben resultar coherentes con el respeto por las personas y con el propósito institucional. Comprenderlo así permite reconocer su incidencia directa en la productividad, en el clima laboral y en la legitimidad de la organización ante sus propios trabajadores y ante la sociedad.
 
-        .bg-1.r-0.p-4.mb-0(data-aos="fade-right")
-          p.mb-0 Ese propósito institucional no siempre resulta evidente para quien desempeña una función concreta. Cada organización entrega algo a alguien y lo hace a su manera, con unos valores que rara vez están escritos en un documento, aunque se perciben en el trato cotidiano. Reconocer esos dos aspectos conduce a identificar el portafolio institucional y la cultura organizacional, dos referentes que permiten ubicar el propio trabajo dentro del conjunto.
+        .row.justify-content-center.mt-4
+          .col-lg-12
+            .row.align-items-center
+              .col-lg-12
+                .cajon.color-1.p-4
+                  p Ese propósito institucional no siempre resulta evidente para quien desempeña una función concreta. Cada organización entrega algo a alguien y lo hace a su manera, con unos valores que rara vez están escritos en un documento, aunque se perciben en el trato cotidiano. Reconocer esos dos aspectos conduce a identificar el portafolio institucional y la cultura organizacional, dos referentes que permiten ubicar el propio trabajo dentro del conjunto.
+
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
           img(src="@/assets/curso/temas/t3/foto-clima.png" alt="").w-100
@@ -234,8 +243,10 @@
 
     .row.justify-content-center.mt-4
       .col-lg-10
-        .bg-2.r-0.p-4.mb-0(data-aos="fade-up")
-          p.mb-0 Conocer estos componentes permite que cada persona ubique su función dentro de una cadena de valor más amplia. Quien atiende una solicitud, elabora un informe o repara un equipo comprende entonces que su tarea no termina en sí misma, sino que sostiene un compromiso institucional con alguien concreto. Esa claridad fortalece el sentido de pertenencia y evita que el trabajo se viva como una sucesión de acciones aisladas o meramente repetitivas. En este punto, la gestión del talento humano cumple una función pedagógica y comunicativa de gran importancia.
+        .row.align-items-center
+          .col-lg-12
+            .cajon.color-2.p-4
+              p Conocer estos componentes permite que cada persona ubique su función dentro de una cadena de valor más amplia. Quien atiende una solicitud, elabora un informe o repara un equipo comprende entonces que su tarea no termina en sí misma, sino que sostiene un compromiso institucional con alguien concreto. Esa claridad fortalece el sentido de pertenencia y evita que el trabajo se viva como una sucesión de acciones aisladas o meramente repetitivas. En este punto, la gestión del talento humano cumple una función pedagógica y comunicativa de gran importancia.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-12.col-md-auto.mb-3.mb-md-0
@@ -281,12 +292,17 @@
         figure.mb-0
           img(src="@/assets/curso/temas/t3/foto-arco-2.png" alt="").w-100
       .col-lg-8
-        .bg-2.r-0.p-4(data-aos="fade-left")
-          p.mb-0 Estas cuatro vías explican por qué la inducción no puede reducirse a la entrega de un manual. Quien ingresa aprende la cultura sobre todo observando qué se celebra, qué se tolera y qué se corrige en la práctica diaria.
 
-        p.mt-4(data-aos="fade-left") Las culturas también se diferencian por su intensidad. Robbins y Judge (2017) distinguen las fuertes, en las que los valores centrales se comparten con amplitud y se sostienen con firmeza, de las débiles, donde esos valores resultan difusos o admiten interpretaciones contradictorias. Una cultura fuerte reduce la ambigüedad y facilita la cohesión, aunque puede dificultar el cambio cuando el entorno lo exige. Dentro de una misma organización, además, suelen coexistir subculturas propias de cada área o sede, que enriquecen el conjunto siempre que no contradigan los valores comunes.
+        p Estas cuatro vías explican por qué la inducción no puede reducirse a la entrega de un manual. Quien ingresa aprende la cultura sobre todo observando qué se celebra, qué se tolera y qué se corrige en la práctica diaria.
 
-        p.mb-0(data-aos="fade-left") Una cultura saludable se caracteriza por la coherencia entre los valores declarados y las prácticas reales, por la apertura al diálogo, por el reconocimiento de la diversidad y por el compromiso con el bienestar de las personas. Una cultura contradictoria o deteriorada, en cambio, genera confusión normativa, desgaste relacional y dificultades para sostener decisiones legítimas. Corresponde entonces a la gestión del talento humano traducir la cultura en procesos concretos de inducción, formación, liderazgo y convivencia.
+        .row.justify-content-center.mt-4
+          .col-lg-12
+            .row.align-items-center
+              .col-lg-12
+                .cajon.color-2.p-4
+                  p Las culturas también se diferencian por su intensidad. Robbins y Judge (2017) distinguen las fuertes, en las que los valores centrales se comparten con amplitud y se sostienen con firmeza, de las débiles, donde esos valores resultan difusos o admiten interpretaciones contradictorias. Una cultura fuerte reduce la ambigüedad y facilita la cohesión, aunque puede dificultar el cambio cuando el entorno lo exige. Dentro de una misma organización, además, suelen coexistir subculturas propias de cada área o sede, que enriquecen el conjunto siempre que no contradigan los valores comunes.
+
+        p.mb-0.mt-2(data-aos="fade-left") Una cultura saludable se caracteriza por la coherencia entre los valores declarados y las prácticas reales, por la apertura al diálogo, por el reconocimiento de la diversidad y por el compromiso con el bienestar de las personas. Una cultura contradictoria o deteriorada, en cambio, genera confusión normativa, desgaste relacional y dificultades para sostener decisiones legítimas. Corresponde entonces a la gestión del talento humano traducir la cultura en procesos concretos de inducción, formación, liderazgo y convivencia.
 
     p.mt-4(data-aos="fade-right") Ambos conceptos se complementan, aunque cada uno responde a una pregunta distinta sobre la organización. Precisar en qué consiste cada uno y de qué manera se relacionan facilita comprender el lugar que ocupa el trabajo de cada persona dentro del conjunto:
 
@@ -310,12 +326,16 @@
           h3.text-center Relación entre ambos
           p.mb-0 El portafolio expresa lo que la organización hace; la cultura, cómo lo hace y qué sentido le otorga. Su articulación permite alinear desempeño, identidad y convivencia.
 
-    .row.justify-content-center.mt-4
+    .row.align-items-center.mt-4.justify-content-center(data-aos="fade-down")
+      .col-lg-3.d-none.d-lg-block
+        figure
+          img(src='@/assets/curso/temas/t3/1.png', alt='', style="width: 290px").m-auto
       .col-lg-9
-        .bg-3.r-0.p-4(data-aos="fade-up")
-          p.mb-0 Lo anterior evidencia que el sentido del trabajo depende tanto del qué como del cómo. Una organización puede contar con un portafolio valioso y, aun así, ofrecer condiciones poco saludables si su cultura contradice el respeto, la participación o la coherencia ética. Fortalecer el conocimiento de ambos no constituye, por tanto, una tarea secundaria, sino una base para consolidar procesos de integración, compromiso y actuación ética.
+        p Lo anterior evidencia que el sentido del trabajo depende tanto del qué como del cómo. Una organización puede contar con un portafolio valioso y, aun así, ofrecer condiciones poco saludables si su cultura contradice el respeto, la participación o la coherencia ética. Fortalecer el conocimiento de ambos no constituye, por tanto, una tarea secundaria, sino una base para consolidar procesos de integración, compromiso y actuación ética.
 
-    p.mt-4(data-aos="fade-right") Los valores compartidos orientan, pero no detallan. Para que una organización actúe con consistencia se requieren disposiciones escritas que precisen los criterios de decisión y la secuencia de cada tarea. De eso se ocupan las políticas y los procedimientos organizacionales.
+        .bg-3.r-0.p-4(data-aos="fade-up")
+          p.mb-0 Los valores compartidos orientan, pero no detallan. Para que una organización actúe con consistencia se requieren disposiciones escritas que precisen los criterios de decisión y la secuencia de cada tarea. De eso se ocupan las políticas y los procedimientos organizacionales.
+
 
     Separador
 

@@ -296,21 +296,8 @@ pegados a las esquinas; con el ajuste quedan en x=22 y x=1157 sobre una tarjeta 
 y alterno, a **2,8 s y 2,5 s** —tiempos distintos, como pide la nota del pasteboard—. Medidos en
 tres instantes, se mueven desfasados el uno del otro.
 
-**PENDIENTES ENCONTRADOS EN LA REVISION**
 
-- vALIDAR NEGRILLAS Y CURSIVAS SEGUN EL DOCUMENTO DI
-- Revisar el espacio que hay entre cada tabla y el parrafo anterior.
-- revisar el tamaño de letra de cada header de tabla, debe ser como esta en el xd
-- el texto esta mal ubicado segun el xd "Una organización puede tener un discurso ético sólido en sus documentos y, sin embargo, tolerar prácticas contrarias a sus valores. Del mismo modo, una persona puede tener convicciones morales claras, pero verse debilitada si trabaja en un entorno donde predominan la arbitrariedad, la inequidad o la desconfianza. Por eso, fortalecer la ética organizacional implica crear condiciones estructurales y culturales que faciliten el comportamiento íntegro, en lugar de dejar toda la carga del actuar correcto a la voluntad aislada de cada trabajador."
-- En las figuras, recuerda que siempre a uno de los lados esta la version movil, para que la agregues.
-- Revisa el componente con el texto"En el contexto colombiano, la gestión ética del talento humano contribuye a una cultura de paz, equidad y convivencia ciudadana." Ya que el xd lo propone de otra manera. tambien revisa el color del background.
-- El componente que tiene este texto "En un enfoque ético no se limita a cubrir una vacante con rapidez, sino que garantiza mérito, equidad, transparencia y respeto por quien se postula. Aplicación en el entorno: una cooperativa de caficultores define criterios claros para cada etapa, publica los resultados y sustenta la decisión final, de modo que la elección no dependa de recomendaciones." tiene mal los iconos, revisa el xd estan al lado derecho de este. ademas va la imagen y abajo el texto tu lo tienes pegado.
-- El texto "Ese reconocimiento mutuo, sin embargo, necesita sostenerse en el tiempo. Los vínculos laborales se construyen y también se desgastan, según la manera como se comunican las personas, se reconocen los aportes y se tramitan los desacuerdos. Comprender qué los fortalece y qué los deteriora permite actuar de forma preventiva y no solo cuando el problema ya resulta visible." esta mal distribuido segun el xd
-- Siempre en los xd al lado de cada slider estan las imagenes de cada slide.
-- EL elemento con el texto "La convivencia laboral necesita, además, un respaldo institucional. Los procesos que definen la vinculación, la formación, la evaluación y el bienestar determinan buena parte de lo que ocurre entre las personas. Comprender cómo se gestionan esos procesos permite entender por qué unas organizaciones sostienen mejores ambientes de trabajo que otras." esta mal distribuido segun el xd
-- Revisa el componente que tiene este texto "Requiere criterios claros y no discriminatorios, es decir, definir el perfil antes de abrir la convocatoria, aplicar las mismas pruebas a todos los aspirantes y sustentar la decisión final en evidencias verificables, y no en recomendaciones ni en apreciaciones personales." Le faltan los iconos al lado del xd y la distribucion es imagen y abajo texto.
-- en el slider del 3.2 Portafolio institucional y cultura organizacional debes buscar las imagenes de cada slide siempre estan al lado acompañadas del texto correspondiente.
-- revisa el componente de este texto es un cajo y tu lo tienes solo background: "Conocer estos componentes permite que cada persona ubique su función dentro de una cadena de valor más amplia. Quien atiende una solicitud, elabora un informe o repara un equipo comprende entonces que su tarea no termina en sí misma, sino que sostiene un compromiso institucional con alguien concreto. Esa claridad fortalece el sentido de pertenencia y evita que el trabajo se viva como una sucesión de acciones aisladas o meramente repetitivas. En este punto, la gestión del talento humano cumple una función pedagógica y comunicativa de gran importancia."
-- Revisa este componente te falta texto segun el xd: "Estas cuatro vías explican por qué la inducción no puede reducirse a la entrega de un manual. Quien ingresa aprende la cultura sobre todo observando qué se celebra, qué se tolera y qué se corrige en la práctica diaria." ademas el diseño es un cajon no un background.
-- revisa segun el xd como debe ir donde esta este texto: "Lo anterior evidencia que el sentido del trabajo depende tanto del qué como del cómo. Una organización puede contar con un portafolio valioso y, aun así, ofrecer condiciones poco saludables si su cultura contradice el respeto, la participación o la coherencia ética. Fortalecer el conocimiento de ambos no constituye, por tanto, una tarea secundaria, sino una base para consolidar procesos de integración, compromiso y actuación ética."
--
+
+**Revision Importante**
+- Validar cada una de las imagenes si debe estar con las esquinas redondas o en punta. (Todo el componente)
+- Revisa los cambios que vienen en el pull para que aprendas de lo que hiciste mal en este componente y no vuelvas a cometer esos errores
