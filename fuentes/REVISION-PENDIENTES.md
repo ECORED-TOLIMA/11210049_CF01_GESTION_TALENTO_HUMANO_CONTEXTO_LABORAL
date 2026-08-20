@@ -87,13 +87,17 @@ Afecta a cualquier diagrama con flechas. En este curso hay `polygon` en los artb
 (4), del Tema 2 (4), en `Tablet` (2) y en el pasteboard (10); los assets ya entregados de portada,
 introducción, 1.1 y 1.2 no contienen ninguno, así que no había nada que rehacer.
 
-## 9. Tema 2: faltan cuatro fotos del slider y el audio del pódcast
+## 9. Faltan ocho fotos de slider y el audio del pódcast
 
 - **Slider del 2.3** («factores que deterioran las relaciones»): el diseño dibuja **cinco
   viñetas** y, con ellas, cinco diapositivas, pero en el `.xd` sólo existe la **fotografía de la
   primera**. Ni el artboard ni el pasteboard traen las otras cuatro. Se han maquetado las cinco
   diapositivas —los textos sí están completos en el `_DI.docx`— reutilizando esa única imagen,
   para no romper la composición. Con las cuatro fotos definitivas se sustituyen y ya está.
+- **Slider del 3.2** («componentes del portafolio institucional»): exactamente el mismo caso.
+  Cinco viñetas, cinco diapositivas y **una sola fotografía** en el `.xd`. Los cinco textos
+  vienen completos del `_DI.docx`; la imagen se repite en las cinco hasta que lleguen las otras
+  cuatro. Entre los dos sliders, por tanto, **faltan ocho fotografías**.
 - **Pódcast del 2.3**: el `_DI.docx` nombra el guion (`12210049_CF01_Guion_podcast`) pero no hay
   archivo de audio, y el XD dibuja la barra con un texto de relleno
   (`xxxxxxxxxxx xxxxxxx xxx xxxxxxxxx`). Se deja un **MP3 mudo de 3 minutos** con el nombre
@@ -163,7 +167,19 @@ dos caen a menos de 7 px de su posición.
 Junto a esa nota, el pasteboard deja también un enlace al icono `headset` de Font Awesome. No
 indica dónde va; el reproductor del pódcast usa el icono propio del kit.
 
-## 14. Revisión del curso completo contra el PDF (2026-08-20)
+## 14. La etiqueta del botón de la portada: «Ver más» o «Iniciar»
+
+El artboard `Portada`, que es el del diseño de escritorio, rotula el botón **«Ver más»**. El
+artboard `Tablet`, donde están las versiones de tablet y móvil, lo rotula **«Iniciar»** en las
+dos. Es la única cadena en la que las dos maquetas del mismo botón no coinciden.
+
+Se ha dejado **«Ver más»**, por dos razones: es lo que dice el artboard de escritorio, que es el
+que manda para la vista principal, y es además el texto que trae por defecto el
+`BannerPrincipal` del kit, así que no hace falta tocar el componente. Si el equipo prefiere
+«Iniciar», es una sola cadena y hay que cambiarla dentro del componente del kit, no en el
+entregable.
+
+## 15. Revisión del curso completo contra el PDF (2026-08-20)
 
 Se comparó cada pantalla **elemento a elemento** contra los rects del artboard: color exacto,
 ancho y alto de cada caja con fondo, y tamaño con el que se pinta cada imagen frente al tamaño
@@ -194,7 +210,7 @@ Lo que **no** se ha tocado y por qué:
 
 La comparación es reproducible: `scripts/comparar_elementos.py <ruta> <artboard>`.
 
-## 15. Revisión de la vista móvil (2026-08-20)
+## 16. Revisión de la vista móvil (2026-08-20)
 
 El XD trae un artboard `Tablet` que es, en realidad, la **especificación responsive de la
 portada**: la versión de tablet y la de móvil, una al lado de la otra. En las dos desaparece la
@@ -225,7 +241,7 @@ viewport a propósito, dentro de contenedores con `overflow-x: auto` del kit.
 
 Resultado final: **0 elementos desbordados en las once rutas a 360 px.**
 
-## 16. Revisión final: los cinco puntos pedidos
+## 17. Revisión final: los cinco puntos pedidos
 
 **1. Colores de los fondos.** Se comparó cada caja con fondo del render contra los `fill` del
 `.xd`: **ningún color inventado** en ninguna de las cinco pantallas medibles. Los rects del
