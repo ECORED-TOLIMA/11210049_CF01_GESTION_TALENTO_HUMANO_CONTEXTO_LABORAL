@@ -46,8 +46,9 @@
 .banner-interno__titulo h3, .banner-interno__titulo h4, 
 .banner-interno__titulo h5, .banner-interno__titulo h6
   color: $color-sistema-texto !important  
+// El badge del titulo es #CBD5FF y el numero/icono va OSCURO, como en el XD.
 .titulo-principal.color-acento-contenido .titulo-principal__numero span
-  color: $white !important
+  color: $color-sistema-texto !important
 figcaption 
     font-weight: normal !important
 
@@ -65,12 +66,49 @@ figcaption
   background-repeat: no-repeat
   background-position: bottom
   margin-inline: -3.3rem
-.bg-fondo
-  &-1
-    //background-image: url(../assets/curso/bg/3.svg)
-.bg-color
-  &-1
-    background-color: $color-primario
+// Fondo del banner interno: el degradado de 1600x220 del propio artboard, no el de la portada.
+.banner-interno__fondo
+  background-image: url(../assets/curso/portada/banner-interno.png) !important
+
+// ---------------------------------------------------------------------------
+// Paleta del XD. Una clase por COLOR y otra por RADIO: el `fill` y el `r` del
+// rect son independientes, y hay rects del mismo color con y sin esquinas.
+// Los nombres siguen la hoja de spec del artboard `Portada`.
+// ---------------------------------------------------------------------------
+.bg-1
+  background-color: $color-1-vc     // 1-VC  #FFF5E8
+.bg-1-v
+  background-color: $color-1-v      // 1-V   #FFFCF7
+.bg-1-p
+  background-color: $color-primario // 1     #FEDDB4
+.bg-2
+  background-color: $color-2-vc     // 2-VC  #F7E3E6
+.bg-2-v
+  background-color: $color-2-v      // 2-V   #FDF8F9
+.bg-2-s
+  background-color: $color-secundario // 2   #EBB9C1
+.bg-3
+  background-color: $color-3-vc     // 3-VC  #EFF2FF
+.bg-3-v
+  background-color: $color-3-v      // 3-V   #FAFBFF
+.bg-3-a
+  background-color: $color-acento-contenido // 3  #CBD5FF
+.bg-4
+  background-color: $color-4-vc     // 4-VC  #E5EBFC
+.bg-5
+  background-color: $color-5-t      // 5-T   #FFE9F8
+.bg-5-c
+  background-color: $color-5-tc     // 5-TC  #FFF4FB
+
+// Radios del XD. `.r-0` es explicito para dejar claro que ese rect NO lleva radio.
+.r-0
+  border-radius: 0 !important
+.r-5
+  border-radius: 5px !important
+.r-10
+  border-radius: 10px !important
+.r-20
+  border-radius: 20px !important
 
 
 
