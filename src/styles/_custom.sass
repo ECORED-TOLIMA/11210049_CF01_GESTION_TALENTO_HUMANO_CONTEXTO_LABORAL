@@ -21,16 +21,23 @@
   100%
     transform: translateY(0px)
 
+// Portada. Medido sobre el artboard `Portada` (hero 1328x559 en 136,100):
+//   columna de texto  x=106  ancho de frame 490      -> 8% y 36.9% de 1328
+//   ilustracion       x=721  506x506, pegada abajo   -> hueco derecho 101px = 7.6%
 .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
   flex: 0 0 auto !important
-  width: 58.33333333% !important
+  width: 46% !important
+  padding-left: 8% !important
 .banner-principal__img 
   padding-bottom: 0 !important;
-//.banner-principal__row .banner-principal__img 
-//    width: 33%;
-    
+  padding-right: 7.6% !important
+  flex: 0 0 auto !important
+  width: 45.93% !important                // contenido = 45.93-7.6 = 38.33% de 1328 = 506px
+  img
+    width: 100%
+
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
-  color: $white !important  
+  color: $color-sistema-texto !important  
 
 .boton *, .boton--sm *,
 .barra-avance__boton--regresar span
@@ -86,6 +93,7 @@ figcaption
     margin-bottom: 2em  !important  
   .col-lg-7.col-xxl-5.ps-4.ps-sm-5.py-4.py-sm-5.banner-principal__info
     width: 90% !important
+    padding-left: 3rem !important
 
   
  

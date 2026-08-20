@@ -1,19 +1,11 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
-    imagenBannerPrincipal: '@/assets/curso/portada/banner-principal.svg',
-    fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner-principal.png',
-    imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-1.svg',
-      },
-      {
-        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
-        imagen: '@/assets/curso/portada/banner-principal-decorativo-2.svg',
-      },
-    ],
+    Name: 'Ética y gestión del talento humano en el contexto organizacional',
+    Description:
+      'El componente formativo desarrolla la capacidad de comprender la ética como fundamento de la gestión del talento humano. Aborda los principios y valores éticos, las relaciones interpersonales, la cultura y el clima organizacional, y la inteligencia emocional, con el fin de orientar decisiones justas y construir ambientes laborales respetuosos en las organizaciones.',
+    imagenBannerPrincipal: '@/assets/curso/portada/ilustracion.png',
+    fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner.png',
+    imagenesDecorativasBanner: [],
   },
   menuPrincipal: {
     menu: [
@@ -31,28 +23,96 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Fundamentos de la ética',
         desarrolloContenidos: true,
         subMenu: [
+          { numero: '1.1', titulo: 'La ética y su importancia', hash: 't_1_1' },
           {
-            numero: '1.1',
-            titulo: 'Subtema 1',
-            hash: 't_1_1',
+            numero: '1.2',
+            titulo: 'Principios y valores éticos universales',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Ética individual y ética organizacional',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'La ética aplicada al talento humano',
+            hash: 't_1_4',
           },
         ],
       },
-
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Relaciones interpersonales en el entorno laboral',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Tipos de relaciones interpersonales',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Alteridad, respeto y convivencia',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Cuidar las relaciones en el trabajo',
+            hash: 't_2_3',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Tema 3',
+        titulo: 'Gestión del talento humano',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '3.1',
+            titulo: 'Del personal al talento humano',
+            hash: 't_3_1',
+          },
+          {
+            numero: '3.2',
+            titulo: 'Portafolio institucional y cultura organizacional',
+            hash: 't_3_2',
+          },
+          {
+            numero: '3.3',
+            titulo: 'Políticas y procedimientos organizacionales',
+            hash: 't_3_3',
+          },
+          { numero: '3.4', titulo: 'Clima organizacional', hash: 't_3_4' },
+        ],
+      },
+      {
+        nombreRuta: 'tema4',
+        numero: '4',
+        titulo: 'Inteligencia emocional en el trabajo',
+        desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '4.1',
+            titulo: 'La inteligencia emocional y su importancia',
+            hash: 't_4_1',
+          },
+          {
+            numero: '4.2',
+            titulo: 'Componentes de la inteligencia emocional',
+            hash: 't_4_2',
+          },
+          {
+            numero: '4.3',
+            titulo: 'Estrategias para manejar las emociones',
+            hash: 't_4_3',
+          },
+        ],
       },
     ],
     subMenu: [

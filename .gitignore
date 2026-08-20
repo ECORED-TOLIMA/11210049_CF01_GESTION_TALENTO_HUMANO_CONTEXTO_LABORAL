@@ -20,3 +20,12 @@ pnpm-debug.log*
 *.sln
 *.sw?
 README.md
+
+# Herramientas del XD y sus salidas: viven en el repo padre (`herramientas-xd/`)
+# y aqui son solo utillaje local del maquetador.
+scripts/*.py
+scripts/__pycache__/
+docs/
+# El .xd descomprimido (config.descomprimir()): se regenera del .xd de fuentes/.
+fuentes/11210049_CF01_DW/
+scripts/errores_recurrentes.json

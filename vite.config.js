@@ -7,7 +7,9 @@ module.exports = defineConfig(({ mode }) => {
   const fileSchemeBuild = mode === 'file'
 
   return {
-    base: fileSchemeBuild ? './' : '/NUEVA_BASE_TOLIMA/',
+    base: fileSchemeBuild
+      ? './'
+      : '/11210049_CF01_GESTION_TALENTO_HUMANO_CONTEXTO_LABORAL/',
     optimizeDeps: {
       // UMD de aos usa }(this,function(){…}); en ESM `this` es undefined → rompe e.AOS = …
       include: ['aos'],
