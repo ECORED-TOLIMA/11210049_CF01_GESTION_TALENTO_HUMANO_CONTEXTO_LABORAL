@@ -109,3 +109,25 @@ introducción, 1.1 y 1.2 no contienen ninguno, así que no había nada que rehac
 El `.xd` trae escritos los **textos alternativos** de las figuras, bajo el rótulo
 `Texto alternativo:` en el pasteboard. Son los que se han puesto en el `alt` de la Figura 1, de
 la Figura 2 y del mapa conceptual de la síntesis. No se redactan por cuenta propia.
+
+## 11. Actividad didáctica
+
+La actividad **no tiene artboard en el XD** (los nueve artboards corresponden a las nueve
+páginas del PDF y todas están asignadas), así que se monta sobre el `ActividadController` del
+kit con sus estilos por defecto y sale íntegra del `_AD.docx`: 20 preguntas, sus cuatro
+opciones, las retroalimentaciones y los dos mensajes finales.
+
+Tres cosas que conviene saber:
+
+- **El kit muestra 10 de las 20 preguntas** (`MAX_PREGUNTAS = 10`). Las veinte quedan como banco
+  y `barajarPreguntas` va en `true`; sin eso saldrían siempre las diez primeras en el mismo orden.
+- **Las imágenes de las preguntas eran de otro curso.** El scaffold traía cinco fotografías de
+  electrónica industrial, con el acento turquesa de aquel diseño, repetidas dos veces cada una.
+  Se sustituyeron por cinco fotografías **de este mismo `.xd`**, recortadas a 400 × 400, una por
+  eje temático: la balanza (ética), el equipo reunido (relaciones), la reunión de gestión humana,
+  la imagen de emociones y las manos con las figuras (cooperación). Si el diseñador entrega
+  imágenes propias para la actividad, se reemplazan.
+- **Un error de la fuente**: la pregunta 1 del `_AD.docx` termina sin signo de cierre
+  («¿Qué es la ética según el componente formativo»). Se añadió el «?». La fila del comentario
+  correcto de la pregunta 9 también viene sin su etiqueta en el documento, aunque el texto sí
+  está y se usó tal cual.
