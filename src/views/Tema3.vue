@@ -61,7 +61,7 @@
             b Gestionar el talento humano no consiste en administrar personas, sino en crear las condiciones para que cada una pueda aportar lo mejor de sí en un entorno digno.
 
     .row.align-items-start.mt-5(data-aos="fade-right")
-      .col-auto.mb-3.mb-md-0
+      .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t3/espiral.svg" alt="" style="width: 84px")
       .col
@@ -91,28 +91,28 @@
     TabsA.color-acento-botones.mt-4(data-aos="fade-up")
       .bg-2.r-10.p-4(titulo="Seleccionar")
         .row.align-items-center
-          .col-auto.mb-3.mb-md-0
+          .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
               img(src="@/assets/curso/temas/t3/ic-tab.svg" alt="" style="width: 84px")
           .col
             p.mb-0 Requiere criterios claros y no discriminatorios, es decir, definir el perfil antes de abrir la convocatoria, aplicar las mismas pruebas a todos los aspirantes y sustentar la decisión final en evidencias verificables, y no en recomendaciones ni en apreciaciones personales.
       .bg-2.r-10.p-4(titulo="Formar")
         .row.align-items-center
-          .col-auto.mb-3.mb-md-0
+          .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
               img(src="@/assets/curso/temas/t3/ic-tab.svg" alt="" style="width: 84px")
           .col
             p.mb-0 Parte del reconocimiento de las capacidades y necesidades reales, de modo que la oferta de aprendizaje responda a los vacíos concretos del equipo y a las aspiraciones de cada persona, en lugar de repetir programas estandarizados que no transforman la práctica cotidiana.
       .bg-2.r-10.p-4(titulo="Evaluar")
         .row.align-items-center
-          .col-auto.mb-3.mb-md-0
+          .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
               img(src="@/assets/curso/temas/t3/ic-tab.svg" alt="" style="width: 84px")
           .col
             p.mb-0 Supone objetividad y retroalimentación responsable, lo que implica valorar el desempeño con indicadores conocidos de antemano y devolver los resultados en una conversación que reconozca los logros, precise los aspectos por mejorar y acuerde compromisos concretos.
       .bg-2.r-10.p-4(titulo="Promover el bienestar")
         .row.align-items-center
-          .col-auto.mb-3.mb-md-0
+          .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
               img(src="@/assets/curso/temas/t3/ic-tab.svg" alt="" style="width: 84px")
           .col
@@ -251,7 +251,7 @@
           p.mb-0 Conocer estos componentes permite que cada persona ubique su función dentro de una cadena de valor más amplia. Quien atiende una solicitud, elabora un informe o repara un equipo comprende entonces que su tarea no termina en sí misma, sino que sostiene un compromiso institucional con alguien concreto. Esa claridad fortalece el sentido de pertenencia y evita que el trabajo se viva como una sucesión de acciones aisladas o meramente repetitivas. En este punto, la gestión del talento humano cumple una función pedagógica y comunicativa de gran importancia.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-auto.mb-3.mb-md-0
+      .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t3/espiral.svg" alt="" style="width: 84px")
       .col
@@ -341,7 +341,7 @@
 
         .bg-3.r-0.p-4.mb-0(data-aos="fade-right")
           .row.align-items-center
-            .col-auto.mb-3.mb-md-0
+            .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
                 img(src="@/assets/curso/temas/t3/ic-cajon-1.svg" alt="" style="width: 84px")
             .col
@@ -442,7 +442,7 @@
           p.mb-0 #[b Desconexión con el propósito:] una norma desligada de su finalidad se cumple de manera mecánica. Resulta evidente cuando la evaluación del desempeño se diligencia para cerrar el ciclo administrativo, sin conversación alguna sobre el trabajo realizado.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-auto.mb-3.mb-md-0
+      .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t3/espiral.svg" alt="" style="width: 84px")
       .col
@@ -505,7 +505,7 @@
         p.mb-0 Su importancia radica en que incide de manera directa en la motivación, la permanencia, la salud emocional, la productividad y la capacidad de innovación. Cuando resulta favorable, fortalece la confianza, la seguridad para expresar opiniones, la participación y el compromiso. Al deteriorarse, en cambio, incrementa el estrés, la distancia entre áreas, la rotación y el ausentismo.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-auto.mb-3.mb-md-0
+      .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t3/espiral.svg" alt="" style="width: 84px")
       .col
@@ -601,7 +601,7 @@
         p(data-aos="fade-left") El diagnóstico y la mejora requieren escucha genuina y herramientas técnicas. A la gestión del talento humano le corresponde promover mecanismos de retroalimentación, análisis de resultados y construcción participativa de acciones de mejora. De esa manera, la medición deja de ser un indicador decorativo y se convierte en una fuente real para orientar decisiones más humanas y sostenibles.
 
         .row.align-items-start.mt-4(data-aos="fade-left")
-          .col-auto.mb-3.mb-md-0
+          .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
               img(src="@/assets/curso/temas/t3/espiral.svg" alt="" style="width: 84px")
           .col

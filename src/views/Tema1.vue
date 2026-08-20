@@ -37,7 +37,7 @@
 
         .bg-1-p.r-0.p-4.mt-4(data-aos="fade-right")
           .row.align-items-center
-            .col-auto.mb-3.mb-md-0
+            .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
                 img(src="@/assets/curso/temas/t1/ic-cajon.svg" alt="" style="width: 84px")
             .col
@@ -105,7 +105,7 @@
           p.mb-0 En el entorno laboral, esta reflexión adquiere un valor especial, dado que muchas acciones organizacionales tienen efectos directos sobre los derechos, las condiciones de trabajo, las oportunidades de desarrollo y la calidad de las relaciones humanas.
 
         .row.align-items-start.mt-4(data-aos="fade-right")
-          .col-auto.mb-3.mb-md-0
+          .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
               img(src="@/assets/curso/temas/t1/espiral.svg" alt="" style="width: 84px")
           .col
@@ -156,7 +156,7 @@
       .col-lg-8
         .bg-1.r-10.p-4(data-aos="fade-left")
           .row.align-items-center
-            .col-auto.mb-3.mb-md-0
+            .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
                 img(src="@/assets/curso/temas/t1/ic-cajon-2.svg" alt="" style="width: 84px")
             .col
@@ -244,7 +244,7 @@
     p.mt-4(data-aos="fade-right") Lo anterior muestra que la ética no opera en un solo plano. Se manifiesta como reflexión, norma, relación y práctica institucional. Esta lectura ayuda a entender por qué su enseñanza debe trascender definiciones abstractas y traducirse en criterios aplicables a la realidad del trabajo.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-auto.mb-3.mb-md-0
+      .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t1/espiral.svg" alt="" style="width: 84px")
       .col
@@ -290,7 +290,7 @@
         //- El parrafo mide 708 (col-8): va junto al cajon, no a ancho completo, porque la
         //- foto de 391x636 le queda al lado hasta y=6551.
         .row.align-items-start.mt-4(data-aos="fade-right")
-          .col-auto.mb-3.mb-md-0
+          .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
               img(src="@/assets/curso/temas/t1/espiral.svg" alt="" style="width: 84px")
           .col
@@ -329,7 +329,7 @@
       .col-lg-8
         .bg-1.r-10.p-4(data-aos="fade-left")
           .row.align-items-center
-            .col-auto.mb-3.mb-md-0
+            .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
                 img(src="@/assets/curso/temas/t1/ic-cajon-3.svg" alt="" style="width: 84px")
             .col
@@ -362,7 +362,7 @@
     p.mt-4(data-aos="fade-right") Estas pautas no eliminan la dificultad de decidir, pero evitan que la respuesta dependa de la improvisación o de la preferencia personal.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-auto.mb-3.mb-md-0
+      .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t1/espiral.svg" alt="" style="width: 84px")
       .col
@@ -457,7 +457,7 @@
         //- La caja mide 140 y la foto de al lado 309: NO se estira con `.h-100`.
         .bg-1.r-10.p-4(data-aos="fade-right")
           .row.align-items-center
-            .col-auto.mb-3.mb-md-0
+            .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
                 img(src="@/assets/curso/temas/t1/ic-cajon-5.svg" alt="" style="width: 84px")
             .col
@@ -469,7 +469,7 @@
     p.mt-4(data-aos="fade-right") Una organización puede tener un discurso ético sólido en sus documentos y, sin embargo, tolerar prácticas contrarias a sus valores. Del mismo modo, una persona puede tener convicciones morales claras, pero verse debilitada si trabaja en un entorno donde predominan la arbitrariedad, la inequidad o la desconfianza. Por eso, fortalecer la ética organizacional implica crear condiciones estructurales y culturales que faciliten el comportamiento íntegro, en lugar de dejar toda la carga del actuar correcto a la voluntad aislada de cada trabajador.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-auto.mb-3.mb-md-0
+      .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t1/espiral.svg" alt="" style="width: 84px")
       .col
@@ -520,7 +520,7 @@
           p.mb-0 La evaluación del desempeño deja de ser un mecanismo de control punitivo y se transforma en un espacio de diálogo, retroalimentación y mejoramiento. El bienestar, a su vez, deja de verse como beneficio accesorio y se comprende como una expresión del compromiso institucional con el desarrollo integral de quienes trabajan.
 
         .row.align-items-start.mt-4(data-aos="fade-left")
-          .col-auto.mb-3.mb-md-0
+          .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
               img(src="@/assets/curso/temas/t1/espiral.svg" alt="" style="width: 84px")
           .col
@@ -579,35 +579,35 @@
     TabsA.color-acento-botones.mt-4(data-aos="fade-up")
       .bg-2.r-10.p-4(titulo="Selección")
         .row.align-items-center
-          .col-auto.mb-3.mb-md-0
+          .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
               img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
           .col
             p.mb-0 En un enfoque ético no se limita a cubrir una vacante con rapidez, sino que garantiza mérito, equidad, transparencia y respeto por quien se postula. Aplicación en el entorno: una cooperativa de caficultores define criterios claros para cada etapa, publica los resultados y sustenta la decisión final, de modo que la elección no dependa de recomendaciones.
       .bg-2.r-10.p-4(titulo="Inducción")
         .row.align-items-center
-          .col-auto.mb-3.mb-md-0
+          .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
               img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
           .col
             p.mb-0 Más que transmitir información básica del cargo, favorece la integración humana, la comprensión de la cultura y el sentido de pertenencia. Aplicación en el entorno: una empresa de servicios asigna a cada persona recién vinculada un acompañante que le explica los valores institucionales, las rutinas del equipo y los canales para resolver dudas.
       .bg-2.r-10.p-4(titulo="Evaluación del desempeño")
         .row.align-items-center
-          .col-auto.mb-3.mb-md-0
+          .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
               img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
           .col
             p.mb-0 En lugar de controlar y sancionar desviaciones, retroalimenta, orienta el mejoramiento y reconoce los aportes de cada persona. Aplicación en el entorno: una entidad pública incorpora en la evaluación una conversación de mejora, en la que se acuerdan compromisos y apoyos concretos, y no solo una calificación numérica.
       .bg-2.r-10.p-4(titulo="Bienestar laboral")
         .row.align-items-center
-          .col-auto.mb-3.mb-md-0
+          .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
               img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
           .col
             p.mb-0 Supera la oferta de beneficios aislados y promueve el desarrollo integral, el cuidado y unas condiciones dignas de trabajo. Aplicación en el entorno: una empresa textil ajusta los horarios, programa pausas activas y revisa las cargas de trabajo para cuidar la salud de sus operarias, más allá de un bono ocasional.
       .bg-2.r-10.p-4(titulo="Convivencia")
         .row.align-items-center
-          .col-auto.mb-3.mb-md-0
+          .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
               img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
           .col

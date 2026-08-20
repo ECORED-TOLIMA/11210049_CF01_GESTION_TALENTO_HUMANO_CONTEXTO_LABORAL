@@ -53,7 +53,7 @@
               img(src="@/assets/curso/temas/t2/img-pasos.svg" alt="").w-100
 
     .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-auto.mb-3.mb-md-0
+      .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t2/espiral.svg" alt="" style="width: 84px")
       .col
@@ -124,7 +124,7 @@
 
         .bg-1.r-10.p-4.mb-0(data-aos="fade-left")
           .row.align-items-center
-            .col-auto.mb-3.mb-md-0
+            .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
                 img(src="@/assets/curso/temas/t2/ic-cajon-1.svg" alt="" style="width: 84px")
             .col
@@ -163,7 +163,7 @@
         p.mb-0 Surge de afinidades, confianza y experiencias compartidas, y fortalece la pertenencia siempre que no derive en exclusión o rumor. Aplicación en el entorno: en una empresa manufacturera, el grupo que comparte el almuerzo integra mejor a quienes llegan si no excluye a nadie.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-auto.mb-3.mb-md-0
+      .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t2/espiral.svg" alt="" style="width: 84px")
       .col
@@ -187,7 +187,7 @@
     p.mt-4(data-aos="fade-right") El respeto es la actitud que reconoce el valor del otro y lo trata con consideración. No equivale a la ausencia de diferencias ni a la cortesía superficial, pues implica escuchar, no ridiculizar, no instrumentalizar y no descalificar la dignidad ajena. En el trabajo se expresa en conductas concretas: cumplir los compromisos, emplear un lenguaje adecuado, valorar el tiempo ajeno, tramitar los desacuerdos sin agresión y reconocer el aporte de los demás.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-auto.mb-3.mb-md-0
+      .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t2/espiral.svg" alt="" style="width: 84px")
       .col
@@ -329,7 +329,7 @@
       .col-lg-8.mb-4.mb-lg-0
         .bg-2.r-10.p-4.h-100(data-aos="fade-right")
           .row.align-items-center
-            .col-auto.mb-3.mb-md-0
+            .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
                 img(src="@/assets/curso/temas/t2/ic-cajon-3.svg" alt="" style="width: 84px")
             .col

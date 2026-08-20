@@ -10,9 +10,12 @@
 //   distintivo 1: 80x80 en (857,538) -> pegado a la izquierda, 41 px sobre el borde inferior
 //   distintivo 2: 80x80 en (1283,373) -> pegado a la derecha, 206 px sobre el borde inferior
 .banner-principal__img
-  // `!important` porque la columna lleva `.d-lg-block` de Bootstrap, que es
-  // `display: block !important` y gana a cualquier `display` sin bandera.
-  display: grid !important
+  // La rejilla SOLO de lg para arriba. La columna lleva `.d-none.d-lg-block`: por debajo
+  // de lg tiene que seguir siendo `display: none`, porque el diseno quita la ilustracion
+  // en tablet y en movil. Sin el `@media`, el `!important` de aqui pisaba el `d-none` y
+  // la ilustracion se colaba en las dos.
+  @media (min-width: $bp-min-lg)
+    display: grid !important
   > img, > div
     grid-area: 1 / 1
   > div
@@ -52,6 +55,12 @@
   width: 45.93% !important                // contenido = 45.93-7.6 = 38.33% de 1328 = 506px
   img
     width: 100%
+
+// En movil el XD pinta la portada con el color plano 1- Primario, sin el degradado.
+@media (max-width: $bp-max-xs)
+  .banner-principal .tarjeta
+    background-image: none !important
+    background-color: $color-primario
 
 .banner-principal p, .banner-principal h1, .banner-principal h2, .banner-principal h3, .banner-principal h4, .banner-principal h5, .banner-principal h6
   color: $color-sistema-texto !important  
@@ -387,6 +396,12 @@ figcaption
   background-image: url(../assets/curso/temas/t4/bg-tabla-4.png)
 .bg-tabla-5
   background-image: url(../assets/curso/temas/t4/bg-tabla-5.png)
+
+// Al apilarse en movil, las tarjetas de icono montado quedan PEGADAS: su `margin-top`
+// de 75 px se lo come el propio circulo, que sobresale justo esos 75 px.
+@media (max-width: $bp-max-md)
+  .tarjeta--icono-arriba
+    margin-bottom: 1.5rem
 
 // Radios del XD. `.r-0` es explicito para dejar claro que ese rect NO lleva radio.
 .r-0

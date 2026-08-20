@@ -18,7 +18,7 @@
         //- Caja #FEDDB4 de 916x140 SIN radio, con el icono de 84x84 (r=10, #CBD5FF) dentro.
         .bg-1-p.r-0.p-4.mt-4(data-aos="fade-right")
           .row.align-items-center
-            .col-auto.mb-3.mb-md-0
+            .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
                 img(src="@/assets/curso/temas/intro/icono-1.svg" alt="" style="width: 84px")
             .col
@@ -29,7 +29,7 @@
           img(src="@/assets/curso/temas/intro/foto.png" alt="").w-100.r-10
 
     .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-auto.mb-3.mb-md-0
+      .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/intro/icono-2.svg" alt="" style="width: 84px")
       .col

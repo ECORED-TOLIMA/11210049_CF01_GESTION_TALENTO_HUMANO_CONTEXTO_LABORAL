@@ -193,3 +193,34 @@ Lo que **no** se ha tocado y por qué:
   `col = round(ancho/1228 × 12)`; la rejilla de doce no tiene un valor intermedio.
 
 La comparación es reproducible: `scripts/comparar_elementos.py <ruta> <artboard>`.
+
+## 15. Revisión de la vista móvil (2026-08-20)
+
+El XD trae un artboard `Tablet` que es, en realidad, la **especificación responsive de la
+portada**: la versión de tablet y la de móvil, una al lado de la otra. En las dos desaparece la
+ilustración y el texto pasa a ancho completo; en móvil, además, el fondo deja de ser el
+degradado y queda en el color plano `#FEDDB4`.
+
+Se barrieron las once rutas a **360 px reales**. Aviso para quien mida esto: **Chrome headless
+no abre ventanas de menos de 500 px**, así que con `--window-size=360` se está midiendo a 500 y
+un móvil de verdad no se prueba nunca. Hay que forzar `Emulation.setDeviceMetricsOverride`.
+El check de desborde de `verificar_maqueta.py` tenía ese problema y además medía una sola ruta;
+ahora recorre las once con las métricas forzadas.
+
+Lo que la revisión encontró y quedó corregido:
+
+- **La ilustración se colaba en tablet y en móvil.** Al montar los distintivos flotantes puse
+  `display: grid !important` sobre la columna de la imagen, y eso pisaba el `d-none` del kit.
+  La rejilla se limitó a `lg` para arriba.
+- **El fondo de la portada en móvil** era el degradado; el diseño lo quiere plano `#FEDDB4`.
+- **Las tarjetas con el icono montado quedaban pegadas al apilarse**: su `margin-top` de 75 px
+  se lo come el propio círculo, que sobresale justo esos 75 px. Llevan `margin-bottom` por
+  debajo de `md`.
+- **Las 36 cajas de «icono + texto» no se apilaban.** Iban en un `.col-auto`, que nunca pasa a
+  ancho completo, con un `mb-3 mb-md-0` al lado que da por hecho que sí. A 360 px el texto
+  quedaba en una columna de 160 px. Ahora son `.col-12.col-md-auto`.
+
+Falsos positivos descartados: la tabla de créditos y las tablas de contenido se salen del
+viewport a propósito, dentro de contenedores con `overflow-x: auto` del kit.
+
+Resultado final: **0 elementos desbordados en las once rutas a 360 px.**

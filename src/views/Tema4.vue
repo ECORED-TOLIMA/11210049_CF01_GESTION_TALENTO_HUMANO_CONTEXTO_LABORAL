@@ -52,7 +52,7 @@
 
         .bg-1.r-10.p-4.mb-0(data-aos="fade-left")
           .row.align-items-center
-            .col-auto.mb-3.mb-md-0
+            .col-12.col-md-auto.mb-3.mb-md-0
               figure.mb-0
                 img(src="@/assets/curso/temas/t4/ic-cajon-1.svg" alt="" style="width: 84px")
             .col
@@ -115,7 +115,7 @@
           img(src="@/assets/curso/temas/t4/p-3.png" alt="").w-100
 
     .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-auto.mb-3.mb-md-0
+      .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t4/espiral.svg" alt="" style="width: 84px")
       .col
@@ -209,7 +209,7 @@
                   td Coordinar equipos, negociar desacuerdos y fortalecer la cooperación.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
-      .col-auto.mb-3.mb-md-0
+      .col-12.col-md-auto.mb-3.mb-md-0
         figure.mb-0
           img(src="@/assets/curso/temas/t4/espiral.svg" alt="" style="width: 84px")
       .col
@@ -231,7 +231,7 @@
           p.mb-0 En Colombia, estas exigencias se combinan con realidades propias. Los desplazamientos prolongados en las ciudades principales, la incertidumbre asociada a la contratación temporal y la informalidad que persiste en varios sectores productivos añaden tensiones que acompañan a las personas antes incluso de comenzar sus tareas. Reconocer ese contexto evita atribuir el malestar a una supuesta falta de carácter y sitúa el manejo emocional como una necesidad real de la vida laboral contemporánea.
 
         .row.align-items-start.mt-4(data-aos="fade-left")
-          .col-auto.mb-3.mb-md-0
+          .col-12.col-md-auto.mb-3.mb-md-0
             figure.mb-0
               img(src="@/assets/curso/temas/t4/espiral.svg" alt="" style="width: 84px")
           .col
