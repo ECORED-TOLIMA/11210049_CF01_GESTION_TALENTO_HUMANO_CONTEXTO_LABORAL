@@ -407,6 +407,215 @@
 
     p.mt-4(data-aos="fade-right") Este análisis muestra una continuidad entre fundamentos éticos y prácticas organizacionales. No se trata de principios distantes de la realidad, sino de referencias que deben orientar decisiones concretas. Por ello, fortalecer la gestión del talento humano desde la ética supone reconocer que la cultura laboral no se construye solo con metas e indicadores, sino también con valores vividos en la comunicación, en la coordinación del trabajo y en la manera de ejercer el liderazgo.
 
+    Separador
+
+    #t_1_3.titulo-segundo.color-acento-contenido
+      h2 1.3 Ética individual y ética organizacional
+
+    //- Foto de 395x310 (col-4) y caja #FEDDB4 de 812x310 (col-8) con el icono ARRIBA del
+    //- texto, no al lado.
+    .row.mt-4
+      .col-lg-4.mb-4.mb-lg-0
+        figure.mb-0
+          img(src="@/assets/curso/temas/t1/foto-8.png" alt="").w-100
+      .col-lg-8
+        //- Sin `.h-100`: el texto es mas alto que la foto de al lado y la utilidad de
+        //- Bootstrap fija la caja al alto de la columna, con el contenido saliendose.
+        .bg-1-p.r-0.p-4(data-aos="fade-left")
+          figure.mb-4
+            img(src="@/assets/curso/temas/t1/ic-cajon-4.svg" alt="" style="width: 84px")
+          p.mb-0 El comportamiento ético en el trabajo surge de una relación profunda y dinámica entre dos planos. Las instituciones están constituidas por personas, y son ellas quienes, mediante sus decisiones cotidianas, configuran la cultura ética del lugar. A su vez, la organización influye sobre la conducta individual a través de normas, liderazgos, políticas y prácticas compartidas. Esta doble vía muestra que la ética laboral no depende solo de la conciencia personal ni exclusivamente de los reglamentos, sino de la interacción entre ambas dimensiones.
+
+    p.mt-4(data-aos="fade-right") Aunque ambos planos se entrelazan en la práctica, conviene distinguirlos para comprender de dónde proviene una conducta y sobre qué es posible actuar cuando algo no funciona. Cada dimensión posee un origen, unos rasgos y unas manifestaciones propias que permiten reconocerla en el día a día. Sus características se describen a continuación:
+
+    //- Dos paneles pegados de 510x540 sobre una banda decorativa que se sale del ancho de
+    //- la tarjeta por los dos lados (rects de 1328 en y=9032, o sea el borde de la tarjeta).
+    .bg-fondo-1.mt-4
+      .tarjeta--container.row(data-aos="fade-up")
+        .col-md.tarjeta.bg-1-p.p-5
+          .row.justify-content-center.mb-3
+            .col-5
+              figure.mb-0
+                img(src="@/assets/curso/temas/t1/ic-panel-1.svg" alt="")
+          h3.text-center La ética individual
+          p.mb-0 Reúne las convicciones, los principios y los hábitos que orientan el comportamiento de una persona. Se forma a lo largo de la vida y se pone a prueba en situaciones concretas, sobre todo ante dilemas o presiones. En el trabajo se reconoce en el cumplimiento de los compromisos, la honestidad al comunicar información, la responsabilidad frente a las tareas asignadas y el respeto en el trato diario.
+        .col-md.tarjeta.bg-2-s.p-5
+          .row.justify-content-center.mb-3
+            .col-5
+              figure.mb-0
+                img(src="@/assets/curso/temas/t1/ic-panel-2.svg" alt="")
+          h3.text-center La ética organizacional
+          p.mb-0 Corresponde al marco compartido de principios, valores y normas que orienta el comportamiento colectivo de una institución. No se limita a los códigos de ética o los manuales de convivencia, aunque estos resulten importantes. Se manifiesta también en las decisiones reales de quienes dirigen, en los mensajes que circulan, en las prácticas de reconocimiento y sanción, y en la consistencia entre lo que se declara y lo que efectivamente se promueve.
+
+    .row.mt-4
+      .col-lg-8.mb-4.mb-lg-0
+        //- La caja mide 140 y la foto de al lado 309: NO se estira con `.h-100`.
+        .bg-1.r-10.p-4(data-aos="fade-right")
+          .row.align-items-center
+            .col-auto.mb-3.mb-md-0
+              figure.mb-0
+                img(src="@/assets/curso/temas/t1/ic-cajon-5.svg" alt="" style="width: 84px")
+            .col
+              p.mb-0 Ninguna de las dos dimensiones basta por sí sola. Una persona íntegra encuentra límites en un entorno que premia el atajo, y una organización con buenos documentos pierde credibilidad si sus líderes actúan de otro modo. Por eso la ética laboral se sostiene cuando ambas se refuerzan mutuamente.
+      .col-lg-4
+        figure.mb-0
+          img(src="@/assets/curso/temas/t1/foto-9.png" alt="").w-100
+
+    p.mt-4(data-aos="fade-right") Una organización puede tener un discurso ético sólido en sus documentos y, sin embargo, tolerar prácticas contrarias a sus valores. Del mismo modo, una persona puede tener convicciones morales claras, pero verse debilitada si trabaja en un entorno donde predominan la arbitrariedad, la inequidad o la desconfianza. Por eso, fortalecer la ética organizacional implica crear condiciones estructurales y culturales que faciliten el comportamiento íntegro, en lugar de dejar toda la carga del actuar correcto a la voluntad aislada de cada trabajador.
+
+    .row.align-items-start.mt-4(data-aos="fade-right")
+      .col-auto.mb-3.mb-md-0
+        figure.mb-0
+          img(src="@/assets/curso/temas/t1/espiral.svg" alt="" style="width: 84px")
+      .col
+        p.mb-0 Más que dos realidades separadas, ambas dimensiones funcionan como un circuito: lo que cada persona decide alimenta la cultura del lugar y esa cultura, a su vez, facilita o dificulta la actuación íntegra. La siguiente figura representa esa relación y muestra los efectos que produce según ambas se refuercen o se distancien.
+
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .titulo-sexto.color-acento-contenido.mb-3
+          h5 Figura 1.
+          span Interacción entre la ética individual y la ética organizacional
+        figure.mb-0
+          img(src="@/assets/curso/temas/t1/figura-1.svg" alt="Esquema: la ética individual (convicciones y hábitos) y la ética organizacional (normas y liderazgo) se influyen mutuamente. Cuando se refuerzan producen confianza, credibilidad y convivencia respetuosa; cuando se desconectan, oportunismo, inequidad y pérdida de legitimidad.").w-100
+
+    .row.mt-4
+      .col-lg-3.mb-4.mb-lg-0
+        figure.mb-0
+          img(src="@/assets/curso/temas/t1/ilus-1.svg" alt="").w-100
+      .col-lg-9
+        p(data-aos="fade-left") Este recorrido evidencia que una cultura ética sólida no se construye solo con buenos reglamentos ni únicamente con buenas intenciones personales: requiere articulación entre la conciencia individual, un liderazgo coherente y prácticas institucionales consistentes. Comprenderlo permite reconocer la propia responsabilidad y, al mismo tiempo, la necesidad de participar en la construcción colectiva de ambientes de trabajo justos, respetuosos y transparentes.
+
+        .bg-3.r-10.p-4.mb-0(data-aos="fade-left")
+          p.mb-0 La coherencia entre lo personal y lo institucional se demuestra en la práctica diaria. Cada proceso de selección, de formación o de evaluación revela qué valores guían realmente a una organización. De ese modo, los principios se traducen en la ética aplicada al talento humano.
+
+    Separador
+
+    #t_1_4.titulo-segundo.color-acento-contenido
+      h2 1.4 La ética aplicada al talento humano
+
+    p(data-aos="fade-right") Trabajar con personas cobra verdadero sentido cuando se reconoce que no son únicamente un medio para alcanzar metas institucionales, sino sujetos de dignidad, aprendizaje, emoción, proyecto de vida y capacidad de transformación. Gestionar el talento humano desde una perspectiva ética implica valorar su historia, sus necesidades y sus capacidades. Esta idea articula toda la unidad, pues conecta la reflexión filosófica sobre la ética con la práctica concreta de los procesos humanos dentro de las organizaciones.
+
+    .row.justify-content-center.mt-5
+      .col-lg-10
+        .bg-3-a.r-0.p-4.cita-destacada(data-aos="zoom-in")
+          figure
+            img(src="@/assets/curso/temas/t1/ic-quote-2.svg" alt="")
+          p.text-center.mb-0
+            b Gestionar el talento humano desde la ética significa reconocer a cada persona como sujeto de dignidad, con historia, necesidades y capacidades, y no como un simple recurso.
+
+    .row.mt-5
+      .col-lg-4.mb-4.mb-lg-0
+        figure.mb-0
+          img(src="@/assets/curso/temas/t1/foto-10.png" alt="").w-100
+      .col-lg-8
+        p(data-aos="fade-left") Cuando la ética se convierte en fundamento de la gestión del talento humano, todos los procesos cambian de sentido. La selección deja de orientarse exclusivamente a cubrir vacantes y pasa a buscar decisiones transparentes, equitativas y respetuosas. La inducción no se limita a entregar información operativa, sino que ayuda a integrar a la persona en una cultura organizacional que valora su aporte.
+
+        //- Caja con pestaña de 25x8 en (601,11483): `.cajon`.
+        .cajon.color-2.p-4.mt-4(data-aos="fade-left")
+          p.mb-0 La evaluación del desempeño deja de ser un mecanismo de control punitivo y se transforma en un espacio de diálogo, retroalimentación y mejoramiento. El bienestar, a su vez, deja de verse como beneficio accesorio y se comprende como una expresión del compromiso institucional con el desarrollo integral de quienes trabajan.
+
+        .row.align-items-start.mt-4(data-aos="fade-left")
+          .col-auto.mb-3.mb-md-0
+            figure.mb-0
+              img(src="@/assets/curso/temas/t1/espiral.svg" alt="" style="width: 84px")
+          .col
+            p.mb-0 Esta perspectiva permite además revisar con sentido crítico algunas prácticas que, por habituales, suelen pasar inadvertidas y terminan contradiciendo una gestión humana realmente ética. Entre las más frecuentes se encuentran las siguientes:
+
+    .tarjeta--container.row.mt-4.mb-4(data-aos="fade-up")
+      .col-md.tarjeta.bg-1.p-5
+        .row.justify-content-center.mb-3
+          .col-6
+            figure.mb-0
+              img(src="@/assets/curso/temas/t1/ic-q1.svg" alt="")
+        h3.text-center Disponibilidad permanente
+        p.mb-0 Consiste en esperar respuesta fuera de la jornada laboral, incluso en días de descanso. Aunque se justifique por la urgencia, invade la vida personal y desconoce el derecho al tiempo propio de cada trabajador.
+      .col-md.tarjeta.bg-2.p-5
+        .row.justify-content-center.mb-3
+          .col-6
+            figure.mb-0
+              img(src="@/assets/curso/temas/t1/ic-q2.svg" alt="")
+        h3.text-center Supervisión autoritaria
+        p.mb-0 Se manifiesta en órdenes sin explicación, control excesivo y poca apertura al diálogo. Este estilo puede producir obediencia inmediata, pero deteriora la confianza y limita la iniciativa de quienes integran el equipo.
+      .col-md.tarjeta.bg-3.p-5
+        .row.justify-content-center.mb-3
+          .col-6
+            figure.mb-0
+              img(src="@/assets/curso/temas/t1/ic-q3.svg" alt="")
+        h3.text-center Evaluación usada como amenaza
+        p.mb-0 Ocurre cuando el seguimiento al desempeño sirve para intimidar o presionar, en lugar de orientar la mejora. Así, un instrumento de desarrollo se convierte en un mecanismo de control.
+      .col-md.tarjeta.bg-5.p-5
+        .row.justify-content-center.mb-3
+          .col-6
+            figure.mb-0
+              img(src="@/assets/curso/temas/t1/ic-q4.svg" alt="")
+        h3.text-center Reconocimiento desigual
+        p.mb-0 Aparece cuando el mérito se valora según afinidades personales y no según los aportes verificables. Esta práctica genera desmotivación y debilita la percepción de justicia dentro del equipo.
+
+    p.mt-4(data-aos="fade-right") Frente a estas prácticas, hay organizaciones que escuchan, argumentan sus decisiones, cuidan el trato y promueven procesos transparentes. Con ello construyen una cultura más coherente con los principios que declaran. La diferencia no radica en la ausencia de normas, sino en el modo de aplicarlas.
+
+    //- Caja #FEDDB4 de 1020x190 (col-10) con la foto de 292x190 pegada a su borde izquierdo.
+    .row.justify-content-center.mt-4
+      .col-lg-10
+        .bg-1-p.r-0(data-aos="fade-up")
+          .row.g-0.align-items-center
+            .col-lg-3
+              figure.mb-0
+                img(src="@/assets/curso/temas/t1/foto-11.png" alt="").w-100
+            .col-lg-9
+              .p-4
+                p En el contexto colombiano, la gestión ética del talento humano contribuye a una cultura de paz, equidad y convivencia ciudadana.
+                p.mb-0 Los aprendizajes éticos del trabajo influyen en las relaciones sociales, en la participación ciudadana y en la manera de comprender al otro. Su alcance trasciende la eficiencia institucional y se conecta con la formación de ciudadanía y con la construcción de tejido social.
+
+    p.mt-4(data-aos="fade-right") Para resumir de manera estructurada los principales aportes de esta perspectiva, se presentan los siguientes elementos. Su función es mostrar cómo la ética modifica el sentido de varios procesos centrales de gestión del talento humano:
+
+    //- Pestañas verticales: el menu de 292 a la izquierda (r=5) y el panel #F7E3E6 de
+    //- 916x318 con r=10. El XD deja activa la segunda; los contenidos de las otras cuatro
+    //- salen del _DI.docx, porque en el diseño solo esta desplegada esa.
+    TabsA.color-acento-botones.mt-4(data-aos="fade-up")
+      .bg-2.r-10.p-4(titulo="Selección")
+        .row.align-items-center
+          .col-auto.mb-3.mb-md-0
+            figure.mb-0
+              img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
+          .col
+            p.mb-0 En un enfoque ético no se limita a cubrir una vacante con rapidez, sino que garantiza mérito, equidad, transparencia y respeto por quien se postula. Aplicación en el entorno: una cooperativa de caficultores define criterios claros para cada etapa, publica los resultados y sustenta la decisión final, de modo que la elección no dependa de recomendaciones.
+      .bg-2.r-10.p-4(titulo="Inducción")
+        .row.align-items-center
+          .col-auto.mb-3.mb-md-0
+            figure.mb-0
+              img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
+          .col
+            p.mb-0 Más que transmitir información básica del cargo, favorece la integración humana, la comprensión de la cultura y el sentido de pertenencia. Aplicación en el entorno: una empresa de servicios asigna a cada persona recién vinculada un acompañante que le explica los valores institucionales, las rutinas del equipo y los canales para resolver dudas.
+      .bg-2.r-10.p-4(titulo="Evaluación del desempeño")
+        .row.align-items-center
+          .col-auto.mb-3.mb-md-0
+            figure.mb-0
+              img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
+          .col
+            p.mb-0 En lugar de controlar y sancionar desviaciones, retroalimenta, orienta el mejoramiento y reconoce los aportes de cada persona. Aplicación en el entorno: una entidad pública incorpora en la evaluación una conversación de mejora, en la que se acuerdan compromisos y apoyos concretos, y no solo una calificación numérica.
+      .bg-2.r-10.p-4(titulo="Bienestar laboral")
+        .row.align-items-center
+          .col-auto.mb-3.mb-md-0
+            figure.mb-0
+              img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
+          .col
+            p.mb-0 Supera la oferta de beneficios aislados y promueve el desarrollo integral, el cuidado y unas condiciones dignas de trabajo. Aplicación en el entorno: una empresa textil ajusta los horarios, programa pausas activas y revisa las cargas de trabajo para cuidar la salud de sus operarias, más allá de un bono ocasional.
+      .bg-2.r-10.p-4(titulo="Convivencia")
+        .row.align-items-center
+          .col-auto.mb-3.mb-md-0
+            figure.mb-0
+              img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
+          .col
+            p.mb-0 En vez de resolver los conflictos cuando ya escalaron, previene tensiones y fortalece relaciones respetuosas. Aplicación en el entorno: en una obra de construcción, quien lidera el equipo acuerda reuniones breves y periódicas para atender los desacuerdos antes de que afecten el trabajo y el trato entre compañeros.
+
+    .row.justify-content-center.mt-5
+      .col-lg-10
+        p(data-aos="fade-right") Lo abordado en este primer tema permite concluir que la ética no es un complemento de la gestión del talento humano, sino su base de legitimidad. Una organización puede contar con herramientas sofisticadas de administración de personas, pero si sus decisiones contradicen la dignidad, la justicia y la responsabilidad, difícilmente podrá sostener una cultura sana y confiable. En consecuencia, debe considerarse la ética como criterio transversal para pensar, decidir y actuar dentro de cualquier escenario organizacional.
+
+        //- Caja con pestaña de 25x8 en (289,13168): `.cajon`.
+        .cajon.color-2.p-4.mt-4(data-aos="fade-right")
+          p.mb-0 Ese criterio transversal se pone a prueba en el trato diario. Los procesos institucionales establecen el marco, pero la ética se vive en la manera como las personas se hablan, se escuchan y resuelven sus diferencias. Por eso, el recorrido continúa con las relaciones interpersonales en el entorno laboral.
+
 </template>
 
 <script>

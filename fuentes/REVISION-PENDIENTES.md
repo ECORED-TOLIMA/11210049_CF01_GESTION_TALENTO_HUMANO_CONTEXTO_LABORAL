@@ -65,3 +65,24 @@ Tres valores del scaffold contradecían el diseño y se cambiaron:
 
 Y el encabezado de tabla del kit venía en el gris del sistema (`#e8e8e8`); el diseño lo pinta en
 `#CBD5FF`, así que se cambiaron las variables `$table-header-bg-color` y `$table-header-color`.
+
+## 7. Detalles del Tema 1 que se decidieron sin fuente exacta
+
+- **Pestañas del 1.4**: el diseño muestra abierta la segunda (`Inducción`). `TabsA` del kit abre
+  siempre la primera y no expone ninguna propiedad para cambiarlo, así que se deja `Selección`.
+  El contenido de las cinco es el del `_DI.docx`; en el artboard sólo está desplegada una.
+- **Acordeón del 1.2 y línea de tiempo del 1.2**: igual, en el diseño sólo está desplegado el
+  primer elemento. Los cuerpos de los demás salen del `_DI.docx`.
+- **Espacio del vídeo**: ver el punto 1.
+
+## 8. Un fallo del exportador de assets, ya corregido
+
+Las **puntas de flecha** de los diagramas son nodos `polygon` en el `.xd`, y el exportador no
+contemplaba ese tipo: caían en la rama final que devuelve una cadena vacía, así que desaparecían
+**sin dar ningún error**. Se vio en la Figura 1 del 1.3, que salía con las líneas pero sin las
+cuatro flechas. Corregido: ahora `polygon` se emite como `<polygon>` y también tiene caja
+envolvente, que antes era `None`.
+
+Afecta a cualquier diagrama con flechas. En este curso hay `polygon` en los artboards del Tema 1
+(4), del Tema 2 (4), en `Tablet` (2) y en el pasteboard (10); los assets ya entregados de portada,
+introducción, 1.1 y 1.2 no contienen ninguno, así que no había nada que rehacer.

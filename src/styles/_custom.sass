@@ -249,6 +249,27 @@ figcaption
     .linea-tiempo-d__item__content
       background-color: $color-2-vc   // #F7E3E6 el item abierto
 
+// Fondos decorativos del XD: rects de 1328 de ancho, o sea el ancho COMPLETO de la
+// tarjeta blanca. La tarjeta lleva `.p-md-5` (48 px = 3rem), asi que el bloque tiene que
+// salirse ese margen por los dos lados para llegar al borde. En movil, ni un pixel fuera.
+.bg-fondo-1
+  background-image: url(../assets/curso/temas/t1/bg-1.png)
+  background-repeat: no-repeat
+  background-size: 100% auto
+  background-position: center
+  margin-inline: -3rem
+  padding-inline: 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding-inline: 0
+    background-image: none
+
+// Pestañas verticales del 1.4. `.color-acento-botones` ya deja la activa en #003CE1 con
+// el texto blanco (lo que hace el XD); la inactiva la pinta el kit con `$color-sistema-e`
+// (#D8ECFF) y el diseño la quiere en #E5EBFC (4-VC).
+.tabs-a__tab
+  background-color: $color-4-vc
+
 // Radios del XD. `.r-0` es explicito para dejar claro que ese rect NO lleva radio.
 .r-0
   border-radius: 0 !important
