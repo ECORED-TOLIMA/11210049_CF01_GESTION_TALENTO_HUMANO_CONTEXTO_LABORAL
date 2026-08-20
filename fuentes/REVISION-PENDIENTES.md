@@ -224,3 +224,42 @@ Falsos positivos descartados: la tabla de créditos y las tablas de contenido se
 viewport a propósito, dentro de contenedores con `overflow-x: auto` del kit.
 
 Resultado final: **0 elementos desbordados en las once rutas a 360 px.**
+
+## 16. Revisión final: los cinco puntos pedidos
+
+**1. Colores de los fondos.** Se comparó cada caja con fondo del render contra los `fill` del
+`.xd`: **ningún color inventado** en ninguna de las cinco pantallas medibles. Los rects del
+diseño que no tienen una caja equivalente son, uno a uno, el marcador de vídeo (sustituido por
+el componente del kit), la tarjeta en estado *hover* del tema 1, dos sombras del pasteboard que
+caen fuera del artboard y tres formas que van dentro de un SVG.
+
+**2. Distribución de elementos y textos.** Se verificó que **todos los textos del artboard están
+en la página**: 83 de 83 en el tema 1, 55 de 55 en el 2, 92 de 92 en el 3, 48 de 48 en el 4.
+Las únicas cadenas que no aparecen como texto son las dos viñetas dibujadas dentro del SVG de la
+Figura 2, que van en la imagen. Los títulos de tabla y figura sí están: el kit los parte en `h5`
+y `span`, que se pintan en línea, como en el PDF.
+
+**3. Iconos de las tarjetas.** Se correlacionó cada uno de los 40 iconos de tarjeta contra el
+recorte del PDF en la posición de la que se exportó. **36 por encima de 0,95** y los cuatro
+restantes (0,87-0,90) se revisaron a mano: son el mismo icono y la misma orientación; la
+correlación baja por el cuadrado de fondo del recorte, no por el glifo.
+
+Un defecto real, corregido: **la fila de las cuatro condiciones del 3.3 llevaba el mismo icono
+cuatro veces.** El XD tiene ahí cuatro glifos distintos (lupa con ojo, engranajes con personas,
+rectángulos conectados y flechas circulares con visto). Ahora cada tarjeta lleva el suyo, con su
+par reposo/hover: el diseño solo dibuja un estado por tarjeta, así que el otro se obtiene
+cambiando el color del círculo, que es el único que cambia entre los dos estados
+(`#003CE1` ↔ `#5E4A4D`; el glifo es `#CBD5FF` en ambos).
+
+Conviene no confundirlo con las filas donde el XD **sí** repite el mismo glifo a propósito: las
+tres preguntas del tema 1, las cuatro nociones y los cuatro paneles de decisiones. Ahí se
+comprobó, rasterizando, que el dibujo es idéntico y solo cambia el color del círculo.
+
+**4. Botones adelante y atrás del slider.** Medidos en el PDF: círculos de 50 px en `#003CE1`,
+a 23 px de los lados de la tarjeta y 24 px por encima de su borde inferior. El kit los dejaba
+pegados a las esquinas; con el ajuste quedan en x=22 y x=1157 sobre una tarjeta de 1228, y a
+23 px del borde inferior. Las cinco viñetas y el color coinciden.
+
+**5. Animaciones de los iconos de la portada.** Los dos distintivos ejecutan `float1`, infinito
+y alterno, a **2,8 s y 2,5 s** —tiempos distintos, como pide la nota del pasteboard—. Medidos en
+tres instantes, se mueven desfasados el uno del otro.
