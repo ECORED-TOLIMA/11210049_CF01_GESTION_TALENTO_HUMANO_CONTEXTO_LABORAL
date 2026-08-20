@@ -112,8 +112,11 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 2.
           span Diferencias entre las relaciones verticales y horizontales
-        figure.mb-0
+        figure.mb-0.d-none.d-md-block
           img(src="@/assets/curso/temas/t2/figura-2.svg" alt="Figura que compara dos vínculos laborales: la relación vertical, entre quien dirige y quien ejecuta, marcada por la autoridad y la evaluación; y la horizontal, entre compañeros, basada en la reciprocidad y la colaboración. Reconocer esa diferencia permite ajustar la comunicación y el trato que corresponde a cada caso.").w-100
+        //- El XD trae la version movil de la figura al lado, en el pasteboard.
+        figure.mb-0.d-md-none
+          img(src="@/assets/curso/temas/t2/figura-2-movil.svg" alt="Figura que compara dos vínculos laborales: la relación vertical, entre quien dirige y quien ejecuta, marcada por la autoridad y la evaluación; y la horizontal, entre compañeros, basada en la reciprocidad y la colaboración. Reconocer esa diferencia permite ajustar la comunicación y el trato que corresponde a cada caso.").w-100
 
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
@@ -282,25 +285,25 @@
               p.mb-0 #[b Falta de información y rumor:] aparece cuando las decisiones no se comunican a tiempo y el vacío se llena con versiones informales. La incertidumbre alimenta interpretaciones erróneas, incrementa la ansiedad del equipo y deteriora la credibilidad de los canales oficiales. Se observa cuando un cambio de turnos se conoce por comentarios de pasillo antes que por el conducto formal o cuando circula una versión sobre una desvinculación que nadie confirma ni desmiente.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t2/p-slider.png" alt="").w-100
+                img(src="@/assets/curso/temas/t2/p-slider-2.png" alt="").w-100
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
               p.mb-0 #[b Crítica destructiva:] se dirige a la persona y no al trabajo realizado, pues busca señalar más que corregir. A diferencia de la retroalimentación, no ofrece alternativas ni reconoce lo logrado, de modo que produce desánimo y disminuye la disposición a proponer. Se observa cuando se corrige a alguien delante de todo el equipo con un tono despectivo o cuando se recuerda un error antiguo cada vez que esa persona presenta una idea.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t2/p-slider.png" alt="").w-100
+                img(src="@/assets/curso/temas/t2/p-slider-3.png" alt="").w-100
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
               p.mb-0 #[b Liderazgo autoritario o indiferente:] se manifiesta en el extremo del control excesivo o en el de la ausencia de acompañamiento. En ambos casos, quien dirige deja de ser un referente, ya que no escucha las necesidades del equipo ni asume su papel en la solución de las dificultades. Se observa cuando se imponen decisiones sin explicar sus razones o cuando queda sin respuesta durante semanas una solicitud que afecta el trabajo diario.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t2/p-slider.png" alt="").w-100
+                img(src="@/assets/curso/temas/t2/p-slider-4.png" alt="").w-100
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
               p.mb-0 #[b Manejo inadecuado del conflicto:] ocurre cuando los desacuerdos se evitan o se dejan crecer sin intervención. Las tensiones menores se acumulan, se personalizan y terminan convertidas en conflictos prolongados que afectan el clima laboral y la efectividad de toda el área. Se observa cuando dos integrantes dejan de hablarse y nadie interviene o cuando una diferencia técnica se transforma en enfrentamiento personal por falta de mediación.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t2/p-slider.png" alt="").w-100
+                img(src="@/assets/curso/temas/t2/p-slider-5.png" alt="").w-100
 
     .row.align-items-start.mt-4
       .col

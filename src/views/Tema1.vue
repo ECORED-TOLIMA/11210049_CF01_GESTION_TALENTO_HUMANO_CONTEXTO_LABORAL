@@ -480,8 +480,11 @@
         .titulo-sexto.color-acento-contenido.mb-3
           h5 Figura 1.
           span Interacción entre la ética individual y la ética organizacional
-        figure.mb-0
+        figure.mb-0.d-none.d-md-block
           img(src="@/assets/curso/temas/t1/figura-1.svg" alt="Figura que representa la interacción entre la ética individual y la organizacional en función de su coherencia: al reforzarse generan confianza; al desconectarse, oportunismo y pérdida de legitimidad.").w-100
+        //- El XD trae la version movil de la figura al lado, en el pasteboard.
+        figure.mb-0.d-md-none
+          img(src="@/assets/curso/temas/t1/figura-1-movil.svg" alt="Figura que representa la interacción entre la ética individual y la organizacional en función de su coherencia: al reforzarse generan confianza; al desconectarse, oportunismo y pérdida de legitimidad.").w-100
 
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
@@ -578,41 +581,25 @@
     //- salen del _DI.docx, porque en el diseño solo esta desplegada esa.
     TabsA.color-acento-botones.mt-4(data-aos="fade-up")
       .bg-2.r-10.p-4(titulo="Selección")
-        .row.align-items-center
-          .col-12.col-md-auto.mb-3.mb-md-0
-            figure.mb-0
-              img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
-          .col
-            p.mb-0 En un enfoque ético no se limita a cubrir una vacante con rapidez, sino que garantiza mérito, equidad, transparencia y respeto por quien se postula. Aplicación en el entorno: una cooperativa de caficultores define criterios claros para cada etapa, publica los resultados y sustenta la decisión final, de modo que la elección no dependa de recomendaciones.
+        figure.mb-3
+          img(src="@/assets/curso/temas/t1/t1-tab-seleccion.svg" alt="" style="width: 84px")
+        p.mb-0 En un enfoque ético no se limita a cubrir una vacante con rapidez, sino que garantiza mérito, equidad, transparencia y respeto por quien se postula. Aplicación en el entorno: una cooperativa de caficultores define criterios claros para cada etapa, publica los resultados y sustenta la decisión final, de modo que la elección no dependa de recomendaciones.
       .bg-2.r-10.p-4(titulo="Inducción")
-        .row.align-items-center
-          .col-12.col-md-auto.mb-3.mb-md-0
-            figure.mb-0
-              img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
-          .col
-            p.mb-0 Más que transmitir información básica del cargo, favorece la integración humana, la comprensión de la cultura y el sentido de pertenencia. Aplicación en el entorno: una empresa de servicios asigna a cada persona recién vinculada un acompañante que le explica los valores institucionales, las rutinas del equipo y los canales para resolver dudas.
+        figure.mb-3
+          img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
+        p.mb-0 Más que transmitir información básica del cargo, favorece la integración humana, la comprensión de la cultura y el sentido de pertenencia. Aplicación en el entorno: una empresa de servicios asigna a cada persona recién vinculada un acompañante que le explica los valores institucionales, las rutinas del equipo y los canales para resolver dudas.
       .bg-2.r-10.p-4(titulo="Evaluación del desempeño")
-        .row.align-items-center
-          .col-12.col-md-auto.mb-3.mb-md-0
-            figure.mb-0
-              img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
-          .col
-            p.mb-0 En lugar de controlar y sancionar desviaciones, retroalimenta, orienta el mejoramiento y reconoce los aportes de cada persona. Aplicación en el entorno: una entidad pública incorpora en la evaluación una conversación de mejora, en la que se acuerdan compromisos y apoyos concretos, y no solo una calificación numérica.
+        figure.mb-3
+          img(src="@/assets/curso/temas/t1/t1-tab-evaluacion.svg" alt="" style="width: 84px")
+        p.mb-0 En lugar de controlar y sancionar desviaciones, retroalimenta, orienta el mejoramiento y reconoce los aportes de cada persona. Aplicación en el entorno: una entidad pública incorpora en la evaluación una conversación de mejora, en la que se acuerdan compromisos y apoyos concretos, y no solo una calificación numérica.
       .bg-2.r-10.p-4(titulo="Bienestar laboral")
-        .row.align-items-center
-          .col-12.col-md-auto.mb-3.mb-md-0
-            figure.mb-0
-              img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
-          .col
-            p.mb-0 Supera la oferta de beneficios aislados y promueve el desarrollo integral, el cuidado y unas condiciones dignas de trabajo. Aplicación en el entorno: una empresa textil ajusta los horarios, programa pausas activas y revisa las cargas de trabajo para cuidar la salud de sus operarias, más allá de un bono ocasional.
+        figure.mb-3
+          img(src="@/assets/curso/temas/t1/t1-tab-bienestar.svg" alt="" style="width: 84px")
+        p.mb-0 Supera la oferta de beneficios aislados y promueve el desarrollo integral, el cuidado y unas condiciones dignas de trabajo. Aplicación en el entorno: una empresa textil ajusta los horarios, programa pausas activas y revisa las cargas de trabajo para cuidar la salud de sus operarias, más allá de un bono ocasional.
       .bg-2.r-10.p-4(titulo="Convivencia")
-        .row.align-items-center
-          .col-12.col-md-auto.mb-3.mb-md-0
-            figure.mb-0
-              img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
-          .col
-            p.mb-0 En vez de resolver los conflictos cuando ya escalaron, previene tensiones y fortalece relaciones respetuosas. Aplicación en el entorno: en una obra de construcción, quien lidera el equipo acuerda reuniones breves y periódicas para atender los desacuerdos antes de que afecten el trabajo y el trato entre compañeros.
-
+        figure.mb-3
+          img(src="@/assets/curso/temas/t1/t1-tab-convivencia.svg" alt="" style="width: 84px")
+        p.mb-0 En vez de resolver los conflictos cuando ya escalaron, previene tensiones y fortalece relaciones respetuosas. Aplicación en el entorno: en una obra de construcción, quien lidera el equipo acuerda reuniones breves y periódicas para atender los desacuerdos antes de que afecten el trabajo y el trato entre compañeros.
     .row.justify-content-center.mt-5
       .col-lg-10
         p(data-aos="fade-right") Lo abordado en este primer tema permite concluir que la ética no es un complemento de la gestión del talento humano, sino su base de legitimidad. Una organización puede contar con herramientas sofisticadas de administración de personas, pero si sus decisiones contradicen la dignidad, la justicia y la responsabilidad, difícilmente podrá sostener una cultura sana y confiable. En consecuencia, debe considerarse la ética como criterio transversal para pensar, decidir y actuar dentro de cualquier escenario organizacional.

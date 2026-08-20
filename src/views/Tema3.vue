@@ -90,34 +90,21 @@
     //- activa la segunda; el contenido de las otras tres sale del _DI.docx.
     TabsA.color-acento-botones.mt-4(data-aos="fade-up")
       .bg-2.r-10.p-4(titulo="Seleccionar")
-        .row.align-items-center
-          .col-12.col-md-auto.mb-3.mb-md-0
-            figure.mb-0
-              img(src="@/assets/curso/temas/t3/ic-tab.svg" alt="" style="width: 84px")
-          .col
-            p.mb-0 Requiere criterios claros y no discriminatorios, es decir, definir el perfil antes de abrir la convocatoria, aplicar las mismas pruebas a todos los aspirantes y sustentar la decisión final en evidencias verificables, y no en recomendaciones ni en apreciaciones personales.
+        figure.mb-3
+          img(src="@/assets/curso/temas/t3/t3-tab-seleccionar.svg" alt="" style="width: 84px")
+        p.mb-0 Requiere criterios claros y no discriminatorios, es decir, definir el perfil antes de abrir la convocatoria, aplicar las mismas pruebas a todos los aspirantes y sustentar la decisión final en evidencias verificables, y no en recomendaciones ni en apreciaciones personales.
       .bg-2.r-10.p-4(titulo="Formar")
-        .row.align-items-center
-          .col-12.col-md-auto.mb-3.mb-md-0
-            figure.mb-0
-              img(src="@/assets/curso/temas/t3/ic-tab.svg" alt="" style="width: 84px")
-          .col
-            p.mb-0 Parte del reconocimiento de las capacidades y necesidades reales, de modo que la oferta de aprendizaje responda a los vacíos concretos del equipo y a las aspiraciones de cada persona, en lugar de repetir programas estandarizados que no transforman la práctica cotidiana.
+        figure.mb-3
+          img(src="@/assets/curso/temas/t3/ic-tab.svg" alt="" style="width: 84px")
+        p.mb-0 Parte del reconocimiento de las capacidades y necesidades reales, de modo que la oferta de aprendizaje responda a los vacíos concretos del equipo y a las aspiraciones de cada persona, en lugar de repetir programas estandarizados que no transforman la práctica cotidiana.
       .bg-2.r-10.p-4(titulo="Evaluar")
-        .row.align-items-center
-          .col-12.col-md-auto.mb-3.mb-md-0
-            figure.mb-0
-              img(src="@/assets/curso/temas/t3/ic-tab.svg" alt="" style="width: 84px")
-          .col
-            p.mb-0 Supone objetividad y retroalimentación responsable, lo que implica valorar el desempeño con indicadores conocidos de antemano y devolver los resultados en una conversación que reconozca los logros, precise los aspectos por mejorar y acuerde compromisos concretos.
+        figure.mb-3
+          img(src="@/assets/curso/temas/t3/t3-tab-evaluar.svg" alt="" style="width: 84px")
+        p.mb-0 Supone objetividad y retroalimentación responsable, lo que implica valorar el desempeño con indicadores conocidos de antemano y devolver los resultados en una conversación que reconozca los logros, precise los aspectos por mejorar y acuerde compromisos concretos.
       .bg-2.r-10.p-4(titulo="Promover el bienestar")
-        .row.align-items-center
-          .col-12.col-md-auto.mb-3.mb-md-0
-            figure.mb-0
-              img(src="@/assets/curso/temas/t3/ic-tab.svg" alt="" style="width: 84px")
-          .col
-            p.mb-0 Demanda escuchar y actuar sobre las condiciones laborales, pues no basta con ofrecer beneficios aislados si persisten las cargas excesivas, los horarios extenuantes o los espacios inadecuados que afectan la salud y la vida personal de quienes trabajan.
-
+        figure.mb-3
+          img(src="@/assets/curso/temas/t3/t3-tab-bienestar.svg" alt="" style="width: 84px")
+        p.mb-0 Demanda escuchar y actuar sobre las condiciones laborales, pues no basta con ofrecer beneficios aislados si persisten las cargas excesivas, los horarios extenuantes o los espacios inadecuados que afectan la salud y la vida personal de quienes trabajan.
     p.mt-4(data-aos="fade-right") Ninguna de estas condiciones se satisface solo con procedimientos bien diseñados. Un instrumento de evaluación técnicamente impecable pierde legitimidad si se aplica sin escuchar a la persona evaluada, del mismo modo que un plan de formación resulta inútil cuando ignora las necesidades del equipo.
 
     p(data-aos="fade-right") Su cumplimiento tampoco se limita a un momento puntual, sino que abarca todo el vínculo laboral. Desde que una persona ingresa hasta que se retira, la organización toma decisiones que marcan su experiencia y su desarrollo. Ese recorrido comprende cinco momentos:
@@ -225,25 +212,25 @@
               p.mb-0 #[b Los productos, servicios o programas que ofrece:] constituyen la oferta concreta con la que la organización responde a una necesidad, y explican en qué se traduce el trabajo diario de cada área ante quien lo recibe. Casos concretos: una caja de compensación ofrece programas de recreación y subsidios familiares; un taller de confección produce dotación institucional para entidades públicas y privadas de su región.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t3/p-slider.png" alt="").w-100
+                img(src="@/assets/curso/temas/t3/p-slider-2.png" alt="").w-100
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
               p.mb-0 #[b Los grupos de interés a los que se dirige:] identifican a quiénes afecta o beneficia la actividad institucional, dentro y fuera de la organización, lo que permite orientar el servicio con mayor precisión. Casos concretos: una universidad reconoce como grupos de interés a estudiantes, docentes y empleadores; una cooperativa agrícola, a los productores asociados y a los compradores mayoristas.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t3/p-slider.png" alt="").w-100
+                img(src="@/assets/curso/temas/t3/p-slider-3.png" alt="").w-100
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
               p.mb-0 #[b Los procesos que hacen posible esa oferta:] describen la secuencia de actividades mediante las cuales la organización transforma recursos en resultados, y muestran cómo se conecta el trabajo entre las distintas áreas. Casos concretos: en una entidad de salud, la ruta va desde la asignación de la cita hasta la entrega de medicamentos; en una empresa de alimentos, desde la compra de insumos hasta el despacho final.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t3/p-slider.png" alt="").w-100
+                img(src="@/assets/curso/temas/t3/p-slider-4.png" alt="").w-100
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
               p.mb-0 #[b Los resultados que se compromete a entregar:] precisan lo que la organización se obliga a cumplir ante sus grupos de interés, con plazos y condiciones verificables que permiten evaluar su desempeño. Casos concretos: una alcaldía se compromete a responder las peticiones en quince días hábiles; una empresa de servicios garantiza la reparación de equipos dentro de las cuarenta y ocho horas siguientes al reporte.
             .col-lg-6
               figure.mb-0
-                img(src="@/assets/curso/temas/t3/p-slider.png" alt="").w-100
+                img(src="@/assets/curso/temas/t3/p-slider-5.png" alt="").w-100
 
     .row.justify-content-center.mt-4
       .col-lg-10
