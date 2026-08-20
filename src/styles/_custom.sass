@@ -317,6 +317,24 @@ figcaption
 .tarjeta-audio
   background-color: $color-3-v
 
+// Banda decorativa del slider del 3.2 (1328x559 en y=5170).
+.bg-fondo-4
+  background-image: url(../assets/curso/temas/t3/bg-slider.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  margin-inline: -3rem
+  padding: 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding: 1rem 0
+    background-image: none
+
+// Infografia de puntos calientes del 3.1: el kit dibuja el punto al 2,5 % del ancho y en
+// el XD mide 78 px sobre un contenedor de 1032, o sea el 7,6 %.
+.img-infografica__item, .img-infografica-b__item
+  width: 7.6%
+
 // Radios del XD. `.r-0` es explicito para dejar claro que ese rect NO lleva radio.
 .r-0
   border-radius: 0 !important
