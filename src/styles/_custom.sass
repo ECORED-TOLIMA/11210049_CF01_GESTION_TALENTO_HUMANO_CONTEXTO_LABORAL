@@ -167,6 +167,14 @@ figcaption
       .icono-hover
         opacity: 1
 
+// Las filas de las tablas alternan #F6F6F6 y blanco en el XD (medido en el PDF: fila 1
+// #F6F6F6, fila 2 #FFFFFF). El kit no las raya, las deja transparentes.
+.tabla-a
+  tbody tr:nth-child(odd)
+    background-color: $color-sistema-h    // #F6F6F6
+  tbody tr:nth-child(even)
+    background-color: $white
+
 // `.cajon` de este curso: la pestana del XD mide 25x8 (el template la pinta de 10) y el
 // cuerpo lleva el `fill` exacto del rect, no el `lighten()` del modificador del kit.
 .cajon.color-1
@@ -205,6 +213,11 @@ figcaption
 // tarjetas pegadas hay que ponerlos. El XD redondea solo las esquinas exteriores (r=20)
 // y deja cuadradas las interiores.
 .tarjeta--container
+  // El XD NO reparte el ancho a partes iguales: las dos tarjetas exteriores son mas
+  // estrechas que las interiores (299/315/315/301 en las filas de cuatro, 405/419/405 en
+  // las de tres). Con `flex-grow: .95` en las de los extremos salen esos mismos numeros.
+  > .tarjeta:first-child, > .tarjeta:last-child
+    flex-grow: .95
   > .tarjeta
     border-radius: 0
   > .tarjeta:first-child
@@ -294,7 +307,7 @@ figcaption
   background-size: cover
   background-position: center
   margin-inline: -3rem
-  padding: 3rem
+  padding: 2.7rem 2rem                // la tarjeta del slider mide 1263 de 1328
   @media (max-width: $bp-max-md)
     margin-inline: 0
     padding: 1rem 0
@@ -341,7 +354,7 @@ figcaption
   background-size: cover
   background-position: center
   margin-inline: -3rem
-  padding: 3rem
+  padding: 2.7rem 2rem                // la tarjeta del slider mide 1263 de 1328
   @media (max-width: $bp-max-md)
     margin-inline: 0
     padding: 1rem 0
@@ -351,6 +364,29 @@ figcaption
 // el XD mide 78 px sobre un contenedor de 1032, o sea el 7,6 %.
 .img-infografica__item, .img-infografica-b__item
   width: 7.6%
+
+// Bandas decorativas que el XD pone DETRAS de cada tabla, del ancho completo de la
+// tarjeta (1328). La tabla, de 1020 centrados, va encima; en el PNG ese hueco esta vacio.
+.bg-tabla-1, .bg-tabla-2, .bg-tabla-3, .bg-tabla-4, .bg-tabla-5
+  background-repeat: no-repeat
+  background-size: 100% 100%
+  background-position: center
+  margin-inline: -3rem
+  padding: 2rem 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding: 0
+    background-image: none
+.bg-tabla-1
+  background-image: url(../assets/curso/temas/t1/bg-tabla-1.png)
+.bg-tabla-2
+  background-image: url(../assets/curso/temas/t1/bg-tabla-2.png)
+.bg-tabla-3
+  background-image: url(../assets/curso/temas/t3/bg-tabla-3.png)
+.bg-tabla-4
+  background-image: url(../assets/curso/temas/t4/bg-tabla-4.png)
+.bg-tabla-5
+  background-image: url(../assets/curso/temas/t4/bg-tabla-5.png)
 
 // Radios del XD. `.r-0` es explicito para dejar claro que ese rect NO lleva radio.
 .r-0

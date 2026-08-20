@@ -192,7 +192,7 @@
                   .lista-ol--cuadro__vineta
                     span E
                   | La permanencia de un ambiente de trabajo respetuoso.
-            .col-lg-4.mt-4.mt-lg-0
+            .col-lg-3.mt-4.mt-lg-0
               figure.mb-0
                 img(src="@/assets/curso/temas/t1/img-abc.svg" alt="").w-100
 
@@ -210,35 +210,36 @@
 
     p.mt-5(data-aos="fade-right") Para facilitar la comprensión del alcance de la ética en el contexto laboral, a continuación, se presenta un resumen que relaciona su sentido filosófico con expresiones prácticas dentro de la gestión del talento humano.
 
-    .row.justify-content-center.mt-4
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 1.
-          span Dimensiones de la ética
-        .tabla-a.color-acento-contenido
-          table
-            thead
-              tr
-                th Dimensión
-                th Descripción
-                th Expresión en el contexto laboral
-            tbody
-              tr
-                td Reflexiva
-                td Analiza los fundamentos de las acciones humanas y sus consecuencias.
-                td Permite valorar si una decisión de liderazgo respeta la dignidad del trabajador.
-              tr
-                td Normativa
-                td Orienta criterios sobre lo correcto, lo justo y lo responsable.
-                td Guía la formulación de códigos de conducta, reglamentos y políticas internas.
-              tr
-                td Relacional
-                td Reconoce que toda acción afecta a otras personas y construye convivencia.
-                td Incide en la manera de comunicarse, coordinar tareas y resolver conflictos.
-              tr
-                td Organizacional
-                td Se expresa en prácticas institucionales coherentes con los valores declarados.
-                td Favorece procesos transparentes de selección, evaluación y promoción.
+    .bg-tabla-1.mt-4
+      .row.justify-content-center.mt-4
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Tabla 1.
+            span Dimensiones de la ética
+          .tabla-a.color-acento-contenido
+            table
+              thead
+                tr
+                  th Dimensión
+                  th Descripción
+                  th Expresión en el contexto laboral
+              tbody
+                tr
+                  td Reflexiva
+                  td Analiza los fundamentos de las acciones humanas y sus consecuencias.
+                  td Permite valorar si una decisión de liderazgo respeta la dignidad del trabajador.
+                tr
+                  td Normativa
+                  td Orienta criterios sobre lo correcto, lo justo y lo responsable.
+                  td Guía la formulación de códigos de conducta, reglamentos y políticas internas.
+                tr
+                  td Relacional
+                  td Reconoce que toda acción afecta a otras personas y construye convivencia.
+                  td Incide en la manera de comunicarse, coordinar tareas y resolver conflictos.
+                tr
+                  td Organizacional
+                  td Se expresa en prácticas institucionales coherentes con los valores declarados.
+                  td Favorece procesos transparentes de selección, evaluación y promoción.
 
     p.mt-4(data-aos="fade-right") Lo anterior muestra que la ética no opera en un solo plano. Se manifiesta como reflexión, norma, relación y práctica institucional. Esta lectura ayuda a entender por qué su enseñanza debe trascender definiciones abstractas y traducirse en criterios aplicables a la realidad del trabajo.
 
@@ -354,7 +355,7 @@
           .row(numero="4" titulo="Sustentar y comunicar la decisión")
             .col-12
               p.mb-0 Exige explicar las razones de manera clara y oportuna, pues una determinación justificada resulta comprensible, aunque no todas las personas la compartan. Ejemplo: quien coordina un área informa por qué se aplazó un proyecto, expone los criterios considerados y responde las inquietudes en la misma reunión.
-      .col-lg-4.mt-4.mt-lg-0
+      .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
           img(src="@/assets/curso/temas/t1/foto-7.png" alt="").w-100
 
@@ -367,43 +368,44 @@
       .col
         p.mb-0 Reunidos los fundamentos y las pautas de decisión, resulta oportuno observar cada referente ético en su expresión concreta dentro del trabajo. Cada principio posee un sentido propio y, a la vez, se traduce en prácticas que pueden reconocerse en la selección, la evaluación, la comunicación y el trato cotidiano entre las personas. El siguiente resumen relaciona esos dos planos y muestra cómo un valor declarado se convierte en una actuación observable en la gestión del talento humano.
 
-    .row.justify-content-center.mt-4
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 2.
-          span Principios y valores éticos
-        .tabla-a.color-acento-contenido
-          table
-            thead
-              tr
-                th Principio o valor
-                th Sentido ético
-                th Aplicación en la gestión del talento humano
-            tbody
-              tr
-                td Dignidad humana
-                td Reconoce el valor intrínseco de toda persona.
-                td Exige un trato respetuoso, procesos sin humillación y el reconocimiento del trabajador como sujeto de derechos.
-              tr
-                td Justicia
-                td Orienta a dar a cada quien lo que corresponde de manera equitativa.
-                td Impulsa procesos de selección, ascenso y evaluación basados en criterios claros.
-              tr
-                td Responsabilidad
-                td Implica asumir las consecuencias y actuar con compromiso.
-                td Obliga a tomar decisiones laborales con fundamento, seguimiento y respeto por sus efectos.
-              tr
-                td Honestidad
-                td Favorece la verdad, la transparencia y la coherencia.
-                td Se refleja en información clara, comunicación veraz y manejo ético de situaciones sensibles.
-              tr
-                td Respeto
-                td Reconoce la dignidad y la diferencia del otro.
-                td Fortalece la convivencia, la escucha y el trato adecuado entre compañeros y líderes.
-              tr
-                td Solidaridad
-                td Dispone a colaborar y a reconocer la interdependencia humana.
-                td Favorece el apoyo mutuo, el trabajo en equipo y la sensibilidad frente a situaciones personales.
+    .bg-tabla-2.mt-4
+      .row.justify-content-center.mt-4
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Tabla 2.
+            span Principios y valores éticos
+          .tabla-a.color-acento-contenido
+            table
+              thead
+                tr
+                  th Principio o valor
+                  th Sentido ético
+                  th Aplicación en la gestión del talento humano
+              tbody
+                tr
+                  td Dignidad humana
+                  td Reconoce el valor intrínseco de toda persona.
+                  td Exige un trato respetuoso, procesos sin humillación y el reconocimiento del trabajador como sujeto de derechos.
+                tr
+                  td Justicia
+                  td Orienta a dar a cada quien lo que corresponde de manera equitativa.
+                  td Impulsa procesos de selección, ascenso y evaluación basados en criterios claros.
+                tr
+                  td Responsabilidad
+                  td Implica asumir las consecuencias y actuar con compromiso.
+                  td Obliga a tomar decisiones laborales con fundamento, seguimiento y respeto por sus efectos.
+                tr
+                  td Honestidad
+                  td Favorece la verdad, la transparencia y la coherencia.
+                  td Se refleja en información clara, comunicación veraz y manejo ético de situaciones sensibles.
+                tr
+                  td Respeto
+                  td Reconoce la dignidad y la diferencia del otro.
+                  td Fortalece la convivencia, la escucha y el trato adecuado entre compañeros y líderes.
+                tr
+                  td Solidaridad
+                  td Dispone a colaborar y a reconocer la interdependencia humana.
+                  td Favorece el apoyo mutuo, el trabajo en equipo y la sensibilidad frente a situaciones personales.
 
     p.mt-4(data-aos="fade-right") Este análisis muestra una continuidad entre fundamentos éticos y prácticas organizacionales. No se trata de principios distantes de la realidad, sino de referencias que deben orientar decisiones concretas. Por ello, fortalecer la gestión del talento humano desde la ética supone reconocer que la cultura laboral no se construye solo con metas e indicadores, sino también con valores vividos en la comunicación, en la coordinación del trabajo y en la manera de ejercer el liderazgo.
 
@@ -431,21 +433,24 @@
     //- Dos paneles pegados de 510x540 sobre una banda decorativa que se sale del ancho de
     //- la tarjeta por los dos lados (rects de 1328 en y=9032, o sea el borde de la tarjeta).
     .bg-fondo-1.mt-4
-      .tarjeta--container.row(data-aos="fade-up")
-        .col-md.tarjeta.bg-1-p.p-5
-          .row.justify-content-center.mb-3
-            .col-5
-              figure.mb-0
-                img(src="@/assets/curso/temas/t1/ic-panel-1.svg" alt="")
-          h3.text-center La ética individual
-          p.mb-0 Reúne las convicciones, los principios y los hábitos que orientan el comportamiento de una persona. Se forma a lo largo de la vida y se pone a prueba en situaciones concretas, sobre todo ante dilemas o presiones. En el trabajo se reconoce en el cumplimiento de los compromisos, la honestidad al comunicar información, la responsabilidad frente a las tareas asignadas y el respeto en el trato diario.
-        .col-md.tarjeta.bg-2-s.p-5
-          .row.justify-content-center.mb-3
-            .col-5
-              figure.mb-0
-                img(src="@/assets/curso/temas/t1/ic-panel-2.svg" alt="")
-          h3.text-center La ética organizacional
-          p.mb-0 Corresponde al marco compartido de principios, valores y normas que orienta el comportamiento colectivo de una institución. No se limita a los códigos de ética o los manuales de convivencia, aunque estos resulten importantes. Se manifiesta también en las decisiones reales de quienes dirigen, en los mensajes que circulan, en las prácticas de reconocimiento y sanción, y en la consistencia entre lo que se declara y lo que efectivamente se promueve.
+      //- El par de paneles mide 1020 (510 + 510), no los 1228 de la tarjeta.
+      .row.justify-content-center
+        .col-lg-10
+          .tarjeta--container.row(data-aos="fade-up")
+            .col-md.tarjeta.bg-1-p.p-5
+              .row.justify-content-center.mb-3
+                .col-5
+                  figure.mb-0
+                    img(src="@/assets/curso/temas/t1/ic-panel-1.svg" alt="")
+              h3.text-center La ética individual
+              p.mb-0 Reúne las convicciones, los principios y los hábitos que orientan el comportamiento de una persona. Se forma a lo largo de la vida y se pone a prueba en situaciones concretas, sobre todo ante dilemas o presiones. En el trabajo se reconoce en el cumplimiento de los compromisos, la honestidad al comunicar información, la responsabilidad frente a las tareas asignadas y el respeto en el trato diario.
+            .col-md.tarjeta.bg-2-s.p-5
+              .row.justify-content-center.mb-3
+                .col-5
+                  figure.mb-0
+                    img(src="@/assets/curso/temas/t1/ic-panel-2.svg" alt="")
+              h3.text-center La ética organizacional
+              p.mb-0 Corresponde al marco compartido de principios, valores y normas que orienta el comportamiento colectivo de una institución. No se limita a los códigos de ética o los manuales de convivencia, aunque estos resulten importantes. Se manifiesta también en las decisiones reales de quienes dirigen, en los mensajes que circulan, en las prácticas de reconocimiento y sanción, y en la consistencia entre lo que se declara y lo que efectivamente se promueve.
 
     .row.mt-4
       .col-lg-8.mb-4.mb-lg-0

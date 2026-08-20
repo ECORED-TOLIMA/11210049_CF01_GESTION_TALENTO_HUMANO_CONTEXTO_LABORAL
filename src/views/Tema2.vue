@@ -48,7 +48,7 @@
                   .lista-ol--cuadro__vineta
                     span 5
                   | Aplicar prácticas concretas para cuidar las relaciones en el día a día.
-          .col-lg-4.mt-4.mt-lg-0
+          .col-lg-3.mt-4.mt-lg-0
             figure.mb-0
               img(src="@/assets/curso/temas/t2/img-pasos.svg" alt="").w-100
 
@@ -248,7 +248,7 @@
           .row(numero="4" titulo="Disposición al trabajo colaborativo")
             .col-12
               p.mb-0 Supone entender que el logro colectivo depende de la corresponsabilidad y no del esfuerzo aislado. Quien colabora comparte información, ofrece ayuda antes de que se la pidan y asume que el resultado del equipo también le pertenece, aunque la tarea no sea suya. Se observa cuando un integrante explica a otro un procedimiento que domina o cuando dos áreas acuerdan un cronograma conjunto en lugar de trabajar por separado.
-      .col-lg-4.mt-4.mt-lg-0
+      .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
           img(src="@/assets/curso/temas/t2/p-7.png" alt="").w-100
 
@@ -268,7 +268,8 @@
     //- la tarjeta blanca. El XD solo dibuja la foto de la primera diapositiva: ver el punto
     //- correspondiente de `fuentes/REVISION-PENDIENTES.md`.
     .bg-fondo-2.mt-4
-      .tarjeta.tarjeta--blanca.r-20(data-aos="fade-up")
+      //- La tarjeta del slider es #FAFBFF (3-V), no blanca: muestreado en el PDF.
+      .tarjeta.bg-3-v.r-20(data-aos="fade-up")
         SlyderA(tipo="b")
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
@@ -318,7 +319,7 @@
           .bg-1-p.r-0(data-aos="fade-up")
             figure.mb-0
               img(src="@/assets/curso/temas/t2/p-8.png" alt="").w-100
-            .p-3
+            .p-4
               TarjetaAudio.color-acento-botones.mb-0(
                 texto="Pódcast"
                 :audio="require_src('@/assets/curso/temas/t2/podcast.mp3')"

@@ -162,3 +162,34 @@ dos caen a menos de 7 px de su posición.
 
 Junto a esa nota, el pasteboard deja también un enlace al icono `headset` de Font Awesome. No
 indica dónde va; el reproductor del pódcast usa el icono propio del kit.
+
+## 14. Revisión del curso completo contra el PDF (2026-08-20)
+
+Se comparó cada pantalla **elemento a elemento** contra los rects del artboard: color exacto,
+ancho y alto de cada caja con fondo, y tamaño con el que se pinta cada imagen frente al tamaño
+con el que salió del XD. Resultado: **ningún color inventado** y **ningún rect del diseño sin
+maquetar** en las cinco pantallas medibles.
+
+Lo que la revisión encontró y quedó corregido:
+
+| | Estaba | Es |
+|---|---|---|
+| Filas de las cinco tablas | sin fondo | alternan `#F6F6F6` y blanco |
+| Bandas decorativas detrás de las tablas | no estaban | cinco bandas de 1328 px (dos en el tema 1, una en el 3, dos en el 4) |
+| Tarjetas pegadas | cuatro columnas iguales de 314 | 299/315/315/301, como el XD |
+| Par de paneles del 1.3 | ancho completo (628 cada uno) | 1020 centrados (510 cada uno) |
+| Tarjeta del slider | blanca y de 1231 | `#FAFBFF` y de 1263 |
+| Barra del pódcast | 990 | 972 |
+| Caja de los cinco ámbitos del 3.4 | `col-5` | `col-6` (500 de 1020) |
+| Siete imágenes | una columna de más | la que da `round(ancho/contenedor × 12)` |
+
+Lo que **no** se ha tocado y por qué:
+
+- Las bandas de `.bloque-texto-g` miden 1231 en el render y el rect del XD 919. No es un
+  descuadre: el componente pinta el ancho completo y la fotografía tapa la mitad izquierda.
+  Comprobado con el píxel del PDF, el naranja empieza justo donde termina la foto.
+- Dos columnas quedan a 30-35 px del ancho del diseño (la caja de pasos del tema 2, 673 frente
+  a 708; y la del tema 3, 586 frente a 604). Las dos son las que da la regla del proyecto
+  `col = round(ancho/1228 × 12)`; la rejilla de doce no tiene un valor intermedio.
+
+La comparación es reproducible: `scripts/comparar_elementos.py <ruta> <artboard>`.

@@ -173,39 +173,40 @@
         figure.mb-0
           img(src="@/assets/curso/temas/t4/p-4.png" alt="").w-100
 
-    .row.justify-content-center.mt-4
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 4.
-          span Componentes de la inteligencia emocional
-        .tabla-a.color-acento-contenido
-          table
-            thead
-              tr
-                th Componente
-                th Descripción
-                th Manifestación en el trabajo
-            tbody
-              tr
-                td Autoconciencia
-                td Reconocer las propias emociones y su influencia en la conducta.
-                td Identificar estrés, frustración o entusiasmo antes de que condicionen una decisión.
-              tr
-                td Autorregulación
-                td Manejar las emociones de forma constructiva y no impulsiva.
-                td Responder con prudencia ante tensiones, críticas o presión.
-              tr
-                td Motivación
-                td Orientar la energía emocional hacia metas y esfuerzo sostenido.
-                td Mantener el compromiso y la disposición frente a tareas y desafíos.
-              tr
-                td Empatía
-                td Comprender los sentimientos y perspectivas de los demás.
-                td Escuchar las necesidades del equipo y actuar con consideración.
-              tr
-                td Habilidades sociales
-                td Construir relaciones, comunicarse y gestionar conflictos.
-                td Coordinar equipos, negociar desacuerdos y fortalecer la cooperación.
+    .bg-tabla-4.mt-4
+      .row.justify-content-center.mt-4
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Tabla 4.
+            span Componentes de la inteligencia emocional
+          .tabla-a.color-acento-contenido
+            table
+              thead
+                tr
+                  th Componente
+                  th Descripción
+                  th Manifestación en el trabajo
+              tbody
+                tr
+                  td Autoconciencia
+                  td Reconocer las propias emociones y su influencia en la conducta.
+                  td Identificar estrés, frustración o entusiasmo antes de que condicionen una decisión.
+                tr
+                  td Autorregulación
+                  td Manejar las emociones de forma constructiva y no impulsiva.
+                  td Responder con prudencia ante tensiones, críticas o presión.
+                tr
+                  td Motivación
+                  td Orientar la energía emocional hacia metas y esfuerzo sostenido.
+                  td Mantener el compromiso y la disposición frente a tareas y desafíos.
+                tr
+                  td Empatía
+                  td Comprender los sentimientos y perspectivas de los demás.
+                  td Escuchar las necesidades del equipo y actuar con consideración.
+                tr
+                  td Habilidades sociales
+                  td Construir relaciones, comunicarse y gestionar conflictos.
+                  td Coordinar equipos, negociar desacuerdos y fortalecer la cooperación.
 
     .row.align-items-start.mt-4(data-aos="fade-right")
       .col-auto.mb-3.mb-md-0
@@ -284,39 +285,40 @@
 
     p.mt-4(data-aos="fade-right") Cada práctica responde a un propósito distinto y encuentra aplicación en situaciones específicas. La siguiente tabla precisa esa correspondencia y facilita elegir la más adecuada según lo que ocurra en el momento.
 
-    .row.justify-content-center.mt-4
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 5.
-          span Estrategias para manejar las emociones
-        .tabla-a.color-acento-contenido
-          table
-            thead
-              tr
-                th Estrategia
-                th Propósito
-                th Aplicación en el entorno laboral
-            tbody
-              tr
-                td Escucha activa
-                td Comprender al otro más allá de la respuesta inmediata.
-                td Mejora las conversaciones difíciles, la retroalimentación y el manejo de desacuerdos.
-              tr
-                td Pausa antes de responder
-                td Evitar reacciones impulsivas.
-                td Ayuda a responder con mayor prudencia ante la tensión o el conflicto.
-              tr
-                td Identificación de detonantes
-                td Reconocer las situaciones que activan respuestas intensas.
-                td Permite prepararse frente a la presión, la crítica o la sobrecarga.
-              tr
-                td Autocuidado
-                td Fortalecer el bienestar físico y emocional.
-                td Aumenta la resiliencia frente al estrés y mejora la regulación emocional.
-              tr
-                td Búsqueda de apoyo
-                td Evitar el aislamiento y recibir orientación o contención.
-                td Facilita afrontar conflictos complejos o situaciones de sobrecarga emocional.
+    .bg-tabla-5.mt-4
+      .row.justify-content-center.mt-4
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Tabla 5.
+            span Estrategias para manejar las emociones
+          .tabla-a.color-acento-contenido
+            table
+              thead
+                tr
+                  th Estrategia
+                  th Propósito
+                  th Aplicación en el entorno laboral
+              tbody
+                tr
+                  td Escucha activa
+                  td Comprender al otro más allá de la respuesta inmediata.
+                  td Mejora las conversaciones difíciles, la retroalimentación y el manejo de desacuerdos.
+                tr
+                  td Pausa antes de responder
+                  td Evitar reacciones impulsivas.
+                  td Ayuda a responder con mayor prudencia ante la tensión o el conflicto.
+                tr
+                  td Identificación de detonantes
+                  td Reconocer las situaciones que activan respuestas intensas.
+                  td Permite prepararse frente a la presión, la crítica o la sobrecarga.
+                tr
+                  td Autocuidado
+                  td Fortalecer el bienestar físico y emocional.
+                  td Aumenta la resiliencia frente al estrés y mejora la regulación emocional.
+                tr
+                  td Búsqueda de apoyo
+                  td Evitar el aislamiento y recibir orientación o contención.
+                  td Facilita afrontar conflictos complejos o situaciones de sobrecarga emocional.
 
     //- Banda #FEDDB4 de 1228x360 con la foto en la mitad izquierda (614) y la caja #FAFBFF
     //- de 685x270 montada encima: `.bloque-texto-g`.

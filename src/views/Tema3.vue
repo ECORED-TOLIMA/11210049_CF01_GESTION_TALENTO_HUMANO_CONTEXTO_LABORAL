@@ -187,7 +187,7 @@
 
         .bg-1.r-0.p-4.mb-0(data-aos="fade-right")
           p.mb-0 Ese propósito institucional no siempre resulta evidente para quien desempeña una función concreta. Cada organización entrega algo a alguien y lo hace a su manera, con unos valores que rara vez están escritos en un documento, aunque se perciben en el trato cotidiano. Reconocer esos dos aspectos conduce a identificar el portafolio institucional y la cultura organizacional, dos referentes que permiten ubicar el propio trabajo dentro del conjunto.
-      .col-lg-4.mt-4.mt-lg-0
+      .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
           img(src="@/assets/curso/temas/t3/foto-clima.png" alt="").w-100
 
@@ -211,7 +211,8 @@
     //- Slider de 5 diapositivas sobre la banda decorativa de 1328x559. Igual que en el Tema 2,
     //- el XD solo dibuja la foto de la primera: ver `fuentes/REVISION-PENDIENTES.md`.
     .bg-fondo-4.mt-4
-      .tarjeta.tarjeta--blanca.r-20(data-aos="fade-up")
+      //- La tarjeta del slider es #FAFBFF (3-V), no blanca: muestreado en el PDF.
+      .tarjeta.bg-3-v.r-20(data-aos="fade-up")
         SlyderA(tipo="b")
           .row.justify-content-center.align-items-center.p-4.p-lg-5
             .col-lg-6.mb-4.mb-lg-0
@@ -460,21 +461,21 @@
     .tarjeta--container.row.mt-4.mb-4(data-aos="fade-up")
       .col-md.tarjeta.bg-1-p.p-5
         .row.justify-content-center.mb-3
-          .col-5
+          .col-6
             figure.mb-0
               img(src="@/assets/curso/temas/t3/ic-f1.svg" alt="")
         h3.text-center Política
         p.mb-0 Define lineamientos, criterios y orientaciones generales. Un ejemplo es la política de selección basada en el mérito, la equidad y la no discriminación.
       .col-md.tarjeta.bg-2-s.p-5
         .row.justify-content-center.mb-3
-          .col-5
+          .col-6
             figure.mb-0
               img(src="@/assets/curso/temas/t3/ic-f2.svg" alt="")
         h3.text-center Procedimiento
         p.mb-0 Describe los pasos concretos para ejecutar un proceso, como convocar, entrevistar, evaluar y vincular a los candidatos de manera estandarizada.
       .col-md.tarjeta.bg-3.p-5
         .row.justify-content-center.mb-3
-          .col-5
+          .col-6
             figure.mb-0
               img(src="@/assets/curso/temas/t3/ic-f3.svg" alt="")
         h3.text-center Valor organizacional
@@ -485,7 +486,7 @@
         p(data-aos="fade-right") Una buena gestión del talento humano necesita, por tanto, un marco orientador y una secuencia operativa. El primero da sentido y dirección; la segunda permite actuar con consistencia. Al alinearse con los valores institucionales y comunicarse de manera comprensible, ambos fortalecen la confianza, la legitimidad y la calidad de la experiencia laboral.
 
         p.mb-0(data-aos="fade-right") Con todo, ni los valores compartidos ni las reglas escritas explican por completo cómo se siente el trabajo en una organización. Existe una dimensión perceptiva, construida por la experiencia diaria de las personas, que incide de manera directa en su motivación y en su permanencia. Esa valoración compartida sobre el ambiente laboral configura el clima organizacional.
-      .col-lg-4.mt-4.mt-lg-0
+      .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
           img(src="@/assets/curso/temas/t3/ilus-2.png" alt="").w-100
 
@@ -515,7 +516,7 @@
     .row.justify-content-center.mt-4
       .col-lg-10
         .row.align-items-center
-          .col-lg-5
+          .col-lg-6
             .bg-2.r-0.p-4.h-100(data-aos="fade-right")
               ol.lista-ol--cuadro.mb-0
                 li
@@ -538,7 +539,7 @@
                   .lista-ol--cuadro__vineta
                     span 5
                   | #[b Relaciones interpersonales]
-          .col-lg-5.mt-4.mt-lg-0
+          .col-lg-6.mt-4.mt-lg-0
             figure.mb-0
               img(src="@/assets/curso/temas/t3/ilus-3.png" alt="").w-100
 
@@ -606,39 +607,40 @@
           .col
             p.mb-0 Cada uno de los cinco ámbitos produce efectos opuestos según se atienda o se descuide. Un liderazgo cercano orienta, mientras que uno distante desmotiva; una comunicación oportuna coordina, mientras que su ausencia alimenta rumores. La siguiente tabla contrasta ambas caras y facilita reconocer señales tempranas para actuar antes de que la dificultad se instale en el equipo.
 
-    .row.justify-content-center.mt-4
-      .col-lg-10
-        .titulo-sexto.color-acento-contenido.mb-3
-          h5 Tabla 3.
-          span Aspectos del clima organizacional
-        .tabla-a.color-acento-contenido
-          table
-            thead
-              tr
-                th Aspecto del clima
-                th Manifestación positiva
-                th Riesgo cuando se deteriora
-            tbody
-              tr
-                td Liderazgo
-                td Genera orientación, confianza y reconocimiento.
-                td Produce temor, distancia o desmotivación si es autoritario o indiferente.
-              tr
-                td Comunicación
-                td Facilita la claridad, la participación y la coordinación.
-                td Causa rumores, malentendidos y desgaste si es deficiente.
-              tr
-                td Equidad
-                td Favorece la percepción de justicia y legitimidad.
-                td Genera inconformidad y resentimiento si existen favoritismos.
-              tr
-                td Desarrollo
-                td Motiva el aprendizaje, el compromiso y la proyección.
-                td Debilita la permanencia cuando no hay oportunidades reales.
-              tr
-                td Relaciones interpersonales
-                td Refuerzan el apoyo, la pertenencia y la cooperación.
-                td Su deterioro puede derivar en conflicto, aislamiento o fragmentación del equipo.
+    .bg-tabla-3.mt-4
+      .row.justify-content-center.mt-4
+        .col-lg-10
+          .titulo-sexto.color-acento-contenido.mb-3
+            h5 Tabla 3.
+            span Aspectos del clima organizacional
+          .tabla-a.color-acento-contenido
+            table
+              thead
+                tr
+                  th Aspecto del clima
+                  th Manifestación positiva
+                  th Riesgo cuando se deteriora
+              tbody
+                tr
+                  td Liderazgo
+                  td Genera orientación, confianza y reconocimiento.
+                  td Produce temor, distancia o desmotivación si es autoritario o indiferente.
+                tr
+                  td Comunicación
+                  td Facilita la claridad, la participación y la coordinación.
+                  td Causa rumores, malentendidos y desgaste si es deficiente.
+                tr
+                  td Equidad
+                  td Favorece la percepción de justicia y legitimidad.
+                  td Genera inconformidad y resentimiento si existen favoritismos.
+                tr
+                  td Desarrollo
+                  td Motiva el aprendizaje, el compromiso y la proyección.
+                  td Debilita la permanencia cuando no hay oportunidades reales.
+                tr
+                  td Relaciones interpersonales
+                  td Refuerzan el apoyo, la pertenencia y la cooperación.
+                  td Su deterioro puede derivar en conflicto, aislamiento o fragmentación del equipo.
 
     p.mt-4(data-aos="fade-right") El clima organizacional sintetiza, en buena medida, la experiencia humana del trabajo. Por eso, su análisis no debe desvincularse de la ética, de la cultura ni de la gestión del talento humano.
 
