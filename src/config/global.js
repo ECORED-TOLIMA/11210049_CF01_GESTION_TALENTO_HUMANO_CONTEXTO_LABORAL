@@ -5,7 +5,16 @@ export default {
       'El componente formativo desarrolla la capacidad de comprender la ética como fundamento de la gestión del talento humano. Aborda los principios y valores éticos, las relaciones interpersonales, la cultura y el clima organizacional, y la inteligencia emocional, con el fin de orientar decisiones justas y construir ambientes laborales respetuosos en las organizaciones.',
     imagenBannerPrincipal: '@/assets/curso/portada/ilustracion.png',
     fondoBannerPrincipal: '@/assets/curso/portada/fondo-banner.png',
-    imagenesDecorativasBanner: [],
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/decorativo-1.png',
+      },
+      {
+        clases: ['banner-principal-decorativo-2', 'd-none', 'd-lg-block'],
+        imagen: '@/assets/curso/portada/decorativo-2.png',
+      },
+    ],
   },
   menuPrincipal: {
     menu: [
@@ -157,14 +166,84 @@ export default {
   },
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Alteridad',
+      significado:
+        'capacidad de reconocer al otro como un ser diferente, con su propia historia, dignidad y perspectiva, y de relacionarse con él desde el reconocimiento y no desde la negación de su diferencia.',
+    },
+    {
+      termino: 'Clima organizacional',
+      significado:
+        'percepción colectiva que tienen los integrantes de una organización sobre el ambiente de trabajo, influida por factores como liderazgo, comunicación, equidad, desarrollo y relaciones interpersonales.',
+    },
+    {
+      termino: 'Cultura organizacional',
+      significado:
+        'conjunto de valores, creencias, normas y prácticas compartidas que definen la identidad de una organización y orientan el comportamiento de sus integrantes.',
+    },
+    {
+      termino: 'Ética',
+      significado:
+        'disciplina filosófica que estudia la conducta humana, sus principios y los criterios para distinguir lo correcto de lo incorrecto en las acciones de las personas.',
+    },
+    {
+      termino: 'Gestión del talento humano',
+      significado:
+        'conjunto de prácticas, políticas y procesos orientados a atraer, desarrollar, motivar y retener a las personas que contribuyen al logro de los objetivos institucionales.',
+    },
+    {
+      termino: 'Inteligencia emocional',
+      significado:
+        'capacidad de reconocer las emociones propias y ajenas, regularlas y emplearlas para orientar el pensamiento, la conducta y las relaciones.',
+    },
+    {
+      termino: 'Meritocracia',
+      significado:
+        'criterio de asignación de cargos, ascensos y reconocimientos según las capacidades y los logros demostrados, y no según vínculos personales o afinidades.',
+    },
+    {
+      termino: 'Política organizacional',
+      significado:
+        'lineamiento general establecido por la organización para orientar decisiones y comportamientos en áreas específicas.',
+    },
+    {
+      termino: 'Respeto',
+      significado:
+        'actitud de reconocimiento y consideración hacia la dignidad, ideas, tiempos, necesidades y derechos de los demás.',
     },
   ],
   referencias: [
     {
-      referencia: '---',
-      link: '---',
+      referencia:
+        'Cortina, A. (2013). <em>Ética de la razón cordial: Educar en la ciudadanía en el siglo XXI</em>. Ediciones Nobel.',
+    },
+    {
+      referencia:
+        'Goleman, D. (2012). <em>La inteligencia emocional en la empresa</em>. Vergara.',
+      link: 'https://www.bibliotecadigitaldebogota.gov.co/resources/3713806/',
+    },
+    {
+      referencia:
+        'Kant, I. (2013). <em>Fundamentación de la metafísica de las costumbres</em> (M. García Morente, Trad.). Tecnos. (Obra original publicada en 1785).',
+    },
+    {
+      referencia:
+        'Levinas, E. (2000). <em>Ética e infinito</em> (J. M. Ayuso Díez, Trad.). Gráficas Rógar.',
+    },
+    {
+      referencia:
+        'Llano, C. (2008). <em>El empresario y su mundo</em>. McGraw-Hill.',
+    },
+    {
+      referencia:
+        'Maslow, A. H. (2005). <em>El management según Maslow: Una visión humanista para la empresa de hoy</em>. Paidós.',
+    },
+    {
+      referencia:
+        'Ministerio de Trabajo. (2015). <em>Código Sustantivo del Trabajo</em>. República de Colombia.',
+    },
+    {
+      referencia:
+        'Robbins, S. P., y Judge, T. A. (2017). <em>Comportamiento organizacional</em> (17.ª ed.). Pearson.',
     },
   ],
   creditos: [
@@ -188,8 +267,8 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Gustavo Ernesto Mariño Puentes',
-          cargo: 'Experto temático',
+          nombre: 'Norma Constanza Morales Cruz',
+          cargo: 'Experta temática',
           centro: 'Centro de Comercio y Servicios - Regional Tolima',
         },
         {

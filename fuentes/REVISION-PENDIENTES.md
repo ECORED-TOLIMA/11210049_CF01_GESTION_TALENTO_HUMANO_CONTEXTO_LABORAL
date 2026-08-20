@@ -131,3 +131,34 @@ Tres cosas que conviene saber:
   («¿Qué es la ética según el componente formativo»). Se añadió el «?». La fila del comentario
   correcto de la pregunta 9 también viene sin su etiqueta en el documento, aunque el texto sí
   está y se usó tal cual.
+
+## 12. Glosario, referencias y créditos
+
+Los nueve términos del glosario y las ocho referencias salen del `_DI.docx`. Dos apuntes sobre
+la fuente:
+
+- En el glosario, la entrada **«Ética»** viene separada por un punto y no por dos puntos, como
+  las otras ocho. Se unificó con los dos puntos.
+- La referencia de **Goleman (2012)** trae debajo un enlace a la Biblioteca Digital de Bogotá;
+  se asoció a esa entrada, que es a la que corresponde.
+
+En los créditos, el bloque de **contenido instruccional** traía del scaffold un nombre que no es
+el de este curso. Según el `CONTROL DEL DOCUMENTO` del `_DI.docx`, la experta temática es
+**Norma Constanza Morales Cruz** (abril de 2026) y la evaluadora instruccional **Gloria Lida
+Alzate Suárez** (agosto de 2026). Los otros tres bloques —ecosistema, diseño y desarrollo, y
+validación— se dejan como venían: ninguna de las fuentes los contradice.
+
+## 13. Los dos distintivos de la portada flotan
+
+El pasteboard del XD lleva escrita la instrucción **«Flotar verticalmente en diferentes
+tiempos»** junto al rótulo `DESARROLLADORES`, referida a los dos distintivos circulares de la
+portada (la diana y el embudo). Se sacaron de la ilustración y se montaron como imágenes
+decorativas con la animación del scaffold y tiempos distintos (2,8 s y 2,5 s).
+
+Para anclarlos a la ilustración y no a la columna —que es más ancha y más alta—, la columna de
+la imagen pasa a ser una rejilla de una sola celda: imagen y distintivos comparten caja y los
+márgenes en porcentaje se resuelven contra el ancho de la ilustración. Medido contra el XD, los
+dos caen a menos de 7 px de su posición.
+
+Junto a esa nota, el pasteboard deja también un enlace al icono `headset` de Font Awesome. No
+indica dónde va; el reproductor del pódcast usa el icono propio del kit.

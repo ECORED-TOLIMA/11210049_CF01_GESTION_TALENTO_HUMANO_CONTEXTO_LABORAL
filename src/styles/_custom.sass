@@ -1,17 +1,34 @@
 @use 'variables' as *
+// Los dos distintivos de la portada. El pasteboard del XD deja la instruccion escrita
+// («Flotar verticalmente en diferentes tiempos»), asi que van FUERA de la ilustracion,
+// como imagenes decorativas con la animacion del scaffold y tiempos distintos.
+//
+// El kit los posiciona en absoluto contra la COLUMNA, que es mas ancha y mas alta que la
+// ilustracion; asi no hay forma de anclarlos a la imagen. Con una rejilla de una sola
+// celda, imagen y distintivos comparten caja y los margenes en % se resuelven contra el
+// ancho de esa celda, que es justo el de la ilustracion (506 px).
+//   distintivo 1: 80x80 en (857,538) -> pegado a la izquierda, 41 px sobre el borde inferior
+//   distintivo 2: 80x80 en (1283,373) -> pegado a la derecha, 206 px sobre el borde inferior
+.banner-principal__img
+  // `!important` porque la columna lleva `.d-lg-block` de Bootstrap, que es
+  // `display: block !important` y gana a cualquier `display` sin bandera.
+  display: grid !important
+  > img, > div
+    grid-area: 1 / 1
+  > div
+    position: relative !important
+    align-self: end
+    width: 15.8%                     // 80 de 506
+
 .banner-principal-decorativo
   &-1
     animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 68%
-    left: -10%
-    width: 20%
+    justify-self: start
+    margin-bottom: 8.1%              // 41 de 506
   &-2
     animation: float1 2.5s ease-in-out infinite alternate
-    position: absolute
-    top: 30%
-    right: 10%
-    width: 20%
+    justify-self: end
+    margin-bottom: 40.7%             // 206 de 506
 
 
 @keyframes float1
