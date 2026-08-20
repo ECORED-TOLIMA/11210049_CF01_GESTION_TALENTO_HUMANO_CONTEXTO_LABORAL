@@ -86,3 +86,26 @@ envolvente, que antes era `None`.
 Afecta a cualquier diagrama con flechas. En este curso hay `polygon` en los artboards del Tema 1
 (4), del Tema 2 (4), en `Tablet` (2) y en el pasteboard (10); los assets ya entregados de portada,
 introducción, 1.1 y 1.2 no contienen ninguno, así que no había nada que rehacer.
+
+## 9. Tema 2: faltan cuatro fotos del slider y el audio del pódcast
+
+- **Slider del 2.3** («factores que deterioran las relaciones»): el diseño dibuja **cinco
+  viñetas** y, con ellas, cinco diapositivas, pero en el `.xd` sólo existe la **fotografía de la
+  primera**. Ni el artboard ni el pasteboard traen las otras cuatro. Se han maquetado las cinco
+  diapositivas —los textos sí están completos en el `_DI.docx`— reutilizando esa única imagen,
+  para no romper la composición. Con las cuatro fotos definitivas se sustituyen y ya está.
+- **Pódcast del 2.3**: el `_DI.docx` nombra el guion (`12210049_CF01_Guion_podcast`) pero no hay
+  archivo de audio, y el XD dibuja la barra con un texto de relleno
+  (`xxxxxxxxxxx xxxxxxx xxx xxxxxxxxx`). Se deja un **MP3 mudo de 3 minutos** con el nombre
+  `podcast.mp3` para que el reproductor funcione; se reemplaza por el audio real cuando llegue.
+- **Una tarjeta del PDF que no está en el diseño**: en la página del Tema 2, el PDF muestra
+  una tarjeta flotante con «Relación vertical / Relación horizontal» encima del texto, hacia la
+  mitad del 2.1. Ese elemento **no pertenece al artboard** —es contenido del pasteboard que se
+  coló al exportar el PDF—, así que no se ha maquetado. La versión buena de esa comparación es
+  la Figura 2, que sí está en su sitio.
+
+## 10. Los textos alternativos de las figuras salen del pasteboard
+
+El `.xd` trae escritos los **textos alternativos** de las figuras, bajo el rótulo
+`Texto alternativo:` en el pasteboard. Son los que se han puesto en el `alt` de la Figura 1, de
+la Figura 2 y del mapa conceptual de la síntesis. No se redactan por cuenta propia.

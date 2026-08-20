@@ -476,7 +476,7 @@
           h5 Figura 1.
           span Interacción entre la ética individual y la ética organizacional
         figure.mb-0
-          img(src="@/assets/curso/temas/t1/figura-1.svg" alt="Esquema: la ética individual (convicciones y hábitos) y la ética organizacional (normas y liderazgo) se influyen mutuamente. Cuando se refuerzan producen confianza, credibilidad y convivencia respetuosa; cuando se desconectan, oportunismo, inequidad y pérdida de legitimidad.").w-100
+          img(src="@/assets/curso/temas/t1/figura-1.svg" alt="Figura que representa la interacción entre la ética individual y la organizacional en función de su coherencia: al reforzarse generan confianza; al desconectarse, oportunismo y pérdida de legitimidad.").w-100
 
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0

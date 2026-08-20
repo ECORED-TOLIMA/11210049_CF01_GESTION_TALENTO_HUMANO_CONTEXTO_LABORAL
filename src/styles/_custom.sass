@@ -270,6 +270,53 @@ figcaption
 .tabs-a__tab
   background-color: $color-4-vc
 
+// Banda decorativa del slider del 2.3 (1328x559 en y=6804, o sea el ancho de la tarjeta).
+.bg-fondo-2
+  background-image: url(../assets/curso/temas/t2/bg-slider.png)
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: center
+  margin-inline: -3rem
+  padding: 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding: 1rem 0
+    background-image: none
+
+// Slider del 2.3: el kit deja los botones blancos con borde gris y el bullet activo en
+// `$color-sistema-b`. El XD los pinta en #003CE1 con el chevron claro, y el bullet activo
+// en #FEDDB4 (muestreado en el PDF).
+.slyder-a
+  &__btn--sigt, &__btn--atrs
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    opacity: 1
+  &__bullets__item
+    background-color: $color-acento-botones
+    border-color: $color-acento-botones
+    opacity: 1
+    &--active
+      background-color: $color-primario
+      border-color: $color-primario
+
+// Banda decorativa del podcast del 2.3 (rects de 1328 en y=7711, el ancho de la tarjeta).
+.bg-fondo-3
+  background-image: url(../assets/curso/temas/t2/bg-audio.png)
+  background-repeat: no-repeat
+  background-size: 100% auto
+  background-position: center bottom
+  margin-inline: -3rem
+  padding-inline: 3rem
+  @media (max-width: $bp-max-md)
+    margin-inline: 0
+    padding-inline: 0
+    background-image: none
+
+// La barra de audio del XD es una pildora #FAFBFF sobre el panel naranja; el kit no le
+// pone fondo y quedaba translucida sobre el #FEDDB4.
+.tarjeta-audio
+  background-color: $color-3-v
+
 // Radios del XD. `.r-0` es explicito para dejar claro que ese rect NO lleva radio.
 .r-0
   border-radius: 0 !important
