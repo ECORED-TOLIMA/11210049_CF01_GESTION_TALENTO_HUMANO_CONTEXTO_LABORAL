@@ -9,12 +9,12 @@ pueda revertir sin tener que reconstruir el razonamiento.
 Cuatro cosas que no dependen de la maqueta: no están ni en el `.xd` ni en los documentos, y hay
 que pedirlas. Mientras tanto cada una tiene puesto un sustituto que deja el curso funcionando.
 
-| Qué falta | Dónde va | Qué hay puesto mientras tanto | Detalle |
-|---|---|---|---|
-| **La URL del vídeo** | Introducción | el `iframe` de ejemplo del scaffold | punto 1 |
-| **El audio del pódcast** | Tema 2, apartado 2.3 | un MP3 mudo de 3 minutos, `podcast.mp3` | punto 9 |
-| **Ocho fotografías de slider** | cuatro en el 2.3 y cuatro en el 3.2 | se repite en las cinco diapositivas la única que trae el `.xd` | punto 9 |
-| **Los iconos definitivos** | tema 1: tres círculos de preguntas, cuatro tarjetas de nociones y cuatro paneles de decisiones | el mismo glifo que repite el diseño | punto 2 |
+| Qué falta                      | Dónde va                                                                                       | Qué hay puesto mientras tanto                                  | Detalle |
+| ------------------------------ | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------- |
+| **La URL del vídeo**           | Introducción                                                                                   | el `iframe` de ejemplo del scaffold                            | punto 1 |
+| **El audio del pódcast**       | Tema 2, apartado 2.3                                                                           | un MP3 mudo de 3 minutos, `podcast.mp3`                        | punto 9 |
+| **Ocho fotografías de slider** | cuatro en el 2.3 y cuatro en el 3.2                                                            | se repite en las cinco diapositivas la única que trae el `.xd` | punto 9 |
+| **Los iconos definitivos**     | tema 1: tres círculos de preguntas, cuatro tarjetas de nociones y cuatro paneles de decisiones | el mismo glifo que repite el diseño                            | punto 2 |
 
 Ninguna de las cuatro afecta a la maquetación: se sustituye el archivo y ya está. Todo lo demás
 que aparece en este documento son decisiones ya tomadas, con su motivo, por si se quieren
@@ -64,10 +64,10 @@ trae completo.
 En dos filas de iconos la lectura automática del `.xd` devolvía el color de una capa inferior. Se
 resolvió muestreando el píxel del PDF, que es lo que se ha maquetado:
 
-| Elemento | Lectura del `.xd` | Color real (PDF) |
-|---|---|---|
-| Círculos de las tarjetas de nociones | `#003CE1` y `#EBB9C1` alternos | `#003CE1` los tres primeros, `#5E4A4D` el del estado *hover* |
-| Círculos de los cuatro paneles de decisiones | `#EBB9C1` | `#FAFBFF` |
+| Elemento                                     | Lectura del `.xd`              | Color real (PDF)                                             |
+| -------------------------------------------- | ------------------------------ | ------------------------------------------------------------ |
+| Círculos de las tarjetas de nociones         | `#003CE1` y `#EBB9C1` alternos | `#003CE1` los tres primeros, `#5E4A4D` el del estado _hover_ |
+| Círculos de los cuatro paneles de decisiones | `#EBB9C1`                      | `#FAFBFF`                                                    |
 
 ## 6. Ajustes sobre lo que traía la plantilla
 
@@ -204,16 +204,16 @@ maquetar** en las cinco pantallas medibles.
 
 Lo que la revisión encontró y quedó corregido:
 
-| | Estaba | Es |
-|---|---|---|
-| Filas de las cinco tablas | sin fondo | alternan `#F6F6F6` y blanco |
-| Bandas decorativas detrás de las tablas | no estaban | cinco bandas de 1328 px (dos en el tema 1, una en el 3, dos en el 4) |
-| Tarjetas pegadas | cuatro columnas iguales de 314 | 299/315/315/301, como el XD |
-| Par de paneles del 1.3 | ancho completo (628 cada uno) | 1020 centrados (510 cada uno) |
-| Tarjeta del slider | blanca y de 1231 | `#FAFBFF` y de 1263 |
-| Barra del pódcast | 990 | 972 |
-| Caja de los cinco ámbitos del 3.4 | `col-5` | `col-6` (500 de 1020) |
-| Siete imágenes | una columna de más | la que da `round(ancho/contenedor × 12)` |
+|                                         | Estaba                         | Es                                                                   |
+| --------------------------------------- | ------------------------------ | -------------------------------------------------------------------- |
+| Filas de las cinco tablas               | sin fondo                      | alternan `#F6F6F6` y blanco                                          |
+| Bandas decorativas detrás de las tablas | no estaban                     | cinco bandas de 1328 px (dos en el tema 1, una en el 3, dos en el 4) |
+| Tarjetas pegadas                        | cuatro columnas iguales de 314 | 299/315/315/301, como el XD                                          |
+| Par de paneles del 1.3                  | ancho completo (628 cada uno)  | 1020 centrados (510 cada uno)                                        |
+| Tarjeta del slider                      | blanca y de 1231               | `#FAFBFF` y de 1263                                                  |
+| Barra del pódcast                       | 990                            | 972                                                                  |
+| Caja de los cinco ámbitos del 3.4       | `col-5`                        | `col-6` (500 de 1020)                                                |
+| Siete imágenes                          | una columna de más             | la que da `round(ancho/contenedor × 12)`                             |
 
 Lo que **no** se ha tocado y por qué:
 
@@ -262,7 +262,7 @@ Resultado final: **0 elementos desbordados en las once rutas a 360 px.**
 **1. Colores de los fondos.** Se comparó cada caja con fondo del render contra los `fill` del
 `.xd`: **ningún color inventado** en ninguna de las cinco pantallas medibles. Los rects del
 diseño que no tienen una caja equivalente son, uno a uno, el marcador de vídeo (sustituido por
-el componente del kit), la tarjeta en estado *hover* del tema 1, dos sombras del pasteboard que
+el componente del kit), la tarjeta en estado _hover_ del tema 1, dos sombras del pasteboard que
 caen fuera del artboard y tres formas que van dentro de un SVG.
 
 **2. Distribución de elementos y textos.** Se verificó que **todos los textos del artboard están
@@ -295,3 +295,22 @@ pegados a las esquinas; con el ajuste quedan en x=22 y x=1157 sobre una tarjeta 
 **5. Animaciones de los iconos de la portada.** Los dos distintivos ejecutan `float1`, infinito
 y alterno, a **2,8 s y 2,5 s** —tiempos distintos, como pide la nota del pasteboard—. Medidos en
 tres instantes, se mueven desfasados el uno del otro.
+
+**PENDIENTES ENCONTRADOS EN LA REVISION**
+
+- vALIDAR NEGRILLAS Y CURSIVAS SEGUN EL DOCUMENTO DI
+- Revisar el espacio que hay entre cada tabla y el parrafo anterior.
+- revisar el tamaño de letra de cada header de tabla, debe ser como esta en el xd
+- el texto esta mal ubicado segun el xd "Una organización puede tener un discurso ético sólido en sus documentos y, sin embargo, tolerar prácticas contrarias a sus valores. Del mismo modo, una persona puede tener convicciones morales claras, pero verse debilitada si trabaja en un entorno donde predominan la arbitrariedad, la inequidad o la desconfianza. Por eso, fortalecer la ética organizacional implica crear condiciones estructurales y culturales que faciliten el comportamiento íntegro, en lugar de dejar toda la carga del actuar correcto a la voluntad aislada de cada trabajador."
+- En las figuras, recuerda que siempre a uno de los lados esta la version movil, para que la agregues.
+- Revisa el componente con el texto"En el contexto colombiano, la gestión ética del talento humano contribuye a una cultura de paz, equidad y convivencia ciudadana." Ya que el xd lo propone de otra manera. tambien revisa el color del background.
+- El componente que tiene este texto "En un enfoque ético no se limita a cubrir una vacante con rapidez, sino que garantiza mérito, equidad, transparencia y respeto por quien se postula. Aplicación en el entorno: una cooperativa de caficultores define criterios claros para cada etapa, publica los resultados y sustenta la decisión final, de modo que la elección no dependa de recomendaciones." tiene mal los iconos, revisa el xd estan al lado derecho de este. ademas va la imagen y abajo el texto tu lo tienes pegado.
+- El texto "Ese reconocimiento mutuo, sin embargo, necesita sostenerse en el tiempo. Los vínculos laborales se construyen y también se desgastan, según la manera como se comunican las personas, se reconocen los aportes y se tramitan los desacuerdos. Comprender qué los fortalece y qué los deteriora permite actuar de forma preventiva y no solo cuando el problema ya resulta visible." esta mal distribuido segun el xd
+- Siempre en los xd al lado de cada slider estan las imagenes de cada slide.
+- EL elemento con el texto "La convivencia laboral necesita, además, un respaldo institucional. Los procesos que definen la vinculación, la formación, la evaluación y el bienestar determinan buena parte de lo que ocurre entre las personas. Comprender cómo se gestionan esos procesos permite entender por qué unas organizaciones sostienen mejores ambientes de trabajo que otras." esta mal distribuido segun el xd
+- Revisa el componente que tiene este texto "Requiere criterios claros y no discriminatorios, es decir, definir el perfil antes de abrir la convocatoria, aplicar las mismas pruebas a todos los aspirantes y sustentar la decisión final en evidencias verificables, y no en recomendaciones ni en apreciaciones personales." Le faltan los iconos al lado del xd y la distribucion es imagen y abajo texto.
+- en el slider del 3.2 Portafolio institucional y cultura organizacional debes buscar las imagenes de cada slide siempre estan al lado acompañadas del texto correspondiente.
+- revisa el componente de este texto es un cajo y tu lo tienes solo background: "Conocer estos componentes permite que cada persona ubique su función dentro de una cadena de valor más amplia. Quien atiende una solicitud, elabora un informe o repara un equipo comprende entonces que su tarea no termina en sí misma, sino que sostiene un compromiso institucional con alguien concreto. Esa claridad fortalece el sentido de pertenencia y evita que el trabajo se viva como una sucesión de acciones aisladas o meramente repetitivas. En este punto, la gestión del talento humano cumple una función pedagógica y comunicativa de gran importancia."
+- Revisa este componente te falta texto segun el xd: "Estas cuatro vías explican por qué la inducción no puede reducirse a la entrega de un manual. Quien ingresa aprende la cultura sobre todo observando qué se celebra, qué se tolera y qué se corrige en la práctica diaria." ademas el diseño es un cajon no un background.
+- revisa segun el xd como debe ir donde esta este texto: "Lo anterior evidencia que el sentido del trabajo depende tanto del qué como del cómo. Una organización puede contar con un portafolio valioso y, aun así, ofrecer condiciones poco saludables si su cultura contradice el respeto, la participación o la coherencia ética. Fortalecer el conocimiento de ambos no constituye, por tanto, una tarea secundaria, sino una base para consolidar procesos de integración, compromiso y actuación ética."
+-
