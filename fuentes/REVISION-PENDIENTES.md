@@ -4,6 +4,22 @@ Lo que queda abierto en el entregable y las decisiones que se tomaron cuando la 
 alcanzaba. Cada punto dice **qué** pasa, **dónde** y **por qué** se resolvió así, para que se
 pueda revertir sin tener que reconstruir el razonamiento.
 
+## Lo que hace falta de terceros
+
+Cuatro cosas que no dependen de la maqueta: no están ni en el `.xd` ni en los documentos, y hay
+que pedirlas. Mientras tanto cada una tiene puesto un sustituto que deja el curso funcionando.
+
+| Qué falta | Dónde va | Qué hay puesto mientras tanto | Detalle |
+|---|---|---|---|
+| **La URL del vídeo** | Introducción | el `iframe` de ejemplo del scaffold | punto 1 |
+| **El audio del pódcast** | Tema 2, apartado 2.3 | un MP3 mudo de 3 minutos, `podcast.mp3` | punto 9 |
+| **Ocho fotografías de slider** | cuatro en el 2.3 y cuatro en el 3.2 | se repite en las cinco diapositivas la única que trae el `.xd` | punto 9 |
+| **Los iconos definitivos** | tema 1: tres círculos de preguntas, cuatro tarjetas de nociones y cuatro paneles de decisiones | el mismo glifo que repite el diseño | punto 2 |
+
+Ninguna de las cuatro afecta a la maquetación: se sustituye el archivo y ya está. Todo lo demás
+que aparece en este documento son decisiones ya tomadas, con su motivo, por si se quieren
+revertir.
+
 ## 1. Falta la URL del vídeo de la Introducción
 
 El artboard `Introduccion` reserva un bloque de **1228 × 580 con r=10** rotulado «Espacio para
