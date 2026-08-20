@@ -11,7 +11,7 @@
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t3/p-1.png" alt="").w-100
+          img(src="@/assets/curso/temas/t3/p-1.png" alt="").w-100.r-10
       .col-lg-9
         p(data-aos="fade-left") La gestión del talento humano representa una de las funciones más sensibles dentro de las organizaciones, porque articula las necesidades institucionales con procesos que afectan directamente a las personas. Se define como el conjunto de prácticas, políticas y procesos orientados a atraer, desarrollar, motivar y retener a quienes contribuyen al logro de los objetivos estratégicos. No se trata, por tanto, de administrar personal, sino de crear condiciones para que el trabajo se realice con excelencia, sentido y bienestar.
 
@@ -355,7 +355,7 @@
               p.mb-0 Ambos instrumentos resultan esenciales para la gestión del talento humano, porque ofrecen criterios de acción y ayudan a prevenir arbitrariedades. Solo cumplen su propósito, no obstante, cuando se encuentran vinculados a la cultura y a los valores de la organización. Una disposición puede ser técnicamente correcta y perder legitimidad si se aplica de forma desigual o si contradice el respeto por las personas.
       .col-lg-3.mt-4.mt-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t3/p-6.png" alt="").w-100
+          img(src="@/assets/curso/temas/t3/p-6.png" alt="").w-100.r-10
 
     p.mt-4(data-aos="fade-right") En el ámbito laboral, la formalización abarca los asuntos que más inciden en la trayectoria de quienes trabajan:
 
@@ -553,7 +553,7 @@
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t3/p-7.png" alt="").w-100
+          img(src="@/assets/curso/temas/t3/p-7.png" alt="").w-100.r-10
       .col-lg-9
         .bg-1.r-0.p-4(data-aos="fade-left")
           p.mb-0 Cada ámbito se manifiesta de manera distinta según se cuide o se descuide. Un mismo liderazgo genera confianza o temor, y una misma política de desarrollo motiva el aprendizaje o produce frustración cuando las oportunidades anunciadas no se concretan. Más que calificar el ambiente como bueno o malo, conviene observar cómo se comporta cada factor en la realidad cotidiana.

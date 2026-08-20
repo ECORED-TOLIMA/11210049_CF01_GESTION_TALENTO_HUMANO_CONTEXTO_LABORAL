@@ -11,7 +11,7 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t4/p-1.png" alt="").w-100
+          img(src="@/assets/curso/temas/t4/p-1.png" alt="").w-100.r-10
       .col-lg-8
         .bg-3.r-0.p-4.h-100(data-aos="fade-left")
           p La vida laboral está atravesada por emociones. La alegría, la frustración, la presión, el entusiasmo, el temor, el cansancio, el orgullo o la incertidumbre aparecen con frecuencia en la experiencia cotidiana de quienes trabajan. Durante mucho tiempo, sin embargo, los entornos organizacionales tendieron a tratarlas como un asunto privado o incluso como un obstáculo para el desempeño.
@@ -225,7 +225,7 @@
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t4/p-5.png" alt="").w-100
+          img(src="@/assets/curso/temas/t4/p-5.png" alt="").w-100.r-10
       .col-lg-8
         .bg-3.r-10.p-4(data-aos="fade-left")
           p.mb-0 En Colombia, estas exigencias se combinan con realidades propias. Los desplazamientos prolongados en las ciudades principales, la incertidumbre asociada a la contratación temporal y la informalidad que persiste en varios sectores productivos añaden tensiones que acompañan a las personas antes incluso de comenzar sus tareas. Reconocer ese contexto evita atribuir el malestar a una supuesta falta de carácter y sitúa el manejo emocional como una necesidad real de la vida laboral contemporánea.
@@ -271,17 +271,17 @@
           p.text-center.mb-0
             b Gestionar las emociones no consiste en eliminar la tensión del trabajo, sino en contar con herramientas para tramitarla de manera constructiva.
 
-    //- Caja #FFF5E8 de 1020x160 (col-10) con la ilustracion de 292x160 pegada a su izquierda.
+    //- Caja #FFF5E8 de 1020x160 con la ilustracion de 292x160 pegada a su borde izquierdo.
+    //- Misma estructura que el bloque gemelo del 1.4: la ilustracion en `col-lg-auto` a su
+    //- tamaño natural, no en una columna de la rejilla, que la dejaba 43 px corta.
     .row.justify-content-center.mt-5
       .col-lg-10
-        .bg-1.r-10(data-aos="fade-up")
-          .row.g-0.align-items-center
-            .col-lg-3
-              figure.mb-0
-                img(src="@/assets/curso/temas/t4/ilus-3.png" alt="").w-100
-            .col-lg-9
-              .p-4
-                p.mb-0 A la gestión del talento humano le corresponde promover entornos donde pedir ayuda no se interprete como debilidad, donde el error se convierta en aprendizaje y donde la comunicación cuidadosa forme parte de la vida laboral. Así, el conflicto puede transformarse en oportunidad de comprensión y mejora, en lugar de escalar hacia el deterioro relacional.
+        .row.d-flex.align-items-center.bg-1.r-10(data-aos="fade-up")
+          .col-lg-auto.pe-lg-0.d-none.d-lg-block
+            figure.m-0.p-0.w-100.h-100.d-flex
+              img(src="@/assets/curso/temas/t4/ilus-3.png" alt="" class="w-100 h-100 object-fit-cover")
+          .col-lg
+            p.mb-0 A la gestión del talento humano le corresponde promover entornos donde pedir ayuda no se interprete como debilidad, donde el error se convierta en aprendizaje y donde la comunicación cuidadosa forme parte de la vida laboral. Así, el conflicto puede transformarse en oportunidad de comprensión y mejora, en lugar de escalar hacia el deterioro relacional.
 
     p.mt-4(data-aos="fade-right") Cada práctica responde a un propósito distinto y encuentra aplicación en situaciones específicas. La siguiente tabla precisa esa correspondencia y facilita elegir la más adecuada según lo que ocurra en el momento.
 

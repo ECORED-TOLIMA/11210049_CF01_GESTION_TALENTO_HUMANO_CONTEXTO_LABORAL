@@ -255,7 +255,7 @@
     #t_1_2.titulo-segundo.color-acento-contenido
       h2 1.2 Principios y valores éticos universales
 
-    p(data-aos="fade-right") La convivencia ha planteado siempre una pregunta sencilla: ¿qué se debe a las demás personas? Cada cultura la ha respondido a su manera, pero algunas exigencias reaparecen en casi todas las tradiciones y, por esa persistencia, se consideran universales. No dependen de una época, de una creencia ni del reglamento de una institución, y esa independencia es justamente lo que las convierte en un criterio compartido cuando hay que decidir en el trabajo.
+    p(data-aos="fade-right") La convivencia ha planteado siempre una pregunta sencilla: #[b ¿qué se debe a las demás personas?] Cada cultura la ha respondido a su manera, pero algunas exigencias reaparecen en casi todas las tradiciones y, por esa persistencia, se consideran universales. No dependen de una época, de una creencia ni del reglamento de una institución, y esa independencia es justamente lo que las convierte en un criterio compartido cuando hay que decidir en el trabajo.
 
     //- Banda #FEDDB4 de 1228x339 con la foto ocupando la mitad izquierda (614) y la caja
     //- #FAFBFF de 685x250 montada encima: es `.bloque-texto-g` del catalogo.
@@ -467,7 +467,7 @@
 
       .col-lg-4
         figure.mb-0
-          img(src="@/assets/curso/temas/t1/foto-9.png" alt="").w-100
+          img(src="@/assets/curso/temas/t1/foto-9.png" alt="").w-100.r-10
 
     
 

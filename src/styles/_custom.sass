@@ -378,10 +378,13 @@ figcaption
 // tarjeta (1328). La tabla, de 1020 centrados, va encima; en el PNG ese hueco esta vacio.
 .bg-tabla-1, .bg-tabla-2, .bg-tabla-3, .bg-tabla-4, .bg-tabla-5
   background-repeat: no-repeat
-  background-size: 100% 100%
+  // `100% auto`, NO `100% 100%`: la banda mide 247-483 px de alto en el XD y va detras de
+  // la tabla, no estirada sobre todo el bloque. Y sin relleno vertical, que era lo que
+  // separaba de mas la tabla del parrafo anterior.
+  background-size: 100% auto
   background-position: center
   margin-inline: -3rem
-  padding: 2rem 3rem
+  padding: 0 3rem
   @media (max-width: $bp-max-md)
     margin-inline: 0
     padding: 0
@@ -409,6 +412,14 @@ figcaption
 // de 1228x474).
 .slyder-a__tipo-b
   padding: 0 23px 24px
+
+// El encabezado de las tablas del XD es de 16 px en Roboto Black; el kit lo pinta con
+// `$h4-font-size` (18 px). Y el titulo «Tabla N. …» va a 14 px, no a 16.
+.tabla-a th
+  font-size: 16px
+.titulo-sexto
+  h5, span
+    font-size: 14px
 
 // Radios del XD. `.r-0` es explicito para dejar claro que ese rect NO lleva radio.
 .r-0

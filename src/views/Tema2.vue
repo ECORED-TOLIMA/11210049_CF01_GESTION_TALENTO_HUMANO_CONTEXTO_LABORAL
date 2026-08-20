@@ -13,7 +13,7 @@
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/p-1.png" alt="").w-100
+          img(src="@/assets/curso/temas/t2/p-1.png" alt="").w-100.r-10
       .col-lg-9
         p(data-aos="fade-left") Las relaciones interpersonales constituyen el tejido vivo de toda organización. En ellas se expresan la cultura institucional, la calidad del liderazgo, el nivel de confianza entre las personas y la manera como se enfrentan los conflictos o se construyen acuerdos. Cada interacción laboral tiene el potencial de fortalecer o deteriorar la convivencia y el desempeño colectivo. Esta idea resulta central, porque recuerda que una organización no se sostiene únicamente por estructuras o procedimientos, sino también por la calidad humana de los vínculos que la atraviesan.
 
@@ -180,7 +180,7 @@
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/p-4.png" alt="").w-100
+          img(src="@/assets/curso/temas/t2/p-4.png" alt="").w-100.r-10
       .col-lg-9
         p(data-aos="fade-left") La alteridad es uno de los conceptos más valiosos para pensar éticamente en las relaciones humanas. Levinas (1982/2000) sostiene que el encuentro con el otro no puede reducirse a la propia manera de ver el mundo, pues su presencia interpela y genera responsabilidad. Reconocer esa condición supone aceptar que nadie está llamado a pensar ni a actuar exactamente como uno mismo y que la diferencia, lejos de constituir una amenaza, enriquece la vida colectiva.
 
@@ -218,7 +218,7 @@
 
       .col-lg-4
         figure.mb-0
-          img(src="@/assets/curso/temas/t2/p-5.png" alt="").w-100
+          img(src="@/assets/curso/temas/t2/p-5.png" alt="").w-100.r-10
 
     
 

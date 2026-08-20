@@ -6,17 +6,16 @@ pueda revertir sin tener que reconstruir el razonamiento.
 
 ## Lo que hace falta de terceros
 
-Cuatro cosas que no dependen de la maqueta: no están ni en el `.xd` ni en los documentos, y hay
+Tres cosas que no dependen de la maqueta: no están ni en el `.xd` ni en los documentos, y hay
 que pedirlas. Mientras tanto cada una tiene puesto un sustituto que deja el curso funcionando.
 
 | Qué falta                      | Dónde va                                                                                       | Qué hay puesto mientras tanto                                  | Detalle |
 | ------------------------------ | ---------------------------------------------------------------------------------------------- | -------------------------------------------------------------- | ------- |
 | **La URL del vídeo**           | Introducción                                                                                   | el `iframe` de ejemplo del scaffold                            | punto 1 |
 | **El audio del pódcast**       | Tema 2, apartado 2.3                                                                           | un MP3 mudo de 3 minutos, `podcast.mp3`                        | punto 9 |
-| **Ocho fotografías de slider** | cuatro en el 2.3 y cuatro en el 3.2                                                            | se repite en las cinco diapositivas la única que trae el `.xd` | punto 9 |
 | **Los iconos definitivos**     | tema 1: tres círculos de preguntas, cuatro tarjetas de nociones y cuatro paneles de decisiones | el mismo glifo que repite el diseño                            | punto 2 |
 
-Ninguna de las cuatro afecta a la maquetación: se sustituye el archivo y ya está. Todo lo demás
+Ninguna de las tres afecta a la maquetación: se sustituye el archivo y ya está. Todo lo demás
 que aparece en este documento son decisiones ya tomadas, con su motivo, por si se quieren
 revertir.
 
@@ -103,21 +102,26 @@ Afecta a cualquier diagrama con flechas. En este curso hay `polygon` en los artb
 (4), del Tema 2 (4), en `Tablet` (2) y en el pasteboard (10); los assets ya entregados de portada,
 introducción, 1.1 y 1.2 no contienen ninguno, así que no había nada que rehacer.
 
-## 9. Faltan ocho fotos de slider y el audio del pódcast
+## 9. El audio del pódcast, y una afirmación mía que era falsa
 
-- **Slider del 2.3** («factores que deterioran las relaciones»): el diseño dibuja **cinco
-  viñetas** y, con ellas, cinco diapositivas, pero en el `.xd` sólo existe la **fotografía de la
-  primera**. Ni el artboard ni el pasteboard traen las otras cuatro. Se han maquetado las cinco
-  diapositivas —los textos sí están completos en el `_DI.docx`— reutilizando esa única imagen,
-  para no romper la composición. Con las cuatro fotos definitivas se sustituyen y ya está.
-- **Slider del 3.2** («componentes del portafolio institucional»): exactamente el mismo caso.
-  Cinco viñetas, cinco diapositivas y **una sola fotografía** en el `.xd`. Los cinco textos
-  vienen completos del `_DI.docx`; la imagen se repite en las cinco hasta que lleguen las otras
-  cuatro. Entre los dos sliders, por tanto, **faltan ocho fotografías**.
 - **Pódcast del 2.3**: el `_DI.docx` nombra el guion (`12210049_CF01_Guion_podcast`) pero no hay
   archivo de audio, y el XD dibuja la barra con un texto de relleno
   (`xxxxxxxxxxx xxxxxxx xxx xxxxxxxxx`). Se deja un **MP3 mudo de 3 minutos** con el nombre
   `podcast.mp3` para que el reproductor funcione; se reemplaza por el audio real cuando llegue.
+  Es lo único de este punto que sigue haciendo falta.
+- **Corrección: las ocho fotografías de slider SÍ estaban.** Este documento afirmaba, en este
+  punto y en la tabla de arriba, que de los dos sliders (2.3 y 3.2) el `.xd` sólo traía la
+  primera imagen y que faltaban ocho. **Es falso.** Las diez están en el **pasteboard**, junto a
+  los textos ocultos de cada diapositiva. El error fue mío al listarlas: imprimí sólo las doce
+  primeras imágenes del pasteboard —todas fragmentos de iconos— y di por hecho que no había más,
+  en vez de recorrer el listado entero. Ya están exportadas y puestas: los dos sliders llevan
+  **cinco fotografías distintas cada uno**, ninguna repetida.
+
+    | Slider | Archivos |
+    | ------ | -------- |
+    | 2.3 «factores que deterioran las relaciones» | `t2/p-slider.png` … `t2/p-slider-5.png` |
+    | 3.2 «componentes del portafolio institucional» | `t3/p-slider.png` … `t3/p-slider-5.png` |
+
 - **Una tarjeta del PDF que no está en el diseño**: en la página del Tema 2, el PDF muestra
   una tarjeta flotante con «Relación vertical / Relación horizontal» encima del texto, hacia la
   mitad del 2.1. Ese elemento **no pertenece al artboard** —es contenido del pasteboard que se
@@ -301,3 +305,71 @@ tres instantes, se mueven desfasados el uno del otro.
 **Revision Importante**
 - Validar cada una de las imagenes si debe estar con las esquinas redondas o en punta. (Todo el componente)
 - Revisa los cambios que vienen en el pull para que aprendas de lo que hiciste mal en este componente y no vuelvas a cometer esos errores
+
+## 18. Lo aplicado de la revisión del maquetador (2026-08-20)
+
+Los dos puntos de arriba, con lo que salió al ejecutarlos. La regla que ordena todo esto es la
+del propio revisor: **sus correcciones no se miran, se generalizan** —cada arreglo suyo en un
+tema se busca en los otros tres.
+
+**Esquinas de las imágenes.** El `.r-10` no es decorativo: en el `.xd` cada foto lleva su radio
+en el rect, y hay imágenes que van a punta a propósito. Se revisaron las 46 imágenes del curso
+contra el radio del rect del que salen. Faltaba en **diez**: `t1/foto-9`, `t2/p-1`, `t2/p-4`,
+`t2/p-5`, `t3/p-1`, `t3/p-6`, `t3/p-7`, `t4/p-1`, `t4/p-5` y la que el revisor ya había dejado
+con el radio horneado en el propio PNG (`t2/p-2`, que por eso se deja como está). `t3/p-5` se
+borra: el revisor lo reexportó como `1.png` con el radio ya aplicado.
+
+**Cajones.** El revisor convirtió cuatro bloques del tema 3 en `.cajon`. Se contaron los del
+diseño en los cuatro temas: tema 1 → 4, tema 2 → 0, tema 3 → 4, tema 4 → 0. Sus cuatro son
+exactamente los que faltaban y no hay ninguno más pendiente.
+
+**Distribución de párrafos.** Se comparó la `x` de los 203 párrafos de los cuatro temas contra
+la del `.xd`. Una sola desviación, de 43 px, en el tema 4: un bloque «imagen + texto» que el
+revisor ya había rehecho en su gemelo del tema 1. Se le aplicó su mismo patrón
+(`.col-lg-auto.pe-lg-0.d-none.d-lg-block` con la figura a `h-100` y `object-fit-cover`) y quedan
+0 desviaciones.
+
+**Tablas.** Tres medidas contra el `.xd`: la cabecera iba a 18 px y el diseño la pone a **16**;
+el título de tabla iba a 16 px y va a **14**; y la banda de fondo se estiraba
+(`background-size: 100% 100%`) sobre todo el bloque en vez de ocupar su alto natural. Con
+`100% auto` y `padding: 0 3rem` el hueco párrafo→título pasa de 56 px a 33, contra los 38 del
+diseño.
+
+**Negrillas y cursivas.** Se compararon los tramos de estilo del `.xd` (que los guarda por rango
+de caracteres, no por nodo) y los `run` del `_DI.docx` contra las 32 negrillas de la maqueta:
+las 32 tienen respaldo. En sentido contrario faltaba **una**, en el tema 1: «¿qué se debe a las
+demás personas?», que el diseño y el DI ponen en negrilla dentro del párrafo. Ya está puesta.
+Cursivas no hay ninguna: cero tramos en el `.xd` y cero `run` en el DI.
+
+**Limpieza.** Se borran las tres copias «antes» que quedaron del commit de revisión
+(`t2/p-2-.png`, `t2/figura-2-movil-.svg`, `t3/infografia-1-.png`): no las referencia nadie.
+
+**Los globos de la infografía del 3.2: los dejo como los puso el revisor.** La pasada de cierre
+los señaló —van en `.color-primario` (#FEDDB4) y el `.xd` no dibuja el emergente de escritorio;
+donde sí muestra esos cinco textos, la variante móvil del pasteboard, el panel es #FFF5E8 y lo
+único de color son los chips marrones de la etiqueta—. Llegué a cambiarlos a `.bg-1` y lo he
+deshecho: ese `.tarjeta.color-primario` **lo escribió el revisor** en «Revision nuevos ajustes».
+Su decisión sobre un elemento que el diseño no dibuja manda sobre lo que yo deduzca del
+pasteboard. Queda anotado por si en algún momento se quiere el color del panel.
+
+**Dos fallos de las propias herramientas, corregidos.** Los dejo escritos porque el segundo
+invalidaba una comprobación entera:
+
+- `mapa_bloques.py` indexaba el fill **por nombre de nodo**, y el XD repite nombres genéricos.
+  Los dos «Image Place Holder» del Tema 2 son uno #FEDDB4 y otro #F7E3E6; con `setdefault` por
+  nombre el primero le imponía su color al segundo, y el comparador denunciaba como error un
+  bloque que estaba bien (el píxel del PDF en ese punto es #F7E3E6). Ahora la clave es
+  `nombre|ANCHOxALTO`.
+- `comparar_elementos.py` daba **luz verde midiendo cero elementos**. Se le pasó `tema-1` cuando
+  la ruta real es `curso/tema1`; el router pintó la portada, no había ninguna caja que medir y
+  los tres apartados dijeron «ninguno» en las cuatro pantallas. Ahora, con cero cajas, aborta con
+  error en vez de dar por buena la pantalla. Fue justo esta comprobación la que, ya arreglada,
+  sacó los ocho avisos de abajo y el color de los globos.
+
+**Resultado de la pasada de cierre**, con las dos herramientas ya arregladas: **ningún color
+inventado** en las cinco pantallas medibles y **0 desbordes** a 360 px en las once rutas. Quedan
+ocho avisos de «ancho sin pareja», los ocho explicados y ninguno defecto: tres son el
+`.bloque-texto-g`, donde el rect del XD (919) es sólo la mitad beige y el PDF confirma que el
+bloque va a ancho completo; y cinco son diferencias de 13 a 26 px, por debajo de una columna
+(102 px), en bloques cuyo `col-lg-N` es exactamente el que da la regla del proyecto
+(`round(ancho / contenedor × 12)`).
