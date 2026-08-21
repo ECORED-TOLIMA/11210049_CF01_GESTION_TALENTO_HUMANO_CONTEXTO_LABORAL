@@ -20,17 +20,13 @@ export default {
   data: () => ({
     cuestionario: {
       tema: 'Ética y gestión del talento humano en el contexto organizacional',
-      titulo:
-        'Ruta ética del talento humano: principios, relaciones e inteligencia emocional',
+      titulo: 'Cuestionario',
       introduccion:
-        '<b>Objetivo:</b> Verificar el grado de apropiación de los conceptos clave sobre los fundamentos de la ética, las relaciones interpersonales, la gestión del talento humano y la inteligencia emocional en el contexto organizacional.<br><br>Esta actividad le permitirá determinar el grado de apropiación de los contenidos del componente formativo Ética y gestión del talento humano en el contexto organizacional. Antes de su realización, se recomienda la lectura del componente formativo mencionado. Es opcional (no es calificable), y puede realizarse todas las veces que se desee. Lea la pregunta de cada ítem y seleccione la respuesta correcta.',
+        '<b>Objetivo:</b> verificar el grado de apropiación de los conceptos clave sobre los fundamentos de la ética, las relaciones interpersonales, la gestión del talento humano y la inteligencia emocional en el contexto organizacional.',
       // el kit sólo muestra 10 de las 20: barajar es OBLIGATORIO
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
-      // `mensaje_final_*`, NO `mensaje_*`: es el nombre que lee
-      // `actividadCuestionario/Actividad.vue` del kit (1.0.9). Con el nombre corto los dos
-      // mensajes finales del docx no se pintan nunca y no salta ningún error.
       mensaje_final_aprobado:
         'Ha superado la actividad. Sus respuestas demuestran conocimientos sólidos sobre los fundamentos de la ética, las relaciones interpersonales, la gestión del talento humano y la inteligencia emocional en el contexto organizacional.',
       mensaje_final_reprobado:

@@ -392,7 +392,7 @@
     //- La cuarta tarjeta esta pintada en el XD con el color y el icono del estado :hover.
     .row.no-pointer.mt-4.mb-4(data-aos="fade-up")
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-1.p-4
+        .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure.mb-0
@@ -400,7 +400,7 @@
                 img.icono-hover(src="@/assets/curso/temas/t3/cond-1-hover.svg" alt="")
           p.text-center.mb-0 #[b Claridad:] el texto debe emplear un lenguaje comprensible para todas las personas a quienes se dirige, sin tecnicismos innecesarios ni redacciones ambiguas que admitan interpretaciones opuestas sobre lo que se espera de cada una.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-1.p-4
+        .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure.mb-0
@@ -408,7 +408,7 @@
                 img.icono-hover(src="@/assets/curso/temas/t3/cond-2-hover.svg" alt="")
           p.text-center.mb-0 #[b Accesibilidad:] el documento necesita estar disponible en un lugar conocido y de consulta sencilla. Una norma que solo conoce el área que la formuló difícilmente orientará las decisiones de quienes ejecutan el trabajo.
       .col-md-6.col-lg-3.mb-4.mb-lg-0
-        .tarjeta--boton.color-1.p-4
+        .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure.mb-0
@@ -416,7 +416,7 @@
                 img.icono-hover(src="@/assets/curso/temas/t3/cond-3-hover.svg" alt="")
           p.text-center.mb-0 #[b Coherencia:] los lineamientos deben guardar correspondencia entre sí y con los valores declarados. Cuando dos disposiciones se contradicen, cada persona elige la que más le conviene y la norma pierde su capacidad de orientar.
       .col-md-6.col-lg-3
-        .tarjeta--boton.color-1.p-4
+        .tarjeta--boton.color-1.p-4.h-100
           .row.justify-content-center.mb-3
             .col-7
               figure.mb-0
