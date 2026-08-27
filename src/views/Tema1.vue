@@ -484,10 +484,10 @@
           h5 Figura 1.
           span Interacción entre la ética individual y la ética organizacional
         figure.mb-0.d-none.d-md-block
-          img(src="@/assets/curso/temas/t1/figura-1.svg" alt="Figura que representa la interacción entre la ética individual y la organizacional en función de su coherencia: al reforzarse generan confianza; al desconectarse, oportunismo y pérdida de legitimidad.").w-100
+          img(src="@/assets/curso/temas/t1/figura-1.svg" alt="La figura 1,  representa la interacción entre la ética individual y la organizacional en función de su coherencia: al reforzarse generan confianza; al desconectarse, oportunismo y pérdida de legitimidad. ").w-100
         //- El XD trae la version movil de la figura al lado, en el pasteboard.
         figure.mb-0.d-md-none
-          img(src="@/assets/curso/temas/t1/figura-1-movil.svg" alt="Figura que representa la interacción entre la ética individual y la organizacional en función de su coherencia: al reforzarse generan confianza; al desconectarse, oportunismo y pérdida de legitimidad.").w-100
+          img(src="@/assets/curso/temas/t1/figura-1-movil.svg" alt="La figura 1,  representa la interacción entre la ética individual y la organizacional en función de su coherencia: al reforzarse generan confianza; al desconectarse, oportunismo y pérdida de legitimidad. ").w-100
 
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0

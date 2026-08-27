@@ -113,10 +113,10 @@
           h5 Figura 2.
           span Diferencias entre las relaciones verticales y horizontales
         figure.mb-0.d-none.d-md-block
-          img(src="@/assets/curso/temas/t2/figura-2.svg" alt="Figura que compara dos vínculos laborales: la relación vertical, entre quien dirige y quien ejecuta, marcada por la autoridad y la evaluación; y la horizontal, entre compañeros, basada en la reciprocidad y la colaboración. Reconocer esa diferencia permite ajustar la comunicación y el trato que corresponde a cada caso.").w-100
+          img(src="@/assets/curso/temas/t2/figura-2.svg" alt="La figura 2 compara dos vínculos laborales: la relación vertical, entre quien dirige y quien ejecuta, marcada por la autoridad y la evaluación; y la horizontal, entre compañeros, basada en la reciprocidad y la colaboración. Reconocer esa diferencia permite ajustar la comunicación y el trato que corresponde a cada caso. ").w-100
         //- El XD trae la version movil de la figura al lado, en el pasteboard.
         figure.mb-0.d-md-none
-          img(src="@/assets/curso/temas/t2/figura-2-movil.svg" alt="Figura que compara dos vínculos laborales: la relación vertical, entre quien dirige y quien ejecuta, marcada por la autoridad y la evaluación; y la horizontal, entre compañeros, basada en la reciprocidad y la colaboración. Reconocer esa diferencia permite ajustar la comunicación y el trato que corresponde a cada caso.").w-100
+          img(src="@/assets/curso/temas/t2/figura-2-movil.svg" alt="La figura 2 compara dos vínculos laborales: la relación vertical, entre quien dirige y quien ejecuta, marcada por la autoridad y la evaluación; y la horizontal, entre compañeros, basada en la reciprocidad y la colaboración. Reconocer esa diferencia permite ajustar la comunicación y el trato que corresponde a cada caso. ").w-100
 
     .row.mt-4
       .col-lg-4.mb-4.mb-lg-0
