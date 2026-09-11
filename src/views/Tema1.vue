@@ -588,7 +588,7 @@
       .bg-2.r-10.p-4(titulo="Selección")
         figure.mb-3
           img(src="@/assets/curso/temas/t1/t1-tab-seleccion.svg" alt="" style="width: 84px")
-        p.mb-0 En un enfoque ético, no se limita a cubrir una vacante con rapidez, sino que garantiza mérito, equidad, transparencia y respeto por quien se postula. Aplicación en el entorno: una cooperativa de caficultores define criterios claros para cada etapa, publica los resultados y sustenta la decisión final, de modo que la elección no dependa de recomendaciones.
+        p.mb-0 En un enfoque ético no se limita a cubrir una vacante con rapidez, sino que garantiza mérito, equidad, transparencia y respeto por quien se postula. Aplicación en el entorno: una cooperativa de caficultores define criterios claros para cada etapa, publica los resultados y sustenta la decisión final, de modo que la elección no dependa de recomendaciones.
       .bg-2.r-10.p-4(titulo="Inducción")
         figure.mb-3
           img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")
