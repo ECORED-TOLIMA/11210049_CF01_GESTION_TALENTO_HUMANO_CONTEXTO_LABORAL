@@ -103,7 +103,7 @@
           figure
             img(src="@/assets/curso/temas/t2/ic-quote-1.svg" alt="")
           p.text-center.mb-0
-            b No basta con afirmar que las personas “deben llevarse bien”, también es necesario comprender las condiciones que favorecen un trato respetuoso y colaborativo, así como los obstáculos que pueden dificultarlo.
+            b No basta con afirmar que las personas “deben llevarse bien”; también es necesario comprender las condiciones que favorecen un trato respetuoso y colaborativo, así como los obstáculos que pueden dificultarlo.
 
     p.mt-5(data-aos="fade-right") Esta mirada evita simplificar los problemas de convivencia y ayuda a intervenir con mayor criterio. Por ello conviene distinguir los vínculos según la jerarquía, pues no todos se establecen entre personas con el mismo nivel de autoridad. Ambas formas conviven en cualquier organización, aunque cada una plantea exigencias distintas. La siguiente figura contrasta sus rasgos principales.
 
@@ -235,7 +235,7 @@
         .bg-1-p.r-10.p-4.h-100(data-aos="fade-left")
           figure.mb-4
             img(src="@/assets/curso/temas/t2/ic-cajon-2.svg" alt="" style="width: 84px")
-          p.mb-0 Los vínculos laborales no se mantienen estables por sí mismos. Con el tiempo se fortalecen o se desgastan, según la manera como las personas se comunican, reconocen los aportes de los demás y tramitan sus desacuerdos. Profundizar en estos factores resulta esencial para analizar situaciones reales y no quedarse en una comprensión abstracta del tema.
+          p.mb-0 Los vínculos laborales no se mantienen estables por sí solos. Con el tiempo se fortalecen o se desgastan, según la manera como las personas se comunican, reconocen los aportes de los demás y tramitan sus desacuerdos. Profundizar en estos factores resulta esencial para analizar situaciones reales y no quedarse en una comprensión abstracta del tema.
 
     p.mt-4(data-aos="fade-right") Ciertos comportamientos, repetidos día tras día, hacen que un equipo funcione con mayor fluidez y que las personas se sientan parte de él. No dependen de grandes programas institucionales, sino del trato cotidiano. Entre los factores que fortalecen las relaciones interpersonales se destacan los siguientes:
 
@@ -327,7 +327,7 @@
               img(src="@/assets/curso/temas/t2/p-8.png" alt="").w-100
             .p-4
               TarjetaAudio.color-acento-botones.mb-0(
-                texto="Pódcast"
+                texto="El buen ambiente no cae del cielo: cómo cuidar las relaciones en el trabajo"
                 :audio="require_src('@/assets/curso/temas/t2/podcast.mp3')"
               )
 

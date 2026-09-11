@@ -129,7 +129,7 @@
           p.text-center.mb-0
             b La calidad del trabajo no depende solo de saber hacer las tareas, sino también de saber gestionar la propia experiencia emocional y responder con sensibilidad ante la de los demás.
 
-    p.mt-5(data-aos="fade-right") Reconocer la importancia de esta competencia deja abierta una pregunta práctica: de qué está hecha. Hablar de inteligencia emocional en general no indica por dónde empezar cuando alguien quiere mejorar su manera de reaccionar. Por eso conviene descomponerla en las capacidades que la integran, pues cada una se observa en conductas concretas y puede fortalecerse con la práctica.
+    p.mt-5(data-aos="fade-right") Reconocer la importancia de esta competencia deja abierta una pregunta práctica: ¿de qué está hecha?. Hablar de inteligencia emocional en general no indica por dónde empezar cuando alguien quiere mejorar su manera de reaccionar. Por eso conviene descomponerla en las capacidades que la integran, pues cada una se observa en conductas concretas y puede fortalecerse con la práctica.
 
     Separador
 

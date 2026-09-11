@@ -335,7 +335,7 @@
             .col
               p.mb-0 Llevar estas ideas a la práctica no depende de grandes declaraciones. En la vida diaria de una organización se reconocen en gestos concretos: la forma de comunicar una decisión difícil, de distribuir una carga o de responder ante un error. Allí, en lo cotidiano, los principios demuestran su vigencia o revelan su ausencia.
 
-        p.mt-4.mb-0(data-aos="fade-left") En la práctica, los principios rara vez se aplican de manera aislada. Con frecuencia entran en tensión y obligan a decidir con criterio. Para orientar esa valoración conviene tener presentes las siguientes pautas:
+        p.mt-4.mb-0(data-aos="fade-left") En la práctica, los principios rara vez se aplican de manera aislada. Con frecuencia entran en tensión y obligan a decidir con criterio. Para orientar esa valoración, conviene tener presentes las siguientes pautas:
 
     //- Linea de tiempo de 4 pasos (650 de ancho) con la foto de 292x344 a la derecha; el
     //- XD deja desplegado el primero. Numero activo #003CE1 con la cifra blanca, inactivo
@@ -348,7 +348,7 @@
               p.mb-0 Consiste en reconocer qué principios se enfrentan antes de tomar partido, pues el conflicto rara vez opone lo correcto a lo incorrecto y suele darse entre dos valores legítimos. Ejemplo: un jefe elige entre proteger la confidencialidad de un trabajador enfermo e informar al equipo sobre un cambio en la distribución de tareas.
           .row(numero="2" titulo="Valorar las consecuencias sobre las personas")
             .col-12
-              p.mb-0 Implica examinar a quién beneficia y a quién perjudica cada alternativa, con especial atención a quienes se encuentran en situación de desventaja dentro del equipo. Ejemplo: una empresa evalúa un cambio de turnos y considera su efecto sobre quienes tienen personas a cargo o dependen del transporte público para desplazarse.
+              p.mt-2 Implica examinar a quién beneficia y a quién perjudica cada alternativa, con especial atención a quienes se encuentran en situación de desventaja dentro del equipo. Ejemplo: una empresa evalúa un cambio de turnos y considera su efecto sobre quienes tienen personas a cargo o dependen del transporte público para desplazarse.
           .row(numero="3" titulo="Verificar la coherencia con lo declarado")
             .col-12
               p.mb-0 Supone contrastar la decisión con los valores que la organización proclama, de modo que no se produzca contradicción entre el discurso institucional y la actuación cotidiana. Ejemplo: una entidad que promueve la igualdad revisa una convocatoria interna y detecta requisitos que excluyen sin motivo a parte de su propio personal.
@@ -484,10 +484,10 @@
           h5 Figura 1.
           span Interacción entre la ética individual y la ética organizacional
         figure.mb-0.d-none.d-md-block
-          img(src="@/assets/curso/temas/t1/figura-1.svg" alt="La figura 1,  representa la interacción entre la ética individual y la organizacional en función de su coherencia: al reforzarse generan confianza; al desconectarse, oportunismo y pérdida de legitimidad. ").w-100
+          img(src="@/assets/curso/temas/t1/figura-1.svg" alt="La figura 1 representa la interacción entre la ética individual y la organizacional en función de su coherencia: al reforzarse generan confianza; al desconectarse, oportunismo y pérdida de legitimidad. ").w-100
         //- El XD trae la version movil de la figura al lado, en el pasteboard.
         figure.mb-0.d-md-none
-          img(src="@/assets/curso/temas/t1/figura-1-movil.svg" alt="La figura 1,  representa la interacción entre la ética individual y la organizacional en función de su coherencia: al reforzarse generan confianza; al desconectarse, oportunismo y pérdida de legitimidad. ").w-100
+          img(src="@/assets/curso/temas/t1/figura-1-movil.svg" alt="La figura 1 representa la interacción entre la ética individual y la organizacional en función de su coherencia: al reforzarse generan confianza; al desconectarse, oportunismo y pérdida de legitimidad. ").w-100
 
     .row.mt-4
       .col-lg-3.mb-4.mb-lg-0
@@ -588,7 +588,7 @@
       .bg-2.r-10.p-4(titulo="Selección")
         figure.mb-3
           img(src="@/assets/curso/temas/t1/t1-tab-seleccion.svg" alt="" style="width: 84px")
-        p.mb-0 En un enfoque ético no se limita a cubrir una vacante con rapidez, sino que garantiza mérito, equidad, transparencia y respeto por quien se postula. Aplicación en el entorno: una cooperativa de caficultores define criterios claros para cada etapa, publica los resultados y sustenta la decisión final, de modo que la elección no dependa de recomendaciones.
+        p.mb-0 En un enfoque ético, no se limita a cubrir una vacante con rapidez, sino que garantiza mérito, equidad, transparencia y respeto por quien se postula. Aplicación en el entorno: una cooperativa de caficultores define criterios claros para cada etapa, publica los resultados y sustenta la decisión final, de modo que la elección no dependa de recomendaciones.
       .bg-2.r-10.p-4(titulo="Inducción")
         figure.mb-3
           img(src="@/assets/curso/temas/t1/ic-tab.svg" alt="" style="width: 84px")

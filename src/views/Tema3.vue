@@ -121,7 +121,7 @@
         ImagenInfografica.color-acento-botones.d-none.d-md-block(data-aos="fade-up")
           template(v-slot:imagen)
             figure
-              img(src="@/assets/curso/temas/t3/infografia-1.svg" alt="Los cinco momentos del vínculo laboral representados como un recorrido: ingreso, inducción, desarrollo, permanencia y retiro.").w-100
+              img(src="@/assets/curso/temas/t3/infografia-1.svg").w-100
           .tarjeta.color-primario.p-3(x="24.3%" y="68.5%" numero="+")
             .h5.mb-2 1. Ingreso
             p.mb-0 Vinculación de la persona idónea mediante criterios transparentes y verificables.
@@ -138,7 +138,7 @@
             .h5.mb-2 5. Retiro
             p.mb-0 Cierre respetuoso del ciclo, con retroalimentación y trato digno hasta el último día.
         figure.d-md-none.mb-0
-          img(src="@/assets/curso/temas/t3/infografia-1-m.svg" alt="Los cinco momentos del vínculo laboral representados como un recorrido: ingreso, inducción, desarrollo, permanencia y retiro.").w-100
+          img(src="@/assets/curso/temas/t3/infografia-1-m.svg").w-100
 
     p.mt-4(data-aos="fade-right") Cada momento deja una huella en la trayectoria de quien lo vive y en la reputación de la organización. Una despedida cuidadosa, por ejemplo, comunica tanto sobre los valores institucionales como el más riguroso proceso de selección.
 
@@ -293,7 +293,7 @@
           img(src="@/assets/curso/temas/t3/foto-arco-2.png" alt="").w-100
       .col-lg-8
 
-        p Estas cuatro vías explican por qué la inducción no puede reducirse a la entrega de un manual. Quien ingresa aprende la cultura sobre todo observando qué se celebra, qué se tolera y qué se corrige en la práctica diaria.
+        p Estas cuatro vías explican por qué la inducción no puede reducirse a la entrega de un manual. Quien ingresa aprende la cultura, sobre todo observando qué se celebra, qué se tolera y qué se corrige en la práctica diaria.
 
         .row.justify-content-center.mt-4
           .col-lg-12
@@ -334,7 +334,7 @@
         p Lo anterior evidencia que el sentido del trabajo depende tanto del qué como del cómo. Una organización puede contar con un portafolio valioso y, aun así, ofrecer condiciones poco saludables si su cultura contradice el respeto, la participación o la coherencia ética. Fortalecer el conocimiento de ambos no constituye, por tanto, una tarea secundaria, sino una base para consolidar procesos de integración, compromiso y actuación ética.
 
         .bg-3.r-0.p-4(data-aos="fade-up")
-          p.mb-0 Los valores compartidos orientan, pero no detallan. Para que una organización actúe con consistencia se requieren disposiciones escritas que precisen los criterios de decisión y la secuencia de cada tarea. De eso se ocupan las políticas y los procedimientos organizacionales.
+          p.mb-0 Los valores compartidos orientan, pero no detallan. Para que una organización actúe con consistencia, se requieren disposiciones escritas que precisen los criterios de decisión y la secuencia de cada tarea. De eso se ocupan las políticas y los procedimientos organizacionales.
 
 
     Separador
