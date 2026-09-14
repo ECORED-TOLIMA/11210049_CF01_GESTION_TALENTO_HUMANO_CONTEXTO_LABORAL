@@ -214,36 +214,35 @@ export default {
   referencias: [
     {
       referencia:
-        'Cortina, A. (2013). <em>Ética de la razón cordial: Educar en la ciudadanía en el siglo XXI</em>. Ediciones Nobel.',
+        'Cortina, A. (2013). Ética de la razón cordial: Educar en la ciudadanía en el siglo XXI. Ediciones Nobel.',
     },
     {
       referencia:
-        'Goleman, D. (2012). <em>La inteligencia emocional en la empresa</em>. Vergara.',
+        'Goleman, D. (2012). La inteligencia emocional en la empresa. Vergara.',
       link: 'https://www.bibliotecadigitaldebogota.gov.co/resources/3713806/',
     },
     {
       referencia:
-        'Kant, I. (2013). <em>Fundamentación de la metafísica de las costumbres</em> (M. García Morente, Trad.). Tecnos. (Obra original publicada en 1785).',
+        'Kant, I. (2013). Fundamentación de la metafísica de las costumbres (M. García Morente, Trad.). Tecnos. (Obra original publicada en 1785).',
     },
     {
       referencia:
-        'Levinas, E. (2000). <em>Ética e infinito</em> (J. M. Ayuso Díez, Trad.). Gráficas Rógar.',
+        'Levinas, E. (2000). Ética e infinito (J. M. Ayuso Díez, Trad.). Gráficas Rógar.',
+    },
+    {
+      referencia: 'Llano, C. (2008). El empresario y su mundo. McGraw-Hill.',
     },
     {
       referencia:
-        'Llano, C. (2008). <em>El empresario y su mundo</em>. McGraw-Hill.',
+        'Maslow, A. H. (2005). El management según Maslow: Una visión humanista para la empresa de hoy. Paidós.',
     },
     {
       referencia:
-        'Maslow, A. H. (2005). <em>El management según Maslow: Una visión humanista para la empresa de hoy</em>. Paidós.',
+        'Ministerio de Trabajo. (2015). Código Sustantivo del Trabajo. República de Colombia.',
     },
     {
       referencia:
-        'Ministerio de Trabajo. (2015). <em>Código Sustantivo del Trabajo</em>. República de Colombia.',
-    },
-    {
-      referencia:
-        'Robbins, S. P., y Judge, T. A. (2017). <em>Comportamiento organizacional</em> (17.ª ed.). Pearson.',
+        'Robbins, S. P., y Judge, T. A. (2017). Comportamiento organizacional (17.ª ed.). Pearson.',
     },
   ],
   creditos: [
